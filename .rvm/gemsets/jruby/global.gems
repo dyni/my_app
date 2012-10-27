@@ -1,0 +1,4 @@
+rake
+jruby-openssl
+jruby-launcher
+bundler

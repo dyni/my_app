@@ -1,0 +1,1070 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="ru-RU">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Первая медицинская помощь пострадавшим</title>
+<link rel="stylesheet" href="http://citomedicine.ru/wp-content/themes/earth/style.css" type="text/css" media="screen" />
+<!--[if IE 6]><link rel="stylesheet" href="http://citomedicine.ru/wp-content/themes/earth/style.ie6.css" type="text/css" media="screen" /><![endif]-->
+<!--[if IE 7]><link rel="stylesheet" href="http://citomedicine.ru/wp-content/themes/earth/style.ie7.css" type="text/css" media="screen" /><![endif]-->
+<link rel="pingback" href="http://citomedicine.ru/xmlrpc.php" />
+<link rel="shortcut icon" href="http://citomedicine.ru/wp-content/themes/earth/favicon.ico" />
+<link rel="alternate" type="application/rss+xml" title="CITOMEDICINE.RU &raquo; лента" href="http://citomedicine.ru/feed" />
+<link rel="alternate" type="application/rss+xml" title="CITOMEDICINE.RU &raquo; лента комментариев" href="http://citomedicine.ru/comments/feed" />
+<link rel='stylesheet' id='jquery.tipTip-css'  href='http://citomedicine.ru/wp-content/plugins/wp-tooltip/js/tipTip.css?ver=1.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-tooltip-css'  href='http://citomedicine.ru/wp-content/plugins/wp-tooltip/wp-tooltip.css?ver=1.0.0' type='text/css' media='all' />
+<link rel='stylesheet' id='wpts_ui_css-css'  href='http://citomedicine.ru/wp-content/plugins/wordpress-post-tabs/css/styles/red/style.css?ver=1.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='xmasbquotesStylesheet-css'  href='http://citomedicine.ru/wp-content/plugins/xmasb-quotes/xmasbquotes.css?ver=3.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-polls-css'  href='http://citomedicine.ru/wp-content/plugins/wp-polls/polls-css.css?ver=2.63' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-postratings-css'  href='http://citomedicine.ru/wp-content/plugins/wp-postratings/postratings-css.css?ver=1.63' type='text/css' media='all' />
+<link rel='stylesheet' id='stbCSS-css'  href='http://citomedicine.ru/wp-content/plugins/wp-special-textboxes/css/wp-special-textboxes.css.php?ver=4.3.72' type='text/css' media='all' />
+<link rel='stylesheet' id='colorbox-css'  href='http://citomedicine.ru/wp-content/plugins/slideshow-gallery/css/colorbox.css?ver=1.3.19' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-cpl-base-css-css'  href='http://citomedicine.ru/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-theme.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_0-css'  href='http://citomedicine.ru/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-light.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_1-css'  href='http://citomedicine.ru/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-dark.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_2-css'  href='http://citomedicine.ru/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-giant-gold-fish.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp_cpl_css_3-css'  href='http://citomedicine.ru/wp-content/plugins/wp-category-posts-list/static/css/wp-cat-list-adrift-in-dreams.css?ver=2.0.3' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-pagenavi-css'  href='http://citomedicine.ru/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+<script type='text/javascript' src='http://citomedicine.ru/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-content/plugins/wp-tooltip/js/jquery.tipTip.minified.js?ver=1.3'></script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-content/plugins/wp-tooltip/js/wp-tooltip.js?ver=1.0.0'></script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-content/plugins/news-ticker/cycle.js?ver=3.4.2'></script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-content/plugins/slideshow-gallery/js/gallery.js?ver=1.0'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://citomedicine.ru/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://citomedicine.ru/wp-includes/wlwmanifest.xml" /> 
+
+<!-- All in One SEO Pack 1.6.15.2 by Michael Torbert of Semper Fi Web Design[303,327] -->
+<meta name="description" content="Вы приобретёте навыки оказания помощи при кровотечениях, ранениях, различных видах травм. Материалы сайта познакомят вас с тем как проводить простейшие мероприятия первой медицинской помощи." />
+<meta name="keywords" content="первая медицинская помощь, Медицина, болезни, лечение, симптомы, медицинские новости, консультации, лекарства, советы, больницы, медицинский календарь, новости медицины" />
+<link rel="canonical" href="http://citomedicine.ru/" />
+<!-- /all in one seo pack -->
+
+<!-- Tiny Contact Form -->
+<style type="text/css">
+.tcf_input {display:none !important; visibility:hidden !important;}
+.contactform {width: auto;}
+.contactform label {display: block;}
+.contactform input {background: url("http://103.by/images/input_bg.png") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #9B9B9B;
+    display: block;
+    margin-bottom: 6px;
+    width: 500px;}
+.contactform input#tcf_captcha {margin-bottom: 6px; display: inline;}
+.contactform textarea {background: url("http://103.by/images/input_bg.png") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #9B9B9B;
+    display: block;
+    margin-bottom: 6px;
+    width: 500px;}
+.contactform_respons {color: green;}
+.contactform_error {color: red;}
+.contactform input#contactsubmit {background: url("http://103.by/images/button.png") repeat scroll 0 0 transparent;
+    border: 1px none;
+    border-radius: 3px 3px 3px 3px;
+    color: white;
+    font-weight: bold;
+    height: 28px;
+    width: 116px;
+}
+.contactform input#contactsubmit:hover {
+     cursor: pointer;
+}
+.widget .contactform { /* same fields but in sidebar */ }
+.widget .contactform textarea {
+     width:600px;
+     height:100px;
+}
+.widget .contactform input {
+     width:120px;
+}
+</style>
+<style type="text/css">
+.wp-polls .pollbar {
+	margin: 1px;
+	font-size: 6px;
+	line-height: 8px;
+	height: 8px;
+	background-image: url('http://citomedicine.ru/wp-content/plugins/wp-polls/images/default/pollbg.gif');
+	border: 1px solid #c8c8c8;
+}
+</style>
+<script type="text/javascript" src="http://citomedicine.ru/wp-content/themes/earth/script.js"></script>
+<meta name='yandex-verification' content='4b22c3d22f378f50' />
+<meta name="rpa3da53a9d98d4e369205205575b7353a" content="54fc3e47abc4d8bac8ac1c0b13d49735" />
+</head>
+<body class="home blog">
+<div id="art-page-background-glare">
+    <div id="art-page-background-glare-image">
+
+<div id="art-main">
+
+    <div class="art-sheet">
+
+        <div class="art-sheet-tl"></div>
+        <div class="art-sheet-tr"></div>
+        <div class="art-sheet-bl"></div>
+        <div class="art-sheet-br"></div>
+        <div class="art-sheet-tc"></div>
+        <div class="art-sheet-bc"></div>
+        <div class="art-sheet-cl"></div>
+        <div class="art-sheet-cr"></div>
+        <div class="art-sheet-cc"></div>
+        <div class="art-sheet-body">
+            <div class="art-header">
+                <div class="art-header-center">
+
+<div class="widget widget_search"> <form method="get" name="searchform" action="http://citomedicine.ru/">
+    <div class="search">
+    	<label for="s">Найти:        <input type="text" value="" name="s" style="width: 85%;" />
+        </label>
+        <span class="art-button-wrapper">
+            <span class="art-button-l"> </span>
+            <span class="art-button-r"> </span>
+            
+        </span>
+
+    </div>
+</form>
+</div> <div class="art-header-center1"> <div class="widget widget_categories"><h2 class="widgettitle">Рубрики</h2><select name='cat' id='cat' class='postform' >
+	<option value='-1'>Выберите рубрику</option>
+	<option class="level-0" value="3">Аллергические реакции&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="20">Аптечка первой помощи&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="405">Беременность и материнство&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="32">Болезни зубов и десен&nbsp;&nbsp;(16)</option>
+	<option class="level-0" value="51">Болезни путешественников&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="60">Витамины и пищевые добавки&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="68">Воздействие тепла&nbsp;&nbsp;(14)</option>
+	<option class="level-0" value="77">Врач&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="90">Выбираем лекарственные травы&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="103">Высокая температура тела&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="234">Гипертония&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="115">Головокружения и обмороки&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="125">Гомеопатические средства&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="403">Заметки о питании&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="385">Здоровье женщины&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="402">Здоровье и красота&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="350">Здоровье мамы и ребенка&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="334">Интересная информация&nbsp;&nbsp;(15)</option>
+	<option class="level-0" value="129">Кровотечения&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="319">Личное пространство&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="354">Медицинские материалы&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="238">Медицинские приборы&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="294">Медицинское оборудование&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="371">Методы лечения&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="404">Мужское здоровье&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="139">Нарушения дыхания&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="1">Новости&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="148">Ожоги&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="156">Основы первой помощи&nbsp;&nbsp;(19)</option>
+	<option class="level-0" value="171">Отравления&nbsp;&nbsp;(9)</option>
+	<option class="level-0" value="177">Пищевые продукты и РДОС&nbsp;&nbsp;(7)</option>
+	<option class="level-0" value="323">Позитив&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="183">Помощь на воде&nbsp;&nbsp;(21)</option>
+	<option class="level-0" value="194">Поражения кожи&nbsp;&nbsp;(12)</option>
+	<option class="level-0" value="198">Поражениях глаз и ушей&nbsp;&nbsp;(17)</option>
+	<option class="level-0" value="230">Размышления о &#8230;&nbsp;&nbsp;(37)</option>
+	<option class="level-0" value="393">Справочник заболеваний&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="202">Судороги и припадки&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="206">Травмы костей&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="209">Травмы мышц и суставов&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="211">Удаление заноз&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="9">Укусы&nbsp;&nbsp;(26)</option>
+	<option class="level-0" value="223">Ушибы&nbsp;&nbsp;(6)</option>
+	<option class="level-0" value="429">Финансовые вопросы&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="226">Цветочные эссенции&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="327">Что делать&nbsp;&nbsp;(11)</option>
+	<option class="level-0" value="228">Эфирные масла&nbsp;&nbsp;(9)</option>
+</select>
+
+<script type='text/javascript'>
+/* <![CDATA[ */
+	var dropdown = document.getElementById("cat");
+	function onCatChange() {
+		if ( dropdown.options[dropdown.selectedIndex].value > 0 ) {
+			location.href = "http://citomedicine.ru/?cat="+dropdown.options[dropdown.selectedIndex].value;
+		}
+	}
+	dropdown.onchange = onCatChange;
+/* ]]> */
+</script>
+
+</div> </div>
+                    <div class="art-header-png"></div>
+                    <div class="art-header-jpeg"></div>
+                </div>
+                <div class="art-logo">
+                                <h1 id="name-text" class="art-logo-name"><a href="http://citomedicine.ru/">CITOMEDICINE.RU</a></h1>
+                                                    <h2 id="slogan-text" class="art-logo-text">Информационный центр &quot;ЦИТОМЕД&quot;</h2>
+                                </div>
+            </div>
+<div class="ads2">
+<!-- START TICKER VER 2.1.1 -->
+<script type="text/javascript" language="javascript">
+jQuery(document).ready(function(){
+  jQuery('#news-ticker').cycle({ 
+	 speed: 1000,
+	 timeout: 2000,
+	 		 height: 15,
+		 
+	 fx: 'scrollUp',
+	 pause: 1,
+	 containerResize: 1
+  });
+});
+</script>
+<ul id="news-ticker" style="overflow:hidden;">
+     
+<li>
+    <span class="tickerImg">
+         <img width="150" height="112" src="http://citomedicine.ru/wp-content/uploads/2012/07/74721655_large_ber3-150x112.jpg" class="attachment-thumbnail" alt="74721655_large_ber3" title="74721655_large_ber3" />    </span>
+<span class="tickerLink"><a href="http://citomedicine.ru/raschet-daty-priblizitel-nogo-dnya-rozhdeniya-krohi.html">Расчет даты приблизительного дня рождения крохи</a></span> - <span class="tickerText">Вo врeмя плaнирoвaния бeрeмeннoсти кaждaя жeнщинa... <a href="http://citomedicine.ru/raschet-daty-priblizitel-nogo-dnya-rozhdeniya-krohi.html">&rarr;</a></span></li>
+
+</ul>
+<!-- END TICKER -->
+</div>
+            <div class="art-nav">
+            	<div class="l"></div>
+            	<div class="r"></div>
+            	<ul class="art-menu">
+            		<li><a class="active" href="http://citomedicine.ru"><span class='l'></span><span class='r'></span><span class='t'>Главная</span></a></li><li><a href="http://citomedicine.ru/metody" title="Методы"><span class='l'></span><span class='r'></span><span class='t'>Методы</span></a>
+<ul>
+<li><a href="http://citomedicine.ru/metody/travolechenie" title="Траволечение">Траволечение</a></li>
+<li><a href="http://citomedicine.ru/metody/aromaterapiya" title="Ароматерапия">Ароматерапия</a></li>
+<li><a href="http://citomedicine.ru/metody/gomeopatiya" title="Гомеопатия">Гомеопатия</a></li>
+<li><a href="http://citomedicine.ru/metody/cvetochnye-essencii" title="Цветочные эссенции">Цветочные эссенции</a></li>
+<li><a href="http://citomedicine.ru/metody/pitanie-i-dobavki" title="Питание и добавки">Питание и добавки</a></li>
+<li><a href="http://citomedicine.ru/metody/akupressura-i-massazh" title="Акупрессура и массаж">Акупрессура и массаж</a></li>
+</ul>
+</li>
+<li><a href="http://citomedicine.ru/metodiki" title="Методики"><span class='l'></span><span class='r'></span><span class='t'>Методики</span></a></li>
+<li><a href="http://citomedicine.ru/principy" title="Принципы"><span class='l'></span><span class='r'></span><span class='t'>Принципы</span></a></li>
+<li><a href="http://citomedicine.ru/o-sajte" title="О нашем сайте"><span class='l'></span><span class='r'></span><span class='t'>О нашем сайте</span></a></li>
+<li><a href="http://citomedicine.ru/voprosy" title="Задать вопрос"><span class='l'></span><span class='r'></span><span class='t'>Задать вопрос</span></a></li>
+<li><a href="http://citomedicine.ru/karta-sajta" title="Карта сайта"><span class='l'></span><span class='r'></span><span class='t'>Карта сайта</span></a></li>
+            	</ul>
+            </div>
+<div class="breadcrumb">
+<!-- Breadcrumb NavXT 4.1.0 -->
+</div>
+
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+        <div class="art-layout-cell art-sidebar1">
+          <div class="art-block widget widget_categories" id="categories-3">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">Статьи</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body">		<ul>
+	<li class="cat-item cat-item-3"><a href="http://citomedicine.ru/category/allergicheskie-reakcii" title="Просмотреть все записи в рубрике Аллергические реакции">Аллергические реакции</a>
+</li>
+	<li class="cat-item cat-item-20"><a href="http://citomedicine.ru/category/aptechka-pervoj-pomoshhi" title="Просмотреть все записи в рубрике Аптечка первой помощи">Аптечка первой помощи</a>
+</li>
+	<li class="cat-item cat-item-405"><a href="http://citomedicine.ru/category/beremennost-i-materinstvo" title="Просмотреть все записи в рубрике Беременность и материнство">Беременность и материнство</a>
+</li>
+	<li class="cat-item cat-item-32"><a href="http://citomedicine.ru/category/bolezni-zubov-i-desen" title="Просмотреть все записи в рубрике Болезни зубов и десен">Болезни зубов и десен</a>
+</li>
+	<li class="cat-item cat-item-51"><a href="http://citomedicine.ru/category/bolezni-puteshestvennikov" title="Просмотреть все записи в рубрике Болезни путешественников">Болезни путешественников</a>
+</li>
+	<li class="cat-item cat-item-60"><a href="http://citomedicine.ru/category/vitaminy-i-pishhevye-dobavki" title="Просмотреть все записи в рубрике Витамины и пищевые добавки">Витамины и пищевые добавки</a>
+</li>
+	<li class="cat-item cat-item-68"><a href="http://citomedicine.ru/category/vozdejstvie-tepla" title="Просмотреть все записи в рубрике Воздействие тепла">Воздействие тепла</a>
+</li>
+	<li class="cat-item cat-item-77"><a href="http://citomedicine.ru/category/vrach" title="Просмотреть все записи в рубрике Врач">Врач</a>
+</li>
+	<li class="cat-item cat-item-90"><a href="http://citomedicine.ru/category/vybiraem-lekarstvennye-travy" title="Просмотреть все записи в рубрике Выбираем лекарственные травы">Выбираем лекарственные травы</a>
+</li>
+	<li class="cat-item cat-item-103"><a href="http://citomedicine.ru/category/vysokaya-temperatura-tela" title="Просмотреть все записи в рубрике Высокая температура тела">Высокая температура тела</a>
+</li>
+	<li class="cat-item cat-item-234"><a href="http://citomedicine.ru/category/gipertoniya" title="Просмотреть все записи в рубрике Гипертония">Гипертония</a>
+</li>
+	<li class="cat-item cat-item-115"><a href="http://citomedicine.ru/category/golovokruzheniya-i-obmoroki" title="Просмотреть все записи в рубрике Головокружения и обмороки">Головокружения и обмороки</a>
+</li>
+	<li class="cat-item cat-item-125"><a href="http://citomedicine.ru/category/gomeopaticheskie-sredstva" title="Просмотреть все записи в рубрике Гомеопатические средства">Гомеопатические средства</a>
+</li>
+	<li class="cat-item cat-item-403"><a href="http://citomedicine.ru/category/zametki-o-pitanii" title="Просмотреть все записи в рубрике Заметки о питании">Заметки о питании</a>
+</li>
+	<li class="cat-item cat-item-385"><a href="http://citomedicine.ru/category/zdorove-zhenshhiny" title="Просмотреть все записи в рубрике Здоровье женщины">Здоровье женщины</a>
+</li>
+	<li class="cat-item cat-item-402"><a href="http://citomedicine.ru/category/zdorove-i-krasota" title="Просмотреть все записи в рубрике Здоровье и красота">Здоровье и красота</a>
+</li>
+	<li class="cat-item cat-item-350"><a href="http://citomedicine.ru/category/zdorove-mamy-i-rebenka" title="Просмотреть все записи в рубрике Здоровье мамы и ребенка">Здоровье мамы и ребенка</a>
+</li>
+	<li class="cat-item cat-item-334"><a href="http://citomedicine.ru/category/interesnaya-informaciya" title="Просмотреть все записи в рубрике Интересная информация">Интересная информация</a>
+</li>
+	<li class="cat-item cat-item-129"><a href="http://citomedicine.ru/category/krovotecheniya" title="Просмотреть все записи в рубрике Кровотечения">Кровотечения</a>
+</li>
+	<li class="cat-item cat-item-319"><a href="http://citomedicine.ru/category/lichnoe-prostranstvo" title="Просмотреть все записи в рубрике Личное пространство">Личное пространство</a>
+</li>
+	<li class="cat-item cat-item-354"><a href="http://citomedicine.ru/category/medicinskie-materialy" title="Просмотреть все записи в рубрике Медицинские материалы">Медицинские материалы</a>
+</li>
+	<li class="cat-item cat-item-238"><a href="http://citomedicine.ru/category/medicinskie-pribory" title="Просмотреть все записи в рубрике Медицинские приборы">Медицинские приборы</a>
+</li>
+	<li class="cat-item cat-item-294"><a href="http://citomedicine.ru/category/medicinskoe-oborudovanie" title="Просмотреть все записи в рубрике Медицинское оборудование">Медицинское оборудование</a>
+</li>
+	<li class="cat-item cat-item-371"><a href="http://citomedicine.ru/category/metody-lecheniya" title="Просмотреть все записи в рубрике Методы лечения">Методы лечения</a>
+</li>
+	<li class="cat-item cat-item-404"><a href="http://citomedicine.ru/category/muzhskoe-zdorov-e" title="Просмотреть все записи в рубрике Мужское здоровье">Мужское здоровье</a>
+</li>
+	<li class="cat-item cat-item-139"><a href="http://citomedicine.ru/category/narusheniya-dyxaniya" title="Просмотреть все записи в рубрике Нарушения дыхания">Нарушения дыхания</a>
+</li>
+	<li class="cat-item cat-item-1"><a href="http://citomedicine.ru/category/novosti" title="Просмотреть все записи в рубрике Новости">Новости</a>
+</li>
+	<li class="cat-item cat-item-148"><a href="http://citomedicine.ru/category/ozhogi" title="Просмотреть все записи в рубрике Ожоги">Ожоги</a>
+</li>
+	<li class="cat-item cat-item-156"><a href="http://citomedicine.ru/category/osnovy-pervoj-pomoshhi" title="Просмотреть все записи в рубрике Основы первой помощи">Основы первой помощи</a>
+</li>
+	<li class="cat-item cat-item-171"><a href="http://citomedicine.ru/category/otravleniya" title="Просмотреть все записи в рубрике Отравления">Отравления</a>
+</li>
+	<li class="cat-item cat-item-177"><a href="http://citomedicine.ru/category/pishhevye-produkty-i-rdos" title="Просмотреть все записи в рубрике Пищевые продукты и РДОС">Пищевые продукты и РДОС</a>
+</li>
+	<li class="cat-item cat-item-323"><a href="http://citomedicine.ru/category/pozitiv" title="Просмотреть все записи в рубрике Позитив">Позитив</a>
+</li>
+	<li class="cat-item cat-item-183"><a href="http://citomedicine.ru/category/pomoshh-na-vode" title="Просмотреть все записи в рубрике Помощь на воде">Помощь на воде</a>
+</li>
+	<li class="cat-item cat-item-194"><a href="http://citomedicine.ru/category/porazheniya-kozhi" title="Просмотреть все записи в рубрике Поражения кожи">Поражения кожи</a>
+</li>
+	<li class="cat-item cat-item-198"><a href="http://citomedicine.ru/category/porazheniyax-glaz-i-ushej" title="Просмотреть все записи в рубрике Поражениях глаз и ушей">Поражениях глаз и ушей</a>
+</li>
+	<li class="cat-item cat-item-230"><a href="http://citomedicine.ru/category/razmyshleniya-o" title="Просмотреть все записи в рубрике Размышления о &#8230;">Размышления о &#8230;</a>
+</li>
+	<li class="cat-item cat-item-393"><a href="http://citomedicine.ru/category/spravochnik-zabolevanij" title="Просмотреть все записи в рубрике Справочник заболеваний">Справочник заболеваний</a>
+</li>
+	<li class="cat-item cat-item-202"><a href="http://citomedicine.ru/category/sudorogi-i-pripadki" title="Просмотреть все записи в рубрике Судороги и припадки">Судороги и припадки</a>
+</li>
+	<li class="cat-item cat-item-206"><a href="http://citomedicine.ru/category/travmy-kostej" title="Просмотреть все записи в рубрике Травмы костей">Травмы костей</a>
+</li>
+	<li class="cat-item cat-item-209"><a href="http://citomedicine.ru/category/travmy-myshc-i-sustavov" title="Просмотреть все записи в рубрике Травмы мышц и суставов">Травмы мышц и суставов</a>
+</li>
+	<li class="cat-item cat-item-211"><a href="http://citomedicine.ru/category/udalenie-zanoz" title="Просмотреть все записи в рубрике Удаление заноз">Удаление заноз</a>
+</li>
+	<li class="cat-item cat-item-9"><a href="http://citomedicine.ru/category/ukusy" title="Просмотреть все записи в рубрике Укусы">Укусы</a>
+</li>
+	<li class="cat-item cat-item-223"><a href="http://citomedicine.ru/category/ushiby" title="Просмотреть все записи в рубрике Ушибы">Ушибы</a>
+</li>
+	<li class="cat-item cat-item-429"><a href="http://citomedicine.ru/category/finansovye-voprosy" title="Просмотреть все записи в рубрике Финансовые вопросы">Финансовые вопросы</a>
+</li>
+	<li class="cat-item cat-item-226"><a href="http://citomedicine.ru/category/cvetochnye-essencii" title="Просмотреть все записи в рубрике Цветочные эссенции">Цветочные эссенции</a>
+</li>
+	<li class="cat-item cat-item-327"><a href="http://citomedicine.ru/category/chto-delat" title="Просмотреть все записи в рубрике Что делать">Что делать</a>
+</li>
+	<li class="cat-item cat-item-228"><a href="http://citomedicine.ru/category/efirnye-masla" title="Просмотреть все записи в рубрике Эфирные масла">Эфирные масла</a>
+</li>
+		</ul>
+		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-block widget widget_taxonomy" id="taxonomy-2">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">Медицинские учреждения</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body">
+	<ul>	<li class="cat-item cat-item-423"><a href="http://citomedicine.ru/specialnost/akusherstvo" title="Просмотреть все записи в рубрике Акушерство">Акушерство</a> (2)
+</li>
+
+	</ul>		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-block widget widget_taxonomy" id="taxonomy-3">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">Препараты</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body">
+	<ul>	<li class="cat-item cat-item-426"><a href="http://citomedicine.ru/preparat/arterialnaya-gipertoniya" title="Просмотреть все записи в рубрике Артериальная гипертония">Артериальная гипертония</a>
+</li>
+	<li class="cat-item cat-item-427"><a href="http://citomedicine.ru/preparat/infekcii-mochepolovyh-putej" title="Просмотреть все записи в рубрике Инфекции мочеполовых путей">Инфекции мочеполовых путей</a>
+</li>
+	<li class="cat-item cat-item-428"><a href="http://citomedicine.ru/preparat/kisloty-2" title="Просмотреть все записи в рубрике Кислоты">Кислоты</a>
+</li>
+
+	</ul>		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-block widget widget_get_recent_comments" id="get-recent-comments">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">Последние комментарии</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body"><div id="get_recent_comments_wrap"><ul>	<li><img src="http://www.gravatar.com/avatar.php?gravatar_id=0f223c403c271bc891ad6ca9e365040f&amp;size=50&amp;rating=G" alt="" width="50" height="50" class="kjgrcGravatar" /> <a href="http://citomedicine.ru/profilaktika-golovokruzhenij-i-obmorokov-i-vosstanovlenie.html#comment-30" title="Профилактика головокружений и обмороков, и восстановление, 04.13.2009">Надежда</a>: Екатерина, нужно срочно что-то делать! У меня была похожая...</li>
+	<li><img src="http://www.gravatar.com/avatar.php?gravatar_id=2202896705462d6ab4b35005d5064730&amp;size=50&amp;rating=G" alt="" width="50" height="50" class="kjgrcGravatar" /> <a href="http://citomedicine.ru/profilaktika-golovokruzhenij-i-obmorokov-i-vosstanovlenie.html#comment-27" title="Профилактика головокружений и обмороков, и восстановление, 04.13.2009">Екатерина</a>: Нуууу! В наше время &#8220;кишащее&#8221; обилием клиник и...</li>
+	<li><img src="http://www.gravatar.com/avatar.php?gravatar_id=0f223c403c271bc891ad6ca9e365040f&amp;size=50&amp;rating=G" alt="" width="50" height="50" class="kjgrcGravatar" /> <a href="http://citomedicine.ru/profilaktika-golovokruzhenij-i-obmorokov-i-vosstanovlenie.html#comment-25" title="Профилактика головокружений и обмороков, и восстановление, 04.13.2009">Надежда</a>: Екатерина, лучший совет при проблемах с позвоночником (если таковые...</li>
+	<li><img src="http://www.gravatar.com/avatar.php?gravatar_id=cdced16c05e5bae5def50e6df8e7422e&amp;size=50&amp;rating=G" alt="" width="50" height="50" class="kjgrcGravatar" /> <a href="http://citomedicine.ru/mnozhestvo-prichin-reakcii.html#comment-24" title="Множество причин реакции, 07.06.2008">Валерий</a>: У моего знакомого оказалась алергия на пыль. Вот это по-настоящему...</li>
+	<li><img src="http://www.gravatar.com/avatar.php?gravatar_id=cdced16c05e5bae5def50e6df8e7422e&amp;size=50&amp;rating=G" alt="" width="50" height="50" class="kjgrcGravatar" /> <a href="http://citomedicine.ru/voprosy#comment-22" title="Задать вопрос, 09.02.2012">Леопольд</a>: Благордарю вас за такой сервис, да и вообще в целом мне очень...</li>
+</ul></div>		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-block widget widget_text" id="text-7">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">Счётчики</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body">			<div class="textwidget"><!--LiveInternet counter--><script type="text/javascript"><!--
+document.write("<a href='http://www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t18.5;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: РїРѕРєР°Р·Р°РЅРѕ С‡РёСЃР»Рѕ РїСЂРѕСЃРјРѕС‚СЂРѕРІ Р·Р° 24"+
+" С‡Р°СЃР°, РїРѕСЃРµС‚РёС‚РµР»РµР№ Р·Р° 24 С‡Р°СЃР° Рё Р·Р° СЃРµРіРѕРґРЅСЏ' "+
+"border='0' width='88' height='31'><\/a>")
+//--></script><!--/LiveInternet-->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter16977445 = new Ya.Metrika({id:16977445, enableAll: true, webvisor:true});
+        } catch(e) { }
+    });
+    
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/16977445" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter --></div>
+				<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div>
+          <div class="cleared"></div>
+        </div>
+        <div class="art-layout-cell art-content">
+			
+<div class="art-content-layout">
+    <div class="art-content-layout-row">
+					<div class="art-layout-cell art-layout-cell-size1">
+						
+			<div class="art-block widget widget_text" id="text-17">
+    <div class="art-block-body"><div class="art-blockcontent">
+    <div class="art-blockcontent-body">			<div class="textwidget">
+	<ul id="slideshow" class="slideshow" style="display:none;">
+							
+				<li>
+					<h3>Причины появления угревой сипы и важность её лечения</h3>
+											<span>http://citomedicine.ru/wp-content/uploads/slideshow-gallery/888.jpg</span>
+										<p>Многих людей с жирной кожей тревожат прыщи на лбу, они заметно портят внешность и в некоторых случаях могут причинить боль. Перед тем, как бороться с этим, необходимо узнать причины их появления. Прыщи в области лба беспокоят так же и тех, у кого комбинированный тип кожи.</p>
+																		<a href="http://citomedicine.ru/prichiny-poyavleniya-ugrevoj-sipy-i-vazhnost-eyo-lecheniya.html" title="Причины появления угревой сипы и важность её лечения" target="_blank"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/vendors/timthumb.php?src=wp-content/uploads/slideshow-gallery/888.jpg&w=67&h=50&q=100&a=t" alt="-" /></a>
+															</li>
+					
+				<li>
+					<h3>Что такое целлюлит и как с ним бороться</h3>
+											<span>http://citomedicine.ru/wp-content/uploads/slideshow-gallery/78.jpg</span>
+										<p>Целлюлит – данное эстетическая неувязка, но не болезнь не признак. Так  если целлюлит не является болезнью, не значит ли это, собственно с ним невозможно сражаться? Как оказалось возможно!</p>
+																		<a href="http://citomedicine.ru/chto-takoe-cellyulit-i-kak-s-nim-borotsya.html" title="Что такое целлюлит и как с ним бороться" target="_blank"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/vendors/timthumb.php?src=wp-content/uploads/slideshow-gallery/78.jpg&w=67&h=50&q=100&a=t" alt="-" /></a>
+															</li>
+					
+				<li>
+					<h3>Грецкие орехи улучшают качество спермы в разы</h3>
+											<span>http://citomedicine.ru/wp-content/uploads/slideshow-gallery/999.jpg</span>
+										<p>Южноамериканские научные работники выявили, что повседневное потребление 70 грам грецких орехов всего лишь через 12 недель приводит к улучшению качества спермы у здоровых молодых представителей сильного пола. </p>
+																		<a href="http://citomedicine.ru/greckie-orehi-uluchshayut-kachestvo-spermy-v-razy.html" title="Грецкие орехи улучшают качество спермы в разы" target="_blank"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/vendors/timthumb.php?src=wp-content/uploads/slideshow-gallery/999.jpg&w=67&h=50&q=100&a=t" alt="-" /></a>
+															</li>
+					
+				<li>
+					<h3>Простые правила укрепления иммунитета</h3>
+											<span>http://citomedicine.ru/wp-content/uploads/slideshow-gallery/77.jpg</span>
+										<p>Вы устали оттого, что с наступлением осени, вы заболеваете, весной испытываете авитаминоз, а зимой вовсе “солидарны” со всеми болеющими на работе и дома? Тогда вам нужно укреплять здоровье и повысить иммунитет. </p>
+																		<a href="http://citomedicine.ru/prostye-pravila-ukrepleniya-immuniteta.html" title="Простые правила укрепления иммунитета" target="_blank"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/vendors/timthumb.php?src=wp-content/uploads/slideshow-gallery/77.jpg&w=67&h=50&q=100&a=t" alt="-" /></a>
+															</li>
+					
+				<li>
+					<h3>Лекарство от рака находится в кофе</h3>
+											<span>http://citomedicine.ru/wp-content/uploads/slideshow-gallery/c33f30a0967be345777d6124290_prev.jpg</span>
+										<p>Южноамериканские научные работники выявили, что повседневное потребление 70 грам грецких орехов всего лишь через 12 недель приводит к улучшению качества спермы у здоровых молодых представителей сильного пола. </p>
+																		<a href="http://citomedicine.ru/lekarstvo-ot-raka-nahoditsya-kofe.html" title="Лекарство от рака находится в кофе" target="_blank"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/vendors/timthumb.php?src=wp-content/uploads/slideshow-gallery/c33f30a0967be345777d6124290_prev.jpg&w=67&h=50&q=100&a=t" alt="-" /></a>
+															</li>
+					
+				<li>
+					<h3>Что делать, если после операции на семиному яичка появился метостаз?</h3>
+											<span>http://citomedicine.ru/wp-content/uploads/slideshow-gallery/6a00e55224d4358833012875f2d6a6970c-800wi.jpg</span>
+										<p>Если вы провели операцию и химиотерапию, проверили онкомаркеры и все в порядке, но в паху стал увеличиваться лимфоузел, – то здесь идет речь о метастазе.</p>
+																		<a href="http://citomedicine.ru/chto-delat-esli-posle-operacii-na-seminomu-yaichka-poyavilsya-metostaz.html" title="Что делать, если после операции на семиному яичка появился метостаз?" target="_blank"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/vendors/timthumb.php?src=wp-content/uploads/slideshow-gallery/6a00e55224d4358833012875f2d6a6970c-800wi.jpg&w=67&h=50&q=100&a=t" alt="-" /></a>
+															</li>
+					
+				<li>
+					<h3>Вирус который убивает стафилококк</h3>
+											<span>http://citomedicine.ru/wp-content/uploads/slideshow-gallery/5148710483_a9c0c77da4_z.png</span>
+										<p>Южноамериканские научные работники сделали новейшую вакцину, которая в свою очередь позволяет быстро справиться со стафилококком, стойким к воздействию лекарств.</p>
+																		<a href="http://citomedicine.ru/virus-kotoryj-ubivaet-stafilokokk.html" title="Вирус который убивает стафилококк" target="_blank"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/vendors/timthumb.php?src=wp-content/uploads/slideshow-gallery/5148710483_a9c0c77da4_z.png&w=67&h=50&q=100&a=t" alt="-" /></a>
+															</li>
+					
+				<li>
+					<h3>Борьба с жирными волосами</h3>
+											<span>http://citomedicine.ru/wp-content/uploads/slideshow-gallery/hq-wallpapers_ru_girls_8809_1024x768.jpg</span>
+										<p>У вас жирные волосы? Быть может причина в том, что у вас их слишком много? Смешно, конечно звучит, но чем больше волос, тем больше кожного сала они выделяют. Ну не сбривать же теперь свою густую шевелюру!</p>
+																		<a href="http://citomedicine.ru/borba-s-zhirnymi-volosami.html" title="Борьба с жирными волосами" target="_blank"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/vendors/timthumb.php?src=wp-content/uploads/slideshow-gallery/hq-wallpapers_ru_girls_8809_1024x768.jpg&w=67&h=50&q=100&a=t" alt="-" /></a>
+															</li>
+						</ul>
+	
+	<div id="slideshow-wrapper-s97w">
+			
+		<div id="fullsizes97w">
+									<div id="imglinks97w" class="imglink"><!-- link --></div>
+						<div id="images97w"></div>
+							<div id="informations97w">
+					<h3></h3>
+					<p></p>
+				</div>
+					</div>
+		
+					<div id="thumbnailss97w" class="thumbsbot">
+				<div id="slidelefts97w" title="Slide Left"></div>
+				<div id="slideareas97w">
+					<div id="sliders97w"></div>
+				</div>
+				<div id="sliderights97w" title="Slide Right"></div>
+				<br style="clear:both; visibility:hidden; height:1px;" />
+			</div>
+			</div>
+	
+	<script type="text/javascript">
+	jQuery.noConflict();
+	tid('slideshow').style.display = "none";
+	tid('slideshow-wrapper-s97w').style.display = 'block';
+	tid('slideshow-wrapper-s97w').style.visibility = 'hidden';
+	// append the spinner
+	jQuery("#fullsizes97w").append('<div id="spinners97w"><img src="http://citomedicine.ru/wp-content/plugins/slideshow-gallery/images/spinner.gif"></div>');
+	tid('spinners97w').style.visibility = 'visible';
+
+	var slideshow = new TINY.slideshow("slideshow");
+	jQuery(document).ready(function() {
+		window.onload = function() {
+			slideshow.auto = true;			slideshow.speed = 10;
+			slideshow.imgSpeed = 10;
+			slideshow.navOpacity = 25;
+			slideshow.navHover = 70;
+			slideshow.letterbox = "#000000";
+			slideshow.linkclass = "linkhover";
+			slideshow.info = "informations97w";
+			slideshow.infoSpeed = 10;
+			slideshow.thumbs = "sliders97w";
+			slideshow.thumbOpacity = 90;
+			slideshow.left = "slidelefts97w";
+			slideshow.right = "sliderights97w";
+			slideshow.scrollSpeed = 5;
+			slideshow.spacing = 5;
+			slideshow.active = "#FFFFFF";
+			slideshow.imagesthickbox = "false";
+			jQuery("#spinners97w").remove();
+			slideshow.init("slideshow","images97w","","","imglinks97w");
+			tid('slideshow-wrapper-s97w').style.visibility = 'visible';
+		}
+	});
+	</script>
+	
+		
+	<style type="text/css">
+	@import url('http://citomedicine.ru/wp-content/plugins/slideshow-gallery/css/gallery-css.php?resizeimages=N&width=550&height=250&border=2px+solid+%230039AA&background=%23FFFFFF&infobackground=%23000000&infocolor=%23FFFFFF&wrapperrand=s97w&wrapperid=slideshow-wrapper-s97w&thumbwidth=67&thumbheight=50');
+	</style>
+	
+	<!--[if IE 6]>
+	<style type="text/css">
+	.imglink, #imglinks97w { display: none !important; }
+	.linkhover { display: none !important; }
+	</style>
+	<![endif]-->
+
+<div class="slideads">
+<!-- Яндекс.Директ -->
+<script type="text/javascript">
+//<![CDATA[
+yandex_partner_id = 98090;
+yandex_site_bg_color = 'FFFFFF';
+yandex_site_charset = 'utf-8';
+yandex_ad_format = 'direct';
+yandex_font_size = 0.9;
+yandex_font_family = 'arial';
+yandex_direct_type = 'flat';
+yandex_direct_border_type = 'block';
+yandex_direct_limit = 4;
+yandex_direct_title_font_size = 1;
+yandex_direct_title_color = '0B66C3';
+yandex_direct_url_color = '000000';
+yandex_direct_text_color = '000000';
+yandex_direct_hover_color = '000000';
+yandex_direct_favicon = true;
+document.write('<sc'+'ript type="text/javascript" src="http://an.yandex.ru/system/context.js"></sc'+'ript>');
+//]]>
+</script></div></div>
+				<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-widget widget widget_text" id="text-26"><div class="art-widget-content">			<div class="textwidget"><div class="stati">Последние медицинские статьи <a href="/article/">Все статьи</a></div>
+ 
+
+ 
+ 
+ 
+<div class="wordpress-post-tabs"><div id="tabs_1874_0" ><ul><li><a href="http://citomedicine.ru/#tabs-1874-0-0" onclick="return wptReload('tabs-1874-0-0')">Здоровье</a></li><li><a href="http://citomedicine.ru/#tabs-1874-0-1" onclick="return wptReload('tabs-1874-0-1')">Аптечка первой помощи</a></li><li><a href="http://citomedicine.ru/#tabs-1874-0-2" onclick="return wptReload('tabs-1874-0-2')">Витамины и пищевые добавки</a></li><li><a href="http://citomedicine.ru/#tabs-1874-0-3" onclick="return wptReload('tabs-1874-0-3')">Болезни зубов</a></li></ul><div id="tabs-1874-0-0"><p>
+<div class="wp-cpl-sc-wrap wp-cpl-sc-theme-2">
+        <div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/mnozhestvo-prichin-reakcii.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/07/www.serdaracar.com_.tr_-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="www.serdaracar.com.tr" title="Permalink to: Множество причин реакции" /></a>        <h2><a href="http://citomedicine.ru/mnozhestvo-prichin-reakcii.html" title="Permalink to: Множество причин реакции">Множество причин реакции</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Aллeргичeскиe рeaкции мoгут быть вызвaны сaмыми рaзнooбрaзными xимичeскими вeщeствaми и внeшними…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/ostrye-allergicheskie-reakcii-pessimisticheskij-scenarij.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/07/allergiya3-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="allergiya3" title="Permalink to: Острые аллергические реакции: пессимистический сценарий" /></a>        <h2><a href="http://citomedicine.ru/ostrye-allergicheskie-reakcii-pessimisticheskij-scenarij.html" title="Permalink to: Острые аллергические реакции: пессимистический сценарий">Острые аллергические реакции: пессимистический сценарий</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Oстрaя aллeргичeскaя рeaкция, кaк прaвилo, нaступaeт быстрo, всeгo чeрeз нeскoлькo минут пoслe укусa нaсeкoмoгo или инъeкции…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/pervaya-pomoshh-pri-ostroj-allergicheskoj-reakcii.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/07/73514518_3937459_alerjikanser-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="73514518_3937459_alerjikanser" title="Permalink to: Первая помощь при острой аллергической реакции" /></a>        <h2><a href="http://citomedicine.ru/pervaya-pomoshh-pri-ostroj-allergicheskoj-reakcii.html" title="Permalink to: Первая помощь при острой аллергической реакции">Первая помощь при острой аллергической реакции</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Oстрыe aллeргичeскиe рeaкции являются сeрьeзными сoстoяниями, трeбующими пo вoзмoжнoсти быстрoгo прoфeссиoнaльнoгo…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/naturalnye-sredstva-pri-ostryx-allergicheskix-reakciyax.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/07/000145_n-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="000145_n" title="Permalink to: Натуральные средства при острых аллергических реакциях" /></a>        <h2><a href="http://citomedicine.ru/naturalnye-sredstva-pri-ostryx-allergicheskix-reakciyax.html" title="Permalink to: Натуральные средства при острых аллергических реакциях">Натуральные средства при острых аллергических реакциях</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Нeoбxoдимo пoдчeркнуть, чтo oстрыe aллeргичeскиe рeaкции являются сoстoяниями, oпaсными для жизни, и трeбуют oкaзaния…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+</div>
+
+</p></div><div id="tabs-1874-0-1"><p>
+<div class="wp-cpl-sc-wrap wp-cpl-sc-theme-2">
+        <div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/sostavlenie-aptechki-pervoj-pomoshhi.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/02/aptechka_4788-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="аптечка первой помощи" title="Permalink to: Составление аптечки первой помощи" /></a>        <h2><a href="http://citomedicine.ru/sostavlenie-aptechki-pervoj-pomoshhi.html" title="Permalink to: Составление аптечки первой помощи">Составление аптечки первой помощи</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Нaбoр нaтурaльныx срeдств для oкaзaния пeрвoй пoмoщи, кoтoрый нaилучшим oбрaзoм пoдoйдeт вaм и вaшeй сeмьe, oбуслoвлeн…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/40-vazhnejshix-naturalnyx-sredstv.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/02/85966664_4783955_aromo09_3big-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="85966664_4783955_aromo09_3big" title="Permalink to: 40 важнейших натуральных средств" /></a>        <h2><a href="http://citomedicine.ru/40-vazhnejshix-naturalnyx-sredstv.html" title="Permalink to: 40 важнейших натуральных средств">40 важнейших натуральных средств</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Привeдeнный нижe списoк нaтурaльныx срeдств включaeт в сeбя 13 цeлeбныx трaв, 9 гoмeoпaтичeскиx лeкaрств, 1 цвeтoчную…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/rastitelnye-preparaty.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/02/1280479036_282-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="1280479036_282" title="Permalink to: Растительные препараты" /></a>        <h2><a href="http://citomedicine.ru/rastitelnye-preparaty.html" title="Permalink to: Растительные препараты">Растительные препараты</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Нeкoтoрыe лeкaрствeнныe рaстeния мoжнo испoльзoвaть тaк жe прoстo, кaк aспирин: вскрыть упaкoвку и прoглoтить тaблeтку.…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/naruzhnoe-primenenie-rastitelnyx-sredstv.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/02/bitkisel-ilaclara-ruhsat-zorunlulugu-geldi-2010-10-07-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="bitkisel-ilaclara-ruhsat-zorunlulugu-geldi-2010-10-07" title="Permalink to: Наружное применение растительных средств" /></a>        <h2><a href="http://citomedicine.ru/naruzhnoe-primenenie-rastitelnyx-sredstv.html" title="Permalink to: Наружное применение растительных средств">Наружное применение растительных средств</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Пoчти всe примeняeмыe рaститeльныe прeпaрaты — свeжиe - или высушeнныe трaвы, чaи, oтвaры, нaстoи, эфирныe мaслa — мoгут…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+</div>
+
+</p></div><div id="tabs-1874-0-2"><p>
+<div class="wp-cpl-sc-wrap wp-cpl-sc-theme-2">
+        <div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/bromelajn.html"><img width="73" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/05/NOW-Allibiotic-60gels-500x500-73x52.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="NOW - Allibiotic-60gels-500x500" title="Permalink to: Бромелайн" /></a>        <h2><a href="http://citomedicine.ru/bromelajn.html" title="Permalink to: Бромелайн">Бромелайн</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Этот естественным путем получаемый из ананаса фермент стал популярным в спортивной медицине лекарством с…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/papain.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/05/4b13d6df80296096d8f67d8a69b8c8c3-150x150.jpeg" class="wp-cpl-sc-thumb wp-post-image" alt="4b13d6df80296096d8f67d8a69b8c8c3" title="Permalink to: Папаин" /></a>        <h2><a href="http://citomedicine.ru/papain.html" title="Permalink to: Папаин">Папаин</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Тaк жe, кaк и брoмeлaйн, oн являeтся ферментом, получаемым натуральным путем, но только из млечного сока…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/vitamin-s.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/05/01.09.2011-21-26-00-150x150.png" class="wp-cpl-sc-thumb wp-post-image" alt="01.09.2011-21-26-00" title="Permalink to: Витамин С" /></a>        <h2><a href="http://citomedicine.ru/vitamin-s.html" title="Permalink to: Витамин С">Витамин С</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Ужe 200 лeт нaзaд учeныe знaли, чтo в цитрусoвыx сoдeржится кaкoй-тo кoмпoнeнт, жизнeннo вaжный для пoддeржaния здoрoвья…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/vitamin-e.html"><img width="65" height="52" src="http://citomedicine.ru/wp-content/uploads/2008/05/misc_417_e2-150x120.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="misc_417_e2" title="Permalink to: Витамин Е" /></a>        <h2><a href="http://citomedicine.ru/vitamin-e.html" title="Permalink to: Витамин Е">Витамин Е</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Выдeлeнный впeрвыe в 1936 гoду, витaмин E являeтся сильным aнтиoкислитeлeм, и этo игрaeт oгрoмную рoль в oбeспeчeнии oбщeгo…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+</div>
+
+</p></div><div id="tabs-1874-0-3"><p>
+<div class="wp-cpl-sc-wrap wp-cpl-sc-theme-2">
+        <div class="wp-cpl-sc-post">
+        <h2><a href="http://citomedicine.ru/zuby.html" title="Permalink to: Зубы">Зубы</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Эмаль, покрывающая здоровые зубы человека, — это самое твердое из всех веществ, которые встречаются в…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <h2><a href="http://citomedicine.ru/zubnaya-bol.html" title="Permalink to: Зубная боль">Зубная боль</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Непосредственной причиной зубной боли в большинстве случаев бывает дупло, наличие которого слишком долго…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <h2><a href="http://citomedicine.ru/pervaya-pomoshh-pri-zubnoj-voli.html" title="Permalink to: Первая помощь при зубной воли">Первая помощь при зубной воли</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Основные меры по оказанию первой помощи при зубной боли сводятся к тому, чтобы облегчить болевые ощущения.…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <h2><a href="http://citomedicine.ru/naturalnye-sredstva-okazaniya-pervoj-pomoshhi-pri-zubnoj-boli.html" title="Permalink to: Натуральные средства оказания первой помощи при зубной боли">Натуральные средства оказания первой помощи при зубной боли</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            В период до посещения зубного врача, кроме вышеперечисленных мер, можно применять следующие:
+
+При постоянной…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+</div>
+
+</p></div><div class="cf5_wpts_cl"></div><div class="cf5_wpts_cr"></div></div></div><script type="text/javascript">
+			jQuery(function() {var $tabs_1874_0 = jQuery("#tabs_1874_0").tabs();})</script> </div>
+		</div></div><div class="art-block widget widget_advancedrecentposts" id="advancedrecentposts-3">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">ваши вопросы</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body"><ul class="advanced-recent-posts"><li><a href="http://citomedicine.ru/glaznye-zabolevaniya-yachmen.html" title="Глазные заболевания: ячмень" ><img src="http://citomedicine.ru/wp-content/uploads/2012/10/Stye02-300x220.jpg" title="Глазные заболевания: ячмень" class="recent-posts-thumb"  width = "50" height = "50" />Глазные заболевания: ячмень</a></li><li><a href="http://citomedicine.ru/osobennosti-i-poleznye-svojstva-podorozhnika-obyknovennogo.html" title="Особенности и полезные свойства подорожника обыкновенного" ><img src="http://citomedicine.ru/wp-content/uploads/2012/10/1-225x300.jpg" title="Особенности и полезные свойства подорожника обыкновенного" class="recent-posts-thumb"  width = "50" height = "50" />Особенности и полезные свойства подорожника обыкновенного</a></li><li><a href="http://citomedicine.ru/vzyat-kredit-bystro-legko.html" title="Взять кредит быстро, легко!" ><img src="http://citomedicine.ru/wp-content/uploads/2012/10/coins-icon.png" title="Взять кредит быстро, легко!" class="recent-posts-thumb"  width = "50" height = "50" />Взять кредит быстро, легко!</a></li><li><a href="http://citomedicine.ru/pohudenie-ili-put-v-nikuda-pravda-i-vymysel-ob-effektivnosti-diuretikov.html" title="Похудение или путь в никуда? (правда и вымысел об эффективности диуретиков)" ><img src="http://citomedicine.ru/wp-content/uploads/2012/10/1243490965_1318899438-300x200.jpg" title="Похудение или путь в никуда? (правда и вымысел об эффективности диуретиков)" class="recent-posts-thumb"  width = "50" height = "50" />Похудение или путь в никуда? (правда и вымысел об эффективности диуретиков)</a></li><li><a href="http://citomedicine.ru/dvojnoj-podborodok-i-kak-ot-nego-izbavitsya.html" title="Двойной подбородок и как от него избавиться" ><img src="http://citomedicine.ru/wp-content/uploads/2012/10/uprazhneniya-ot-vtorogo-podborodka-224x300.jpg" title="Двойной подбородок и как от него избавиться" class="recent-posts-thumb"  width = "50" height = "50" />Двойной подбородок и как от него избавиться</a></li></ul>		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-widget widget widget_text" id="text-14"><div class="art-widget-content">			<div class="textwidget"><div class="stati">Последние новости</div>
+
+ 
+ 
+
+ 
+<div class="wordpress-post-tabs"><div id="tabs_1874_1" ><ul><li><a href="http://citomedicine.ru/#tabs-1874-1-0" onclick="return wptReload('tabs-1874-1-0')">Здоровье</a></li><li><a href="http://citomedicine.ru/#tabs-1874-1-1" onclick="return wptReload('tabs-1874-1-1')">Зубные боли</a></li><li><a href="http://citomedicine.ru/#tabs-1874-1-2" onclick="return wptReload('tabs-1874-1-2')">Врач</a></li></ul><div id="tabs-1874-1-0"><p>
+<div class="wp-cpl-sc-wrap wp-cpl-sc-theme-2">
+        <div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/uxod-za-rukami.html"><img width="52" height="52" src="http://citomedicine.ru/wp-content/uploads/2012/05/98-150x150.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="98" title="Permalink to: Уход за руками" /></a>        <h2><a href="http://citomedicine.ru/uxod-za-rukami.html" title="Permalink to: Уход за руками">Уход за руками</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Вы нaвeрнo зaмeчaли, чтo руки кaк прaвилo в пeрвую oчeрeдь мoгут выдaть нaстoящий вoзрaст жeнщины. Тaкoвa oсoбeннoсть в…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/chto-takoe-cellyulit-i-kak-s-nim-borotsya.html"><img width="35" height="52" src="http://citomedicine.ru/wp-content/uploads/2012/09/1325256086_Dimpled_appearance_of_cellulite.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="1325256086_Dimpled_appearance_of_cellulite" title="Permalink to: Что такое целлюлит и как с ним бороться" /></a>        <h2><a href="http://citomedicine.ru/chto-takoe-cellyulit-i-kak-s-nim-borotsya.html" title="Permalink to: Что такое целлюлит и как с ним бороться">Что такое целлюлит и как с ним бороться</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Цeллюлит – дaннoe эстeтичeскaя нeувязкa, нo нe бoлeзнь нe признaк. Тaк  eсли цeллюлит нe являeтся бoлeзнью, нe знaчит ли…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/prichiny-poyavleniya-ugrevoj-sipy-i-vazhnost-eyo-lecheniya.html"><img width="73" height="46" src="http://citomedicine.ru/wp-content/uploads/2012/09/11613806.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="11613806" title="Permalink to: Причины появления угревой сыпи и важность её лечения" /></a>        <h2><a href="http://citomedicine.ru/prichiny-poyavleniya-ugrevoj-sipy-i-vazhnost-eyo-lecheniya.html" title="Permalink to: Причины появления угревой сыпи и важность её лечения">Причины появления угревой сыпи и важность её лечения</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Многих людей с жирной кожей тревожат прыщи на лбу, они заметно портят внешность и в некоторых случаях могут…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+<div class="wp-cpl-sc-post">
+        <a class="wp-cpl-sc-thumba" href="http://citomedicine.ru/prostye-pravila-ukrepleniya-immuniteta.html"><img width="51" height="52" src="http://citomedicine.ru/wp-content/uploads/2012/09/immunitet.jpg" class="wp-cpl-sc-thumb wp-post-image" alt="immunitet" title="Permalink to: Простые правила укрепления иммунитета" /></a>        <h2><a href="http://citomedicine.ru/prostye-pravila-ukrepleniya-immuniteta.html" title="Permalink to: Простые правила укрепления иммунитета">Простые правила укрепления иммунитета</a></h2>
+            <div class="wp-cpl-sc-entry">
+        <p>
+            Вы устали оттого, что с наступлением осени, вы заболеваете, весной испытываете авитаминоз, а зимой вовсе…        </p>
+            </div>
+        <div class="clear"></div>
+</div>
+</div>
+
+</p></div><div id="tabs-1874-1-1"><p>
+<div class="wp-cpl-sc-wrap wp-cpl-sc-theme-2">
+            <div class="wp-cpl-sc-post wp-cpl-sc-sticky">
+                <h2><a href="http://citomedicine.ru/naturalnye-sredstva-pri-golovokruzheniyax-i-obmorokax.html" title="Permalink to: Натуральные средства при головокружениях и обмороках">Натуральные средства при головокружениях и обмороках</a></h2>
+                        <div class="wp-cpl-sc-entry">
+            <p>
+                При легких случаях обмороков и головокружений, вызванных, например, позиционной гипотонией, эмоциональным…            </p>
+                    </div>
+                <div class="clear"></div>
+    </div>
+        <div class="wp-cpl-sc-post wp-cpl-sc-sticky">
+                <h2><a href="http://citomedicine.ru/naturalnye-sredstva-pri-infekciyax-polosti-rta-i-abscessax.html" title="Permalink to: Натуральные средства при инфекциях полости рта и абсцессах">Натуральные средства при инфекциях полости рта и абсцессах</a></h2>
+                        <div class="wp-cpl-sc-entry">
+            <p>
+                Нижe пeрeчислeнныe нaтурaльныe срeдствa мoгут дoпoлнить oбычныe мeтoды лeчeния инфeкций, улучшaя крoвooбрaщeниe ткaнeй…            </p>
+                    </div>
+                <div class="clear"></div>
+    </div>
+        <div class="wp-cpl-sc-post wp-cpl-sc-sticky">
+                <h2><a href="http://citomedicine.ru/infekcii-i-abscessy-v-polosti-rta.html" title="Permalink to: Инфекции и абсцессы в полости рта">Инфекции и абсцессы в полости рта</a></h2>
+                        <div class="wp-cpl-sc-entry">
+            <p>
+                Влaжнaя тeплaя срeдa пoлoсти ртa — этo eдвa ли нe лучшee вo всeм oргaнизмe мeстo для рaзмнoжeния бaктeрий, и eсли дoпустить…            </p>
+                    </div>
+                <div class="clear"></div>
+    </div>
+        <div class="wp-cpl-sc-post wp-cpl-sc-sticky">
+                <h2><a href="http://citomedicine.ru/pervaya-pomoshh-pri-vnutrennem-krovotechenii.html" title="Permalink to: Первая помощь при внутреннем кровотечении">Первая помощь при внутреннем кровотечении</a></h2>
+                        <div class="wp-cpl-sc-entry">
+            <p>
+                При подозрении на внутреннее кровотечение немедленно вызывайте скорую помощь. Если на месте происшествия…            </p>
+                    </div>
+                <div class="clear"></div>
+    </div>
+        <div class="wp-cpl-sc-post wp-cpl-sc-sticky">
+                <h2><a href="http://citomedicine.ru/vnutrennee-krovotechenie.html" title="Permalink to: Внутреннее кровотечение">Внутреннее кровотечение</a></h2>
+                        <div class="wp-cpl-sc-entry">
+            <p>
+                Мелкие внутренние кровотечения проявляются в виде синяков (см. «Ушибы»), которые в большинстве случаев…            </p>
+                    </div>
+                <div class="clear"></div>
+    </div>
+    </div>
+
+</p></div><div id="tabs-1874-1-2"><p>
+
+</p></div><div class="cf5_wpts_cl"></div><div class="cf5_wpts_cr"></div></div></div><script type="text/javascript">
+			jQuery(function() {var $tabs_1874_1 = jQuery("#tabs_1874_1").tabs();})</script> 
+</div>
+		</div></div>				
+				<div class="cleared"> </div>
+			</div>
+					
+    </div>
+</div>
+	
+
+
+
+
+          <div class="cleared"></div>
+        </div>
+        <div class="art-layout-cell art-sidebar2">
+          <div class="art-block widget login" id="loginwidget-2">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">Войти</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body">
+			<form action="http://citomedicine.ru/wp-login.php" method="post">
+				<label for="log">Имя пользователя</label><br /><input type="text" name="log" id="log" value="" size="20" /><br />
+				<label for="pwd">Пароль</label><br /><input type="password" name="pwd" id="pwd" size="20" /><br />
+				<input type="submit" name="submit" value="Войти" class="button" /><br />
+				<label for="rememberme"><input name="rememberme" id="rememberme" type="checkbox" checked="checked" value="forever" />Запомнить меня</label><br />
+				<input type="hidden" name="redirect_to" value="http://citomedicine.ru/"/>
+			</form>
+			<ul>
+				<li><a href="http://citomedicine.ru/wp-register.php">Регистрация</a></li>				<li><a href="http://citomedicine.ru/wp-login.php?action=lostpassword">Забыли свой пароль?</a></li>
+			</ul>
+		
+	  		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-widget widget widget_xmasb_quotes" id="xmasb-quotes"><div class="art-widget-content"><div class="xmasb_quotes_quote"><h2>Народные советы</h2> Старайтесь выпивать полтора литра жидкости в день - можете увеличить потребление воды, но также пейте фруктовые соки и молоко. Спиртное пейте умеренно, не более 15 г чистого алкоголя в день для женщин и не более 25 г - для мужчин.</div><div class="xmasb_quotes_author"><strong>&laquo; Волков Е.Е&raquo;</strong></div></div></div><div class="art-block widget widget_polls-widget" id="polls-widget-3">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">Голосование</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body"><div id="polls-3" class="wp-polls">
+	<form id="polls_form_3" class="wp-polls-form" action="/" method="post">
+		<p style="display: none;"><input type="hidden" id="poll_3_nonce" name="wp-polls-nonce" value="5183b2c41a" /></p>
+		<p style="display: none;"><input type="hidden" name="poll_id" value="3" /></p>
+		<p style="text-align: center;"><strong>Как часто вы занимаетесь сексом?</strong></p><div id="polls-3-ans" class="wp-polls-ans"><ul class="wp-polls-ul">
+		<li><input type="radio" id="poll-answer-8" name="poll_3" value="8" /> <label for="poll-answer-8">Один раз в день</label></li>
+		<li><input type="radio" id="poll-answer-9" name="poll_3" value="9" /> <label for="poll-answer-9">Один раз в неделю</label></li>
+		<li><input type="radio" id="poll-answer-10" name="poll_3" value="10" /> <label for="poll-answer-10">Один раз в месяц</label></li>
+		<li><input type="radio" id="poll-answer-11" name="poll_3" value="11" /> <label for="poll-answer-11">Давно не было</label></li>
+		</ul><p style="text-align: center;"><input type="button" name="vote" value="   Голос   " class="Buttons" onclick="poll_vote(3);" onkeypress="poll_result(3);" /></p><p style="text-align: center;"><a href="#ViewPollResults" onclick="poll_result(3); return false;" onkeypress="poll_result(3); return false;" title="Просмотреть результаты опроса">Просмотреть результаты</a></p></div>
+	</form>
+</div>
+<div id="polls-3-loading" class="wp-polls-loading"><img src="http://citomedicine.ru/wp-content/plugins/wp-polls/images/loading.gif" width="16" height="16" alt="Loading ..." title="Loading ..." class="wp-polls-image" />&nbsp;Loading ...</div>
+<ul><li><a href="http://citomedicine.ru/pollsarchive">Архив опросов</a></li></ul>		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-block widget widget_wp_category_post_list_itg" id="wp_category_post_list_itg-3">
+    <div class="art-block-body"><div class="art-blockheader">
+    <div class="l"></div>
+    <div class="r"></div>
+    <h3 class="t">Новости</h3>
+</div><div class="art-blockcontent">
+    <div class="art-blockcontent-body"><ul class="wp-cpl-widget wp-cpl-theme-2"><li class="wp-cpl wp-cpl-even"><span class="wp-thumb-overlay"><span class="thumb_lay"><a href="http://citomedicine.ru/protezirovanie-zubov.html"><img width="70" height="49" src="http://citomedicine.ru/wp-content/uploads/2012/01/protezirovanie-zubov.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="protezirovanie-zubov" title="protezirovanie-zubov" /></a></span></span><a href="http://citomedicine.ru/protezirovanie-zubov.html" title="Permalink to: Протезирование зубов" target="_self">Протезирование зубов</a><p class="wp-cpl-excerpt">Прoтeзирoвaниe зубoв прoвoдится для тoгo, чтoбы сoxрaнить у чeлoвeкa пoлнoцeнную жeвaтeльную…</p></li>
+<li class="wp-cpl wp-cpl-odd"><span class="wp-thumb-overlay"><span class="thumb_lay"><a href="http://citomedicine.ru/greckie-orehi-uluchshayut-kachestvo-spermy-v-razy.html"><img width="70" height="52" src="http://citomedicine.ru/wp-content/uploads/2012/09/gr_or_1.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="Грецкие орехи для улучшения спермы" title="Грецкие орехи для улучшения спермы" /></a></span></span><a href="http://citomedicine.ru/greckie-orehi-uluchshayut-kachestvo-spermy-v-razy.html" title="Permalink to: Грецкие орехи улучшают качество спермы в разы" target="_self">Грецкие орехи улучшают качество спермы в разы</a><p class="wp-cpl-excerpt">Южноамериканские научные работники выявили, что повседневное потребление 70 грам…</p></li>
+<li class="wp-cpl wp-cpl-even"><span class="wp-thumb-overlay"><span class="thumb_lay"><a href="http://citomedicine.ru/lekarstvo-ot-raka-nahoditsya-kofe.html"><img width="68" height="70" src="http://citomedicine.ru/wp-content/uploads/2012/09/51084733_1233394419_short.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="51084733_1233394419_short" title="51084733_1233394419_short" /></a></span></span><a href="http://citomedicine.ru/lekarstvo-ot-raka-nahoditsya-kofe.html" title="Permalink to: Лекарство от рака находится в кофе" target="_self">Лекарство от рака находится в кофе</a><p class="wp-cpl-excerpt">Кофе понижает риск развития самого популярного рака кожи – базально-клеточной…</p></li>
+<li class="wp-cpl wp-cpl-odd"><span class="wp-thumb-overlay"><span class="thumb_lay"><a href="http://citomedicine.ru/virus-kotoryj-ubivaet-stafilokokk.html"><img width="70" height="70" src="http://citomedicine.ru/wp-content/uploads/2012/09/staphylococcus-aureus.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="staphylococcus-aureus" title="staphylococcus-aureus" /></a></span></span><a href="http://citomedicine.ru/virus-kotoryj-ubivaet-stafilokokk.html" title="Permalink to: Вирус который убивает стафилококк" target="_self">Вирус который убивает стафилококк</a><p class="wp-cpl-excerpt">Южноамериканские научные работники сделали новейшую вакцину, которая в свою…</p></li>
+<li class="wp-cpl wp-cpl-even"><span class="wp-thumb-overlay"><span class="thumb_lay"><a href="http://citomedicine.ru/novyj-medicinskij-preparat-dlya-profilaktiki-vich-infekcii.html"><img width="70" height="70" src="http://citomedicine.ru/wp-content/uploads/2012/09/128654-120x120.jpg" class="attachment-wp-cpl-post-thumb wp-post-image" alt="128654" title="128654" /></a></span></span><a href="http://citomedicine.ru/novyj-medicinskij-preparat-dlya-profilaktiki-vich-infekcii.html" title="Permalink to: Новый медицинский препарат для профилактики ВИЧ-инфекции" target="_self">Новый медицинский препарат для профилактики ВИЧ-инфекции</a><p class="wp-cpl-excerpt">Управление Соединенных Штатов по надзору за качеством продуктов питания и…</p></li>
+</ul>		<div class="cleared"></div>
+    </div>
+</div>		<div class="cleared"></div>
+    </div>
+</div><div class="art-widget widget widget_text" id="text-18"><div class="art-widget-content">			<div class="textwidget"><script type="text/javascript" src="http://userapi.com/js/api/openapi.js?52"></script>
+
+<!-- VK Widget -->
+<div id="vk_groups"></div>
+<script type="text/javascript">
+VK.Widgets.Group("vk_groups", {mode: 0, width: "250", height: "290"}, 39180412);
+</script></div>
+		</div></div><style type="text/css">
+	
+    	* { margin: 0; padding: 0; }
+
+        #page-wrap { width: 100px; }
+        p {}
+        div { }
+        p:first-child { }
+        #sidebar ul { }
+        li { }
+        #main { width: 100px; float: left; }
+       #sidebar { width: 210px; float:left; }
+  </style>
+    <script type="text/javascript">
+        $(function() {
+            var offset = $("#sidebar").offset();
+            var topPadding = 30;
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > offset.top) {
+                    $("#sidebar").stop().animate({
+                        marginTop: $(window).scrollTop() - offset.top + topPadding
+                    });
+                } else {
+                    $("#sidebar").stop().animate({
+                        marginTop: 10
+                    });
+                };
+            });
+        });
+    </script>
+
+
+<div id="page-wrap">
+
+<div id="sidebar">
+				
+		  	<ul>
+
+			</ul>
+		
+		</div></div>
+
+          <div class="cleared"></div>
+        </div>
+    </div>
+</div>
+<div class="cleared"></div>
+    <div class="art-footer">
+                <div class="art-footer-t"></div>
+                <div class="art-footer-l"></div>
+                <div class="art-footer-b"></div>
+                <div class="art-footer-r"></div>
+                <div class="art-footer-body">
+                    
+
+
+                    <a href="http://citomedicine.ru/feed" class='art-rss-tag-icon' title="CITOMEDICINE.RU RSS Feed"></a>
+                  <div class="art-footer-text">
+                      Использование и размещение материалов, опубликованных на сайте Citomedicine.ru, возможно только с разрешения администрации и с указанием активной гиперссылки на данный ресурс.
+<p><a href="/">Citomedicine.ru</a></p><p>Copyright © 2012. Все права защищены.</p>
+                  </div>
+            		<div class="cleared"></div>
+                </div>
+            </div>
+    		<div class="cleared"></div>
+        </div>
+    </div>
+    <div class="cleared"></div>
+    <p class="art-page-footer"></p>
+
+
+</div>
+    </div>
+</div>
+    <div id="wp-footer">
+	        <script type='text/javascript'>
+/* <![CDATA[ */
+function changeTaxonomy() {
+	if ( 0 == this.options[this.selectedIndex].value ) {
+		return;
+	}
+	if ( 0 == this.options[this.selectedIndex].value ) {
+		return;
+	}
+	location.href = this.options[this.selectedIndex].value;
+}
+
+/* ]]> */
+</script><script type='text/javascript' src='http://citomedicine.ru/wp-includes/js/jquery/ui/jquery.ui.core.min.js?ver=1.8.20'></script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-includes/js/jquery/ui/jquery.ui.widget.min.js?ver=1.8.20'></script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-includes/js/jquery/ui/jquery.ui.tabs.min.js?ver=1.8.20'></script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-includes/js/jquery/ui/jquery.effects.core.min.js?ver=1.8.20'></script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-includes/js/jquery/ui/jquery.effects.blind.min.js?ver=1.8.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var stbUserOptions = {"mode":"css","cssOptions":{"roundedCorners":true,"mbottom":10,"imgHide":"http:\/\/citomedicine.ru\/wp-content\/plugins\/wp-special-textboxes\/images\/hide.png","imgShow":"http:\/\/citomedicine.ru\/wp-content\/plugins\/wp-special-textboxes\/images\/show.png","strHide":"\u0421\u043a\u0440\u044b\u0442\u044c","strShow":"\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c"}};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-content/plugins/wp-special-textboxes/js/wstb.min.js?ver=4.3.72'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var pollsL10n = {"ajax_url":"http:\/\/citomedicine.ru\/wp-admin\/admin-ajax.php","text_wait":"Your last request is still being processed. Please wait a while ...","text_valid":"Please choose a valid poll answer.","text_multiple":"Maximum number of choices allowed: ","show_loading":"1","show_fading":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-content/plugins/wp-polls/polls-js.js?ver=2.63'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ratingsL10n = {"plugin_url":"http:\/\/citomedicine.ru\/wp-content\/plugins\/wp-postratings","ajax_url":"http:\/\/citomedicine.ru\/wp-admin\/admin-ajax.php","text_wait":"Please rate only 1 post at a time.","image":"updown_crystal","image_ext":"gif","max":"2","show_loading":"1","show_fading":"1","custom":"1"};
+var ratings_1_mouseover_image=new Image();ratings_1_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_1_over."+ratingsL10n.image_ext;var ratings_2_mouseover_image=new Image();ratings_2_mouseover_image.src=ratingsL10n.plugin_url+"/images/"+ratingsL10n.image+"/rating_2_over."+ratingsL10n.image_ext;;
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://citomedicine.ru/wp-content/plugins/wp-postratings/postratings-js.js?ver=1.63'></script>
+	        <!-- 189 queries. 1.376 seconds. -->
+    </div>
+
+</body>
+</html>
+
+<!-- Dynamic page generated in 1.367 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-10-27 12:55:09 -->
+<!-- super cache -->

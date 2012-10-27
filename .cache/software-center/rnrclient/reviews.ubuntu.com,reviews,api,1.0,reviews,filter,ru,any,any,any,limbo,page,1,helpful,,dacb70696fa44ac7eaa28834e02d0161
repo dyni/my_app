@@ -1,0 +1,111 @@
+status: 200
+content-length: 4217
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7), 1.1 reviews.ubuntu.com
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/ru/any/any/any/limbo/page/1/helpful/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Sat, 27 Oct 2012 08:51:06 GMT
+server: Apache/2.2.14 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 08:46:06 GMT
+connection: close
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 08:46:06 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "lp-ppa-commercial-ppa-uploaders-limbo", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "LIMBO", 
+        "language": "ru", 
+        "reviewer_username": "heights999", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Очень атмосферная и оригинальная игра. Настолько, что я даже не сразу заметил, что она целиком черно-белая. Хорошо, что такие игры еще выходят. ", 
+        "date_deleted": null, 
+        "summary": "Атмосферно", 
+        "version": "1.3-0ubuntu1", 
+        "id": 57638, 
+        "date_created": "2012-09-24 17:44:53", 
+        "reviewer_displayname": "highstaker", 
+        "package_name": "limbo", 
+        "distroseries": "oneiric"
+    }, 
+    {
+        "origin": "lp-ppa-commercial-ppa-uploaders-limbo", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "LIMBO", 
+        "language": "ru", 
+        "reviewer_username": "muzarsenal", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Хорошая игрушка, но страшно прожорливая к ресурсам для своего размера. Судя по всему, работает не как нативное приложение, а упакована в эмулятор", 
+        "date_deleted": null, 
+        "summary": "Хорошая игрушка", 
+        "version": "1.3-0ubuntu1", 
+        "id": 56371, 
+        "date_created": "2012-09-07 11:19:27", 
+        "reviewer_displayname": "Sergey Miroshnichenko", 
+        "package_name": "limbo", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "lp-ppa-commercial-ppa-uploaders-limbo", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "LIMBO", 
+        "language": "ru", 
+        "reviewer_username": "WhzTch3", 
+        "usefulness_total": 8, 
+        "usefulness_favorable": 8, 
+        "review_text": "Замечательная анимация, атмосфера и трогательный сюжет.\nИ как всегда в гениальных инграх знания языка вообще не нужно.\nКупил в рамке акции Humble Bundle 5", 
+        "date_deleted": null, 
+        "summary": "Обалденная игра", 
+        "version": "1.0-0ubuntu4", 
+        "id": 48749, 
+        "date_created": "2012-06-03 16:01:35", 
+        "reviewer_displayname": "secans", 
+        "package_name": "limbo", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "lp-ppa-commercial-ppa-uploaders-limbo", 
+        "rating": 3, 
+        "hide": false, 
+        "app_name": "LIMBO", 
+        "language": "ru", 
+        "reviewer_username": "nightwing666", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Стильная игрушка, но почему-то не работает звук.", 
+        "date_deleted": null, 
+        "summary": "Неплохо", 
+        "version": "1.0-0ubuntu4", 
+        "id": 48790, 
+        "date_created": "2012-06-03 22:31:39", 
+        "reviewer_displayname": "Oleg \"Nightwing\" Lomakin", 
+        "package_name": "limbo", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "lp-ppa-commercial-ppa-uploaders-limbo", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "LIMBO", 
+        "language": "ru", 
+        "reviewer_username": "inconstant86", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Затягивающий сюжет и чарующая атмосфера))\nПроблема с отсутствием звука решилась отключением на время игры pulseaudio", 
+        "date_deleted": null, 
+        "summary": "Замечательная игрушка", 
+        "version": "1.0-0ubuntu4", 
+        "id": 49440, 
+        "date_created": "2012-06-11 13:38:58", 
+        "reviewer_displayname": "Vasiliy Pan'kin", 
+        "package_name": "limbo", 
+        "distroseries": "precise"
+    }
+]

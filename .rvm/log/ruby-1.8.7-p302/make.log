@@ -1,0 +1,282 @@
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c array.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c bignum.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c class.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c compar.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c dir.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c dln.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c enum.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c enumerator.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c error.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c eval.c
+eval.c: В функции «rb_eval_string_wrap»:
+eval.c:1744:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «rb_eval_cmd»:
+eval.c:1885:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «call_trace_func»:
+eval.c:2736:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «rb_raise_jump»:
+eval.c:4770:2: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «method_missing»:
+eval.c:5736:2: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «rb_call0»:
+eval.c:5894:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «rb_f_eval»:
+eval.c:6696:2: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «exec_under»:
+eval.c:6720:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «rb_load»:
+eval.c:7036:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «call_end_proc»:
+eval.c:8071:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «rb_f_END»:
+eval.c:8084:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+eval.c: В функции «mproc»:
+eval.c:9860:5: предупреждение: assignment discards «volatile» qualifier from pointer target type [по умолчанию включена]
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c file.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c gc.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c hash.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c inits.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c io.c
+io.c: В функции «next_argv»:
+io.c:4615:10: предупреждение: ignoring return value of «fchown», declared with attribute warn_unused_result [-Wunused-result]
+io.c: В функции «appendline»:
+io.c:1574:11: предупреждение: ignoring return value of «fread», declared with attribute warn_unused_result [-Wunused-result]
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c marshal.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c math.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c numeric.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c object.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c pack.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c parse.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c process.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c prec.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c random.c
+random.c: В функции «random_seed»:
+random.c:288:17: предупреждение: ignoring return value of «read», declared with attribute warn_unused_result [-Wunused-result]
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c range.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c re.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c regex.c
+regex.c: В функции «ruby_re_compile_pattern»:
+regex.c:1369:4: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «long int» [-Wformat]
+regex.c:1369:4: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «long int» [-Wformat]
+regex.c:2033:4: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «long int» [-Wformat]
+regex.c:2033:4: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «long int» [-Wformat]
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c ruby.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c signal.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c sprintf.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c st.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c string.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c struct.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c time.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c util.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c variable.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c version.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c dmyext.c
+ar rcu libruby-static.a array.o bignum.o class.o compar.o dir.o dln.o enum.o enumerator.o error.o eval.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o prec.o random.o range.o re.o regex.o ruby.o signal.o sprintf.o st.o string.o struct.o time.o util.o variable.o version.o  dmyext.o
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -I. -I.    -c main.c
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -L.  -rdynamic -Wl,-export-dynamic   main.o  libruby-static.a -lrt -ldl -lcrypt -lm   -o miniruby
+rbconfig.rb updated
+gcc -shared -Wl,-soname,libruby.so.1.8   array.o bignum.o class.o compar.o dir.o dln.o enum.o enumerator.o error.o eval.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o prec.o random.o range.o re.o regex.o ruby.o signal.o sprintf.o st.o string.o struct.o time.o util.o variable.o version.o  dmyext.o -lrt -ldl -lcrypt -lm   -o libruby.so.1.8.7
+compiling Win32API
+compiling bigdecimal
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/bigdecimal'
+mkdir -p ../../.ext/x86_64-linux
+gcc -I. -I../.. -I../../. -I../.././ext/bigdecimal -DBASE=1000000000UL -DBASE_FIG=9    -fPIC -g -O2  -fPIC   -c bigdecimal.c
+gcc -shared -o ../../.ext/x86_64-linux/bigdecimal.so bigdecimal.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/math.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/util.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/jacobian.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/newton.rb ../../.ext/common/bigdecimal
+cp ../.././ext/bigdecimal/lib/bigdecimal/ludcmp.rb ../../.ext/common/bigdecimal
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/bigdecimal'
+compiling curses
+compiling dbm
+compiling digest
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest'
+gcc -I. -I../.. -I../../. -I../.././ext/digest   -fPIC -g -O2  -fPIC   -c digest.c
+digest.c: В функции «rb_digest_instance_inspect»:
+digest.c:280:11: предупреждение: assignment discards «const» qualifier from pointer target type [по умолчанию включена]
+gcc -shared -o ../../.ext/x86_64-linux/digest.so digest.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+cp ../.././ext/digest/lib/digest.rb ../../.ext/common
+cp ../.././ext/digest/lib/md5.rb ../../.ext/common
+cp ../.././ext/digest/lib/sha1.rb ../../.ext/common
+cp ../.././ext/digest/digest.h ../../.ext/x86_64-linux
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest'
+compiling digest/bubblebabble
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/bubblebabble'
+mkdir -p ../../../.ext/x86_64-linux/digest
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/bubblebabble -I../../.././ext/digest/bubblebabble/.. -DHAVE_CONFIG_H    -fPIC -g -O2  -fPIC   -c bubblebabble.c
+gcc -shared -o ../../../.ext/x86_64-linux/digest/bubblebabble.so bubblebabble.o -L. -L../../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/bubblebabble'
+compiling digest/md5
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/md5'
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/md5 -I../../.././ext/digest/md5/.. -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H    -fPIC -g -O2  -fPIC   -c md5init.c
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/md5 -I../../.././ext/digest/md5/.. -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H    -fPIC -g -O2  -fPIC   -c md5.c
+gcc -shared -o ../../../.ext/x86_64-linux/digest/md5.so md5init.o md5.o -L. -L../../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/md5'
+compiling digest/rmd160
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/rmd160'
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/rmd160 -I../../.././ext/digest/rmd160/.. -DNDEBUG -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H    -fPIC -g -O2  -fPIC   -c rmd160init.c
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/rmd160 -I../../.././ext/digest/rmd160/.. -DNDEBUG -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H    -fPIC -g -O2  -fPIC   -c rmd160.c
+gcc -shared -o ../../../.ext/x86_64-linux/digest/rmd160.so rmd160init.o rmd160.o -L. -L../../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/rmd160'
+compiling digest/sha1
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/sha1'
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/sha1 -I../../.././ext/digest/sha1/.. -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H    -fPIC -g -O2  -fPIC   -c sha1init.c
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/sha1 -I../../.././ext/digest/sha1/.. -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H    -fPIC -g -O2  -fPIC   -c sha1.c
+gcc -shared -o ../../../.ext/x86_64-linux/digest/sha1.so sha1init.o sha1.o -L. -L../../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/sha1'
+compiling digest/sha2
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/sha2'
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/sha2 -I../../.././ext/digest/sha2/.. -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H -DHAVE_TYPE_UINT64_T    -fPIC -g -O2  -fPIC   -c sha2.c
+gcc -I. -I../../.. -I../../../. -I../../.././ext/digest/sha2 -I../../.././ext/digest/sha2/.. -DHAVE_CONFIG_H -DHAVE_SYS_CDEFS_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H -DHAVE_TYPE_UINT64_T    -fPIC -g -O2  -fPIC   -c sha2init.c
+gcc -shared -o ../../../.ext/x86_64-linux/digest/sha2.so sha2.o sha2init.o -L. -L../../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../../.ext/common/digest
+cp ../../.././ext/digest/sha2/lib/sha2.rb ../../../.ext/common/digest
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/digest/sha2'
+compiling dl
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/dl'
+gcc -I. -I../.. -I../../. -I../.././ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR    -I. -fPIC -g -O2  -fPIC  -fno-defer-pop -fno-omit-frame-pointer  -c ptr.c
+ptr.c: В функции «rb_dlptr_inspect»:
+ptr.c:463:5: предупреждение: format «%lx» expects argument of type «long unsigned int», but argument 5 has type «struct ptr_data *» [-Wformat]
+ptr.c:463:5: предупреждение: format «%lx» expects argument of type «long unsigned int», but argument 6 has type «void *» [-Wformat]
+ptr.c:463:5: предупреждение: format «%lx» expects argument of type «long unsigned int», but argument 5 has type «struct ptr_data *» [-Wformat]
+ptr.c:463:5: предупреждение: format «%lx» expects argument of type «long unsigned int», but argument 6 has type «void *» [-Wformat]
+gcc -I. -I../.. -I../../. -I../.././ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR    -I. -fPIC -g -O2  -fPIC  -fno-defer-pop -fno-omit-frame-pointer  -c handle.c
+Generating call.func
+  void
+  char
+  short
+  int
+  long
+  float
+  double
+gcc -I. -I../.. -I../../. -I../.././ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR    -I. -fPIC -g -O2  -fPIC  -fno-defer-pop -fno-omit-frame-pointer  -c sym.c
+sym.c: В функции «rb_dlsym_inspect»:
+sym.c:272:21: предупреждение: format «%lx» expects argument of type «long unsigned int», but argument 4 has type «struct sym_data *» [-Wformat]
+sym.c:272:21: предупреждение: format «%lx» expects argument of type «long unsigned int», but argument 5 has type «void *» [-Wformat]
+sym.c:272:21: предупреждение: format «%lx» expects argument of type «long unsigned int», but argument 4 has type «struct sym_data *» [-Wformat]
+sym.c:272:21: предупреждение: format «%lx» expects argument of type «long unsigned int», but argument 5 has type «void *» [-Wformat]
+Generating callback.func
+Generating cbtable.func
+gcc -I. -I../.. -I../../. -I../.././ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR    -I. -fPIC -g -O2  -fPIC  -fno-defer-pop -fno-omit-frame-pointer  -c dl.c
+gcc -shared -o ../../.ext/x86_64-linux/dl.so ptr.o handle.o sym.o dl.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby -ldl  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/types.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/win32.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/struct.rb ../../.ext/common/dl
+cp ../.././ext/dl/lib/dl/import.rb ../../.ext/common/dl
+cp dlconfig.h ../../.ext/x86_64-linux
+cp ../.././ext/dl/dl.h ../../.ext/x86_64-linux
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/dl'
+compiling etc
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/etc'
+gcc -I. -I../.. -I../../. -I../.././ext/etc -DHAVE_GETLOGIN -DHAVE_GETPWENT -DHAVE_GETGRENT -DHAVE_ST_PW_GECOS -DHAVE_ST_PW_PASSWD -DHAVE_ST_GR_PASSWD -DHAVE_TYPE_UID_T -DPW_UID2VAL=UINT2NUM -DPW_VAL2UID=NUM2UINT -DHAVE_TYPE_GID_T -DPW_GID2VAL=UINT2NUM -DPW_VAL2GID=NUM2UINT    -fPIC -g -O2  -fPIC   -c etc.c
+gcc -shared -o ../../.ext/x86_64-linux/etc.so etc.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/etc'
+compiling fcntl
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/fcntl'
+gcc -I. -I../.. -I../../. -I../.././ext/fcntl   -fPIC -g -O2  -fPIC   -c fcntl.c
+gcc -shared -o ../../.ext/x86_64-linux/fcntl.so fcntl.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/fcntl'
+compiling gdbm
+compiling iconv
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/iconv'
+gcc -I. -I../.. -I../../. -I../.././ext/iconv -DHAVE_ICONV    -fPIC -g -O2  -fPIC   -c iconv.c
+gcc -shared -o ../../.ext/x86_64-linux/iconv.so iconv.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/iconv'
+compiling io/wait
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/io/wait'
+mkdir -p ../../../.ext/x86_64-linux/io
+gcc -I. -I../../.. -I../../../. -I../../.././ext/io/wait -DFIONREAD_HEADER="<sys/ioctl.h>"    -fPIC -g -O2  -fPIC   -c wait.c
+wait.c: В функции «io_wait»:
+wait.c:115:10: предупреждение: ignoring return value of «fileno», declared with attribute warn_unused_result [-Wunused-result]
+wait.c: В функции «io_ready_p»:
+wait.c:65:10: предупреждение: ignoring return value of «fileno», declared with attribute warn_unused_result [-Wunused-result]
+gcc -shared -o ../../../.ext/x86_64-linux/io/wait.so wait.o -L. -L../../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../../.ext/common/io
+cp ../../.././ext/io/wait/lib/nonblock.rb ../../../.ext/common/io
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/io/wait'
+compiling nkf
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/nkf'
+gcc -I. -I../.. -I../../. -I../.././ext/nkf   -fPIC -g -O2  -fPIC   -c nkf.c
+gcc -shared -o ../../.ext/x86_64-linux/nkf.so nkf.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+cp ../.././ext/nkf/lib/kconv.rb ../../.ext/common
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/nkf'
+compiling openssl
+compiling pty
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/pty'
+gcc -I. -I../.. -I../../. -I../.././ext/pty -DHAVE_SYS_STROPTS_H -DHAVE_SETRESUID -DHAVE_PTY_H -DHAVE_OPENPTY    -fPIC -g -O2  -fPIC   -c pty.c
+pty.c: В функции «establishShell»:
+pty.c:273:7: предупреждение: ignoring return value of «write», declared with attribute warn_unused_result [-Wunused-result]
+pty.c:289:9: предупреждение: ignoring return value of «read», declared with attribute warn_unused_result [-Wunused-result]
+gcc -shared -o ../../.ext/x86_64-linux/pty.so pty.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby -lutil  -lrt -ldl -lcrypt -lm   -lc
+cp ../.././ext/pty/lib/expect.rb ../../.ext/common
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/pty'
+compiling racc/cparse
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/racc/cparse'
+mkdir -p ../../../.ext/x86_64-linux/racc
+gcc -I. -I../../.. -I../../../. -I../../.././ext/racc/cparse   -fPIC -g -O2  -fPIC   -c cparse.c
+gcc -shared -o ../../../.ext/x86_64-linux/racc/cparse.so cparse.o -L. -L../../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/racc/cparse'
+compiling readline
+compiling sdbm
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/sdbm'
+gcc -I. -I../.. -I../../. -I../.././ext/sdbm   -fPIC -g -O2  -fPIC   -c init.c
+gcc -I. -I../.. -I../../. -I../.././ext/sdbm   -fPIC -g -O2  -fPIC   -c _sdbm.c
+_sdbm.c: В функции «makroom»:
+_sdbm.c:442:2: предупреждение: ignoring return value of «write», declared with attribute warn_unused_result [-Wunused-result]
+gcc -shared -o ../../.ext/x86_64-linux/sdbm.so init.o _sdbm.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/sdbm'
+compiling socket
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/socket'
+gcc -I. -I../.. -I../../. -I../.././ext/socket -DHAVE_ARPA_INET_H -DENABLE_IPV6 -DINET6 -DHAVE_SOCKADDR_STORAGE -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_SENDMSG -DHAVE_RECVMSG -DHAVE_ST_MSG_CONTROL -DHAVE_GETNAMEINFO -DHAVE_GETADDRINFO -DHAVE_TYPE_SOCKLEN_T -DHAVE_SYS_UN_H -DHAVE_SYS_UIO_H -DHAVE_SOCKET -DHAVE_GETHOSTBYNAME2 -DHAVE_SOCKETPAIR -DHAVE_GETHOSTNAME    -fPIC -g -O2  -fPIC   -c socket.c
+socket.c: В функции «str_isnumber»:
+socket.c:826:5: предупреждение: ignoring return value of «strtoul», declared with attribute warn_unused_result [-Wunused-result]
+gcc -shared -o ../../.ext/x86_64-linux/socket.so socket.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/socket'
+compiling stringio
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/stringio'
+gcc -I. -I../.. -I../../. -I../.././ext/stringio   -fPIC -g -O2  -fPIC   -c stringio.c
+gcc -shared -o ../../.ext/x86_64-linux/stringio.so stringio.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/stringio'
+compiling strscan
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/strscan'
+gcc -I. -I../.. -I../../. -I../.././ext/strscan   -fPIC -g -O2  -fPIC   -c strscan.c
+gcc -shared -o ../../.ext/x86_64-linux/strscan.so strscan.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/strscan'
+compiling syck
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/syck'
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c gram.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c emitter.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c syck.c
+syck.c: В функции «syck_default_error_handler»:
+syck.c:502:9: предупреждение: format «%d» expects argument of type «int», but argument 3 has type «long int» [-Wformat]
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c node.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c handler.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c token.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c bytecode.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c rubyext.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c implicit.c
+gcc -I. -I../.. -I../../. -I../.././ext/syck -DHAVE_ST_H    -fPIC -g -O2  -fPIC   -c yaml2byte.c
+gcc -shared -o ../../.ext/x86_64-linux/syck.so gram.o emitter.o syck.o node.o handler.o token.o bytecode.o rubyext.o implicit.o yaml2byte.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/syck'
+compiling syslog
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/syslog'
+gcc -I. -I../.. -I../../. -I../.././ext/syslog -DHAVE_SYSLOG_H -DHAVE_OPENLOG -DHAVE_SETLOGMASK    -fPIC -g -O2  -fPIC   -c syslog.c
+gcc -shared -o ../../.ext/x86_64-linux/syslog.so syslog.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/syslog'
+compiling thread
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/thread'
+gcc -I. -I../.. -I../../. -I../.././ext/thread   -DUSE_MEM_POOLS -fPIC -g -O2  -fPIC   -c thread.c
+gcc -shared -o ../../.ext/x86_64-linux/thread.so thread.o -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+cp ../.././ext/thread/lib/thread.rb ../../.ext/common
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302/ext/thread'
+compiling tk
+compiling tk/tkutil
+compiling win32ole
+compiling zlib
+making ruby
+make[1]: Вход в каталог `/home/kostia/.rvm/src/ruby-1.8.7-p302'
+gcc -g -O2  -fPIC    -DRUBY_EXPORT -D_GNU_SOURCE=1  -L.  -rdynamic -Wl,-export-dynamic   main.o  -Wl,-R -Wl,/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -L/home/kostia/.rvm/rubies/ruby-1.8.7-p302/lib -lruby -lrt -ldl -lcrypt -lm   -o ruby
+make[1]: Выход из каталога `/home/kostia/.rvm/src/ruby-1.8.7-p302'

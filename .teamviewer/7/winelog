@@ -1,0 +1,109 @@
+TeamViewer: 7.0.9360
+Profile: /home/kostia (kostia)
+Desktop: ubuntu-2d
+No LSB modules are available.
+Distributor ID:	Ubuntu
+Description:	Ubuntu 12.04.1 LTS
+Release:	12.04
+Codename:	precise
+ 
+err:ole:TLB_ReadTypeLib Loading of typelib L"C:\\windows\\system32\\stdole2.tlb" failed with error 2
+err:module:import_dll Library ddraw.dll (which is needed by L"C:\\windows\\system32\\dxdiagn.dll") not found
+err:ole:TLB_ReadTypeLib Loading of typelib L"mshtml.tlb" failed with error 2
+err:mshtml:register_server typelib registration failed: 80029c4a
+err:module:import_dll Library msi.dll (which is needed by L"C:\\windows\\system32\\msiexec.exe") not found
+err:winedevice:ServiceMain driver L"MountMgr" failed to load
+wine: configuration in '/home/kostia/.teamviewer/7' has been updated.
+	libXtst.so.6 => /usr/lib/i386-linux-gnu/libXtst.so.6 (0xf7641000)
+err:secur32:SECUR32_initSchannelSP libgnutls not found, SSL connections will fail
+err:ntlm:SECUR32_initNTLMSP ntlm_auth was not found or is outdated. Make sure that ntlm_auth >= 3.0.25 is in your path.
+err:ntlm:SECUR32_initNTLMSP Usually, you can find it in the winbind package of your distribution.
+fixme:heap:HeapSetInformation (nil) 1 (nil) 0
+fixme:ole:CoInitializeSecurity ((nil),-1,(nil),(nil),0,3,(nil),0,(nil)) - stub!
+fixme:process:SetProcessShutdownParameters (00000100, 00000000): partial stub.
+fixme:resource:GetGuiResources (0xffffffff,0): stub
+fixme:win:EnumDisplayDevicesW ((null),0,0x33d830,0x00000000), stub!
+fixme:win:EnumDisplayDevicesW (L"\\\\.\\DISPLAY1",0,0x33d830,0x00000000), stub!
+fixme:win:EnumDisplayDevicesW ((null),1,0x33d830,0x00000000), stub!
+fixme:heap:HeapSetInformation (nil) 1 (nil) 0
+fixme:winhttp:WinHttpGetIEProxyConfigForCurrentUser returning no proxy used
+fixme:winhttp:WinHttpGetProxyForUrl 0x1, L"http://www.teamviewer.com/", 0x1a7e81c, 0x1a7e714
+fixme:winhttp:WinHttpGetProxyForUrl 0x1, L"https://www.teamviewer.com:443/", 0x1a7e81c, 0x1a7e714
+fixme:msg:pack_message msg 14 (WM_ERASEBKGND) not supported yet
+fixme:msg:ChangeWindowMessageFilter 233 00000001
+fixme:msg:ChangeWindowMessageFilter 4a 00000001
+fixme:msg:ChangeWindowMessageFilter 407 00000001
+fixme:msg:ChangeWindowMessageFilter 49 00000001
+fixme:bitmap:CreateBitmapIndirect planes = 0
+fixme:bitmap:CreateBitmapIndirect planes = 0
+fixme:wtsapi:WTSRegisterSessionNotification Stub 0x20074 0x00000000
+fixme:msg:ChangeWindowMessageFilter c05c 00000001
+fixme:winhttp:session_set_option unimplemented option 101
+fixme:richedit:ME_HandleMessage EM_SETFONTSIZE: stub
+fixme:wbemprox:wbem_locator_ConnectServer 0x1cf3490, L"ROOT\\CIMV2", (null), (null), (null), 0x00000000, (null), (nil), 0x197e22c)
+fixme:advapi:LsaOpenPolicy ((null),0x197e1b8,0x00000800,0x197e1d0) stub
+fixme:advapi:LsaLookupNames (0xcafe,0x00000001,0x197e1f8,0x197e210,0x197e214) stub
+fixme:advapi:LsaClose (0xcafe) stub
+fixme:advapi:LsaOpenPolicy ((null),0x197e1e0,0x00000001,0x197e1fc) stub
+fixme:advapi:LsaClose (0xcafe) stub
+fixme:nls:GetGeoInfoW -1 4 0x33e3f0 3 0
+fixme:mixer:ALSA_MixerInit No master control found on ThinkPad Console Audio Control, disabling mixer
+err:avicap:query_video_device /dev/video0: Querying failed: Not a V4L compatible device
+fixme:nls:GetGeoInfoW -1 4 0x33e1cc 3 0
+fixme:nls:GetGeoInfoW -1 4 0x33e1cc 3 0
+fixme:nls:GetGeoInfoW -1 4 0x33e1cc 3 0
+fixme:nls:GetGeoInfoW -1 4 0x33e1cc 3 0
+fixme:heap:HeapSetInformation (nil) 1 (nil) 0
+err:secur32:SECUR32_initSchannelSP libgnutls not found, SSL connections will fail
+err:ntlm:SECUR32_initNTLMSP ntlm_auth was not found or is outdated. Make sure that ntlm_auth >= 3.0.25 is in your path.
+err:ntlm:SECUR32_initNTLMSP Usually, you can find it in the winbind package of your distribution.
+fixme:nls:GetGeoInfoW -1 4 0x105e2f0 3 0
+fixme:nls:GetGeoInfoW -1 4 0x105e2ec 3 0
+fixme:process:SetProcessShutdownParameters (00000100, 00000000): partial stub.
+fixme:ole:CoInitializeSecurity ((nil),-1,(nil),(nil),4,3,(nil),0,(nil)) - stub!
+fixme:advapi:SetSecurityInfo stub
+fixme:win:EnumDisplayDevicesW ((null),0,0x33eec0,0x00000000), stub!
+fixme:win:EnumDisplayDevicesW (L"\\\\.\\DISPLAY1",0,0x33eec0,0x00000000), stub!
+fixme:win:EnumDisplayDevicesW ((null),1,0x33eec0,0x00000000), stub!
+fixme:resource:GetGuiResources (0xffffffff,0): stub
+fixme:iphlpapi:SendARP (DestIP 0x0100a8c0, SrcIP 0x00000000, pMacAddr 0x2fbda88, PhyAddrLen 0x2fbda98): stub
+fixme:system:SystemParametersInfoW Unimplemented action: 80 (SPI_GETPOWEROFFTIMEOUT)
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:keyboard:X11DRV_ActivateKeyboardLayout 0x4190419, 0000: semi-stub!
+fixme:wtsapi:WTSUnRegisterSessionNotification Stub 0x20074

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [[ -s "/home/kostia/.rvm/environments/ruby-1.9.2-p320@global" ]]
+then
+  source "/home/kostia/.rvm/environments/ruby-1.9.2-p320@global"
+  exec ri "$@"
+else
+  echo "ERROR: Missing RVM environment file: '/home/kostia/.rvm/environments/ruby-1.9.2-p320@global'" >&2
+  exit 1
+fi

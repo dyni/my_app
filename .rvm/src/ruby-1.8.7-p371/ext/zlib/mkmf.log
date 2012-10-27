@@ -1,0 +1,125 @@
+have_library: checking for deflateReset() in -lz... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lz  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «deflateReset» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))deflateReset; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lz  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lz
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { deflateReset(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for deflateReset() in -llibz... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -llibz  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «deflateReset» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))deflateReset; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -llibz  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -llibz
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { deflateReset(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for deflateReset() in -lzlib1... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lzlib1  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «deflateReset» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))deflateReset; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lzlib1  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lzlib1
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { deflateReset(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for deflateReset() in -lzlib... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lzlib  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «deflateReset» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))deflateReset; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lzlib  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lzlib
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { deflateReset(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for deflateReset() in -lzdll... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lzdll  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «deflateReset» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))deflateReset; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/zlib    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lzdll  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lzdll
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { deflateReset(); return 0; }
+/* end */
+
+--------------------
+

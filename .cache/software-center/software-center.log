@@ -1,0 +1,76 @@
+2012-10-27 12:42:30,815 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2012-10-27 12:42:30,830 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 12:42:31,016 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2012-10-27 12:43:15,632 - softwarecenter.ui.gtk3.app - INFO - software-center-agent finished with status 0
+2012-10-27 12:43:15,633 - softwarecenter.db.database - INFO - reopen() database
+2012-10-27 12:43:15,633 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 12:46:05,308 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 137, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,308 - debtagshw.opengl - INFO - gl vendor: Tungsten Graphics, Inc
+2012-10-27 12:46:05,309 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 138, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,309 - debtagshw.opengl - INFO - gl renderer: Mesa DRI Intel(R) Sandybridge Mobile 
+2012-10-27 12:46:05,309 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 139, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,309 - debtagshw.opengl - INFO - gl version: 3.0 Mesa 8.0.2
+2012-10-27 12:46:05,419 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 137, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,419 - debtagshw.opengl - INFO - gl vendor: Tungsten Graphics, Inc
+2012-10-27 12:46:05,419 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 138, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,419 - debtagshw.opengl - INFO - gl renderer: Mesa DRI Intel(R) Sandybridge Mobile 
+2012-10-27 12:46:05,420 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 139, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,420 - debtagshw.opengl - INFO - gl version: 3.0 Mesa 8.0.2
+2012-10-27 12:46:05,503 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 137, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,503 - debtagshw.opengl - INFO - gl vendor: Tungsten Graphics, Inc
+2012-10-27 12:46:05,505 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 138, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,504 - debtagshw.opengl - INFO - gl renderer: Mesa DRI Intel(R) Sandybridge Mobile 
+2012-10-27 12:46:05,505 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 139, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,505 - debtagshw.opengl - INFO - gl version: 3.0 Mesa 8.0.2
+2012-10-27 12:46:05,588 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 137, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,588 - debtagshw.opengl - INFO - gl vendor: Tungsten Graphics, Inc
+2012-10-27 12:46:05,589 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 138, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,589 - debtagshw.opengl - INFO - gl renderer: Mesa DRI Intel(R) Sandybridge Mobile 
+2012-10-27 12:46:05,589 - softwarecenter.fixme - WARNING - logs to the root logger: '('/usr/lib/python2.7/dist-packages/debtagshw/opengl.py', 139, '_get_opengl_vendor_renderer_version_tuple')'
+2012-10-27 12:46:05,589 - debtagshw.opengl - INFO - gl version: 3.0 Mesa 8.0.2
+2012-10-27 15:06:24,413 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2012-10-27 15:06:24,444 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 15:06:25,253 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2012-10-27 15:06:25,428 - softwarecenter.ui.gtk3.app - INFO - show_available_packages: search_text is '', app is None.
+2012-10-27 15:06:25,435 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 15:06:39,778 - softwarecenter.ui.gtk3.app - INFO - software-center-agent finished with status 0
+2012-10-27 15:06:39,779 - softwarecenter.db.database - INFO - reopen() database
+2012-10-27 15:06:39,779 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 15:09:32,304 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 15:29:04,304 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 15:31:18,305 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:25:25,232 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2012-10-27 16:25:25,236 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 16:25:25,526 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2012-10-27 16:25:25,682 - softwarecenter.ui.gtk3.app - INFO - show_available_packages: search_text is '', app is None.
+2012-10-27 16:25:26,058 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:25:46,380 - softwarecenter.ui.gtk3.app - INFO - software-center-agent finished with status 0
+2012-10-27 16:25:46,381 - softwarecenter.db.database - INFO - reopen() database
+2012-10-27 16:25:46,381 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 16:27:53,961 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:37:32,495 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:37:42,304 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:44:26,267 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2012-10-27 16:44:26,271 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 16:44:26,554 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2012-10-27 16:44:26,715 - softwarecenter.ui.gtk3.app - INFO - show_available_packages: search_text is '', app is None.
+2012-10-27 16:44:27,021 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:44:38,232 - softwarecenter.ui.gtk3.app - INFO - software-center-agent finished with status 0
+2012-10-27 16:44:38,232 - softwarecenter.db.database - INFO - reopen() database
+2012-10-27 16:44:38,232 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 16:45:52,260 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:46:01,304 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:50:23,304 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 16:56:01,305 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 17:00:03,305 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 21:23:39,737 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2012-10-27 21:23:39,804 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 21:23:40,639 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2012-10-27 21:23:40,805 - softwarecenter.ui.gtk3.app - INFO - show_available_packages: search_text is '', app is [Application: appname= pkgname=teamviewer].
+2012-10-27 21:23:40,826 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 21:23:51,094 - softwarecenter.ui.gtk3.app - INFO - software-center-agent finished with status 0
+2012-10-27 21:23:51,095 - softwarecenter.db.database - INFO - reopen() database
+2012-10-27 21:23:51,095 - softwarecenter.db.database - INFO - open() database: path=None use_axi=True use_agent=True
+2012-10-27 21:41:05,109 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 21:41:05,889 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2012-10-27 21:41:08,620 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: 'None'

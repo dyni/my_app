@@ -1,0 +1,60 @@
+2012-10-27 18:15:28,673 - ubuntuone.SyncDaemon.Main - INFO - Starting Ubuntu One client version 3.0.2
+2012-10-27 18:15:28,673 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/kostia/Ubuntu One' as root dir
+2012-10-27 18:15:28,673 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/kostia/.local/share/ubuntuone/syncdaemon' as data dir
+2012-10-27 18:15:28,673 - ubuntuone.SyncDaemon.Main - INFO - Using '/home/kostia/.local/share/ubuntuone/shares' as shares root dir
+2012-10-27 18:15:28,673 - ubuntuone.SyncDaemon.tritcask - INFO - Initializing Tritcask on: /home/kostia/.local/share/ubuntuone/syncdaemon/tritcask
+2012-10-27 18:15:28,675 - ubuntuone.SyncDaemon.tritcask - INFO - found 1 data files, 0 dead and 0 broken files
+2012-10-27 18:15:28,681 - ubuntuone.SyncDaemon.tritcask - INFO - keydir ready! (keys: 2)
+2012-10-27 18:15:28,716 - ubuntuone.SyncDaemon.fsm - INFO - loading updated metadata
+2012-10-27 18:15:28,717 - ubuntuone.SyncDaemon.fsm - INFO - initialized: idx_path: 1, idx_node_id: 0, shares: 1
+2012-10-27 18:15:28,763 - ubuntuone.SyncDaemon.filesystem_notifications.GeneralProcessor - INFO - Ignoring files: ['\\A#.*\\Z', '\\A.*~\\Z', '\\A.*\\.py[oc]\\Z', '\\A.*\\.sw[nopx]\\Z', '\\A.*\\.swpx\\Z', '\\A\\..*\\.tmp\\Z', '\\A\\.~lock\\..*#\\Z', '\\A\\.goutputstream-.*\\Z']
+2012-10-27 18:15:28,772 - ubuntuone.SyncDaemon.TunnelRunner - INFO - Proxy support not installed.
+2012-10-27 18:15:28,773 - ubuntuone.SyncDaemon.HQ - INFO - HashQueue: _hasher started
+2012-10-27 18:15:29,275 - ubuntuone.SyncDaemon.DBus - INFO - DBusInterface initialized.
+2012-10-27 18:15:29,275 - ubuntuone.SyncDaemon.InteractionInterfaces - INFO - connect: args (<ubuntuone.syncdaemon.interaction_interfaces.SyncdaemonService object at 0x1a39c50>,), kwargs {'autoconnecting': True}.
+2012-10-27 18:15:29,275 - ubuntuone.SyncDaemon.InteractionInterfaces - INFO - connect: result <generator object connect at 0x34b2a00>.
+2012-10-27 18:15:29,447 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'INIT'  (queues IDLE  connection 'Not User Not Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 18:15:29,448 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan starting...
+2012-10-27 18:15:29,448 - ubuntuone.SyncDaemon.local_rescan - INFO - start scan all volumes
+2012-10-27 18:15:29,476 - ubuntuone.SyncDaemon.local_rescan - INFO - processing trash
+2012-10-27 18:15:29,476 - ubuntuone.SyncDaemon.local_rescan - INFO - processing move limbo
+2012-10-27 18:15:29,477 - ubuntuone.SyncDaemon - INFO - not starting twisted.manhole
+2012-10-27 18:15:29,478 - ubuntuone.SyncDaemon.local_rescan - INFO - Ignoring path as it's a symlink: '/home/kostia/Ubuntu One/Shared With Me'
+2012-10-27 18:15:29,478 - ubuntuone.SyncDaemon.Main - NOTE - Local rescan finished!
+2012-10-27 18:15:29,478 - ubuntuone.SyncDaemon.Main - INFO - hash queue empty. We are ready!
+2012-10-27 18:15:29,922 - twisted - ERROR - Unhandled error in Deferred:
+2012-10-27 18:15:29,946 - twisted - ERROR - Unhandled Error
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 362, in callback
+    self._startRunCallbacks(result)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 458, in _startRunCallbacks
+    self._runCallbacks()
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 545, in _runCallbacks
+    current.result = callback(current.result, *args, **kw)
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1095, in gotResult
+    _inlineCallbacks(r, g, deferred)
+--- <exception caught here> ---
+  File "/usr/lib/python2.7/dist-packages/twisted/internet/defer.py", line 1039, in _inlineCallbacks
+    result = g.send(result)
+  File "/usr/lib/python2.7/dist-packages/ubuntuone-client/ubuntuone/syncdaemon/interaction_interfaces.py", line 1257, in connect
+    raise NoAccessToken("got empty credentials.")
+ubuntuone.syncdaemon.interaction_interfaces.NoAccessToken: got empty credentials.
+
+2012-10-27 18:30:29,547 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 18:45:29,464 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 19:00:29,545 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 19:15:29,521 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 19:30:29,503 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 19:45:29,547 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 20:00:29,545 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 20:15:29,547 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 20:30:29,547 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 20:45:29,547 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 21:00:29,537 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 21:15:29,454 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 21:30:29,466 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 21:45:29,546 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 22:00:29,547 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 22:15:29,547 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 22:30:29,478 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----
+2012-10-27 22:45:29,546 - ubuntuone.SyncDaemon.Main - NOTE - ---- MARK (state: <State: 'READY'  (queues IDLE  connection 'Not User With Network')>; queue: 0; offloaded: 0; hash: 0) ----

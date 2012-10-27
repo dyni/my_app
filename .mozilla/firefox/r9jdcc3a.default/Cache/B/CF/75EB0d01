@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta content='ruby on rails, Ruby, Rails, Rails3, Rails 3.1, руководство, начинающим, самоучитель, manual, мануал, справочник, учебник, примеры, Руби, рельсы' name='keywords'>
+<meta content='Ruby on Rails русские руководства, учебники, статьи' name='description'>
+<title>Rusrails: Конфигурирование компонентов Rails</title>
+<link href="/assets/blueprint/screen-1758e7dbde5da8dd6e26726785aa3d68.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<link href="/assets/blueprint/print-8bf7517de4370fe299ab3ae9020de233.css" media="print" rel="stylesheet" type="text/css" />
+<!--[if lt IE 8]>
+<link href="/assets/blueprint/ie-9ddea8104c9ac28ed3fec4df119da784.css" media="screen, projection" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="/assets/application-462903135164503367a027bd23c3b9bc.css" media="screen" rel="stylesheet" type="text/css" />
+<script src="/assets/application-5e7ef15e6ff5ef352e319b100e22b142.js" type="text/javascript"></script>
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="drvGYbUeSEbcIx1SUVCaP8AiIe84inI7gQ/DXJfuGUU=" name="csrf-token" />
+</head>
+<body>
+<div id='container'>
+<div id='header'>
+<a href="/" id="logo"></a>
+<div id='user_panel'>
+<ul>
+<li><a href="/users/sign_up">Регистрация</a></li>
+<li><a href="/users/sign_in">Вход</a></li>
+<li><a href="/discussions">Обсуждения</a></li>
+</ul>
+</div>
+</div>
+<div id='right'>
+<ul class='menu'>
+<li class='category_pages'>
+<form accept-charset="UTF-8" action="/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+<input id="search" name="search" type="text" />
+<input class="hidden" name="commit" type="submit" value="search" />
+</form>
+
+</li>
+</ul>
+<ul class="menu">
+<li class="category_pages"><a href="/getting-started-with-rails">Rails &#1076;&#1083;&#1103; &#1085;&#1072;&#1095;&#1080;&#1085;&#1072;&#1102;&#1097;&#1080;&#1093;</a></li>
+<li class="category_pages"><a href="/rails-database-migrations">&#1052;&#1080;&#1075;&#1088;&#1072;&#1094;&#1080;&#1080; &#1073;&#1072;&#1079;&#1099; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093; Rails</a></li>
+<li class="category_pages"><a href="/active-record-validations-and-callbacks">&#1042;&#1072;&#1083;&#1080;&#1076;&#1072;&#1094;&#1080;&#1080; &#1080; &#1082;&#1086;&#1083;&#1073;&#1101;&#1082;&#1080; Active Record</a></li>
+<li class="category_pages"><a href="/active-record-associations">&#1057;&#1074;&#1103;&#1079;&#1080; Active Record</a></li>
+<li class="category_pages"><a href="/active-record-query-interface">&#1048;&#1085;&#1090;&#1077;&#1088;&#1092;&#1077;&#1081;&#1089; &#1079;&#1072;&#1087;&#1088;&#1086;&#1089;&#1086;&#1074; Active Record</a></li>
+<li class="category_pages"><a href="/layouts-and-rendering-in-rails">&#1052;&#1072;&#1082;&#1077;&#1090;&#1099; &#1080; &#1088;&#1077;&#1085;&#1076;&#1077;&#1088;&#1080;&#1085;&#1075; &#1074; Rails</a></li>
+<li class="category_pages"><a href="/rails-form-helpers">&#1061;&#1077;&#1083;&#1087;&#1077;&#1088;&#1099; &#1092;&#1086;&#1088;&#1084; Rails</a></li>
+<li class="category_pages"><a href="/action-controller-overview">&#1054;&#1073;&#1079;&#1086;&#1088; Action Controller</a></li>
+<li class="category_pages"><a href="/rails-routing">&#1056;&#1086;&#1091;&#1090;&#1080;&#1085;&#1075; &#1074;  Rails</a></li>
+<li class="category_pages"><a href="/active-support-core-extensions">&#1056;&#1072;&#1089;&#1096;&#1080;&#1088;&#1077;&#1085;&#1080;&#1103; &#1103;&#1076;&#1088;&#1072; Active Support</a></li>
+<li class="category_pages"><a href="/rails-internationalization-i18n-api">API &#1080;&#1085;&#1090;&#1077;&#1088;&#1085;&#1072;&#1094;&#1080;&#1086;&#1085;&#1072;&#1083;&#1080;&#1079;&#1072;&#1094;&#1080;&#1080; Rails (I18n)</a></li>
+<li class="category_pages"><a href="/action-mailer-basics">&#1054;&#1089;&#1085;&#1086;&#1074;&#1099; Action Mailer</a></li>
+<li class="category_pages"><a href="/a-guide-to-testing-rails-applications">&#1056;&#1091;&#1082;&#1086;&#1074;&#1086;&#1076;&#1089;&#1090;&#1074;&#1086; &#1087;&#1086; &#1090;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1102; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081; &#1085;&#1072; Rails</a></li>
+<li class="category_pages"><a href="/ruby-on-rails-security-guide">&#1056;&#1091;&#1082;&#1086;&#1074;&#1086;&#1076;&#1089;&#1090;&#1074;&#1086; Ruby On Rails &#1087;&#1086; &#1073;&#1077;&#1079;&#1086;&#1087;&#1072;&#1089;&#1085;&#1086;&#1089;&#1090;&#1080;</a></li>
+<li class="category_pages"><a href="/debugging-rails-applications">&#1054;&#1090;&#1083;&#1072;&#1076;&#1082;&#1072; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081; &#1085;&#1072; Rails</a></li>
+<li class="category_pages"><a href="/performance-testing-rails-applications">&#1058;&#1077;&#1089;&#1090;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1087;&#1088;&#1086;&#1080;&#1079;&#1074;&#1086;&#1076;&#1080;&#1090;&#1077;&#1083;&#1100;&#1085;&#1086;&#1089;&#1090;&#1080; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081; Rails</a></li>
+<li class="category_pages selected">
+<a href="/configuring-rails-applications">&#1050;&#1086;&#1085;&#1092;&#1080;&#1075;&#1091;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1087;&#1088;&#1080;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1081; &#1085;&#1072; Rails</a><ul>
+<li><a href="/configuring-rails-applications/locations-for-initialization-code">&#1056;&#1072;&#1089;&#1087;&#1086;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1077; &#1080;&#1085;&#1080;&#1094;&#1080;&#1072;&#1083;&#1080;&#1079;&#1072;&#1094;&#1080;&#1086;&#1085;&#1085;&#1086;&#1075;&#1086; &#1082;&#1086;&#1076;&#1072;</a>
+</li>
+<li class="selected"><a href="/configuring-rails-applications/configuring-rails-components">&#1050;&#1086;&#1085;&#1092;&#1080;&#1075;&#1091;&#1088;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1082;&#1086;&#1084;&#1087;&#1086;&#1085;&#1077;&#1085;&#1090;&#1086;&#1074; Rails</a></li>
+<li><a href="/configuring-rails-applications/rails-environment-settings">&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1072; &#1089;&#1088;&#1077;&#1076;&#1099; Rails</a>
+</li>
+<li><a href="/configuring-rails-applications/initialization">&#1048;&#1085;&#1080;&#1094;&#1080;&#1072;&#1083;&#1080;&#1079;&#1072;&#1094;&#1080;&#1103;</a>
+</li>
+<li><a href="/configuring-rails-applications/database-pooling">&#1053;&#1072;&#1089;&#1090;&#1088;&#1086;&#1081;&#1082;&#1072; &#1087;&#1091;&#1083;&#1072; &#1087;&#1086;&#1076;&#1082;&#1083;&#1102;&#1095;&#1077;&#1085;&#1080;&#1081; &#1082; &#1073;&#1072;&#1079;&#1077; &#1076;&#1072;&#1085;&#1085;&#1099;&#1093;</a>
+</li>
+</ul>
+</li>
+<li class="category_pages"><a href="/a-guide-to-the-rails-command-line">&#1056;&#1091;&#1082;&#1086;&#1074;&#1086;&#1076;&#1089;&#1090;&#1074;&#1086; &#1087;&#1086; &#1082;&#1086;&#1084;&#1072;&#1085;&#1076;&#1085;&#1086;&#1081; &#1089;&#1090;&#1088;&#1086;&#1082;&#1077; Rails</a></li>
+<li class="category_pages"><a href="/caching-with-rails-an-overview">&#1050;&#1101;&#1096;&#1080;&#1088;&#1086;&#1074;&#1072;&#1085;&#1080;&#1077; &#1089; Rails: &#1054;&#1073;&#1079;&#1086;&#1088;</a></li>
+<li class="category_pages"><a href="/asset-pipeline">Asset Pipeline</a></li>
+<li class="category_pages"><a href="/different-guides">&#1055;&#1088;&#1086;&#1095;&#1080;&#1077; &#1088;&#1091;&#1082;&#1086;&#1074;&#1086;&#1076;&#1089;&#1090;&#1074;&#1072;</a></li>
+</ul>
+<a href="http://railsclub.timepad.ru/event/29192" target="_blank"><img alt="Railsclub_240x400" src="/assets/railsclub_240x400-55a45d28e1f81c2648e92bff40d57bec.png" width="190" /></a>
+<!-- Яндекс.Директ -->
+<div id='yandex_ad'></div>
+<script>
+  //<![CDATA[
+    (function(w, d, n, s, t) {
+      w[n] = w[n] || [];
+      w[n].push(function() {
+        Ya.Direct.insertInto(79573, "yandex_ad", {
+          site_charset: "utf-8",
+          ad_format: "direct",
+          font_size: 1,
+          type: "vertical",
+          border_type: "block",
+          limit: 4,
+          title_font_size: 3,
+          site_bg_color: "FFFFFF",
+          header_bg_color: "FEEAC7",
+          bg_color: "FFF9F0",
+          border_color: "FBE5C0",
+          title_color: "0000CC",
+          url_color: "006600",
+          all_color: "0000CC",
+          text_color: "000000",
+          hover_color: "0066FF",
+          favicon: true
+        });
+      });
+      t = d.documentElement.firstChild;
+      s = d.createElement("script");
+      s.type = "text/javascript";
+      s.src = "http://an.yandex.ru/system/context.js";
+      s.setAttribute("async", "true");
+      t.insertBefore(s, t.firstChild);
+    })(window, document, "yandex_context_callbacks");
+  //]]>
+</script>
+
+</div>
+<div id='content'><h1>Конфигурирование компонентов Rails</h1>
+<p>В целом, работа по конфигурированию Rails означет как настройку компонентов Rails, так и настройку самого Rails. Конфигурационный файл <tt>config/application.rb</tt> и конфигурационные файлы конкретных сред (такие как <tt>config/environments/production.rb</tt>) позволяют определить различные настройки, которые можно придать всем компонентам.</p>
+<p>Например, по умолчанию файл <tt>config/application.rb</tt> включает эту настройку:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.filter_parameters += [:password]
+</pre>
+</div>
+<p>Это настройка для самого Rails. Если хотите передать настройки для отдельных компонентов Rails, это так же осуществляется через объект <tt>config</tt> в <tt>config/application.rb</tt>:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.active_record.observers = [:hotel_observer, :review_observer]
+</pre>
+</div>
+<p>Rails будет использовать эту конкретную настройку для конфигурирования Active Record.</p>
+<h4>Общие настройки Rails</h4>
+<p>Эти конфигурационные методы вызываются на объекте <tt>Rails::Railtie</tt>, таком как подкласс <tt>Rails::Engine</tt> или <tt>Rails::Application</tt>.</p>
+<ul>
+	<li><tt>config.after_initialize</tt> принимает блок, который будет запущен <em>после того</em>, как Rails закончит инициализацию приложения. Это включает инициализацию самого фреймворка, engine-ов и всех инициализаторов приложения из <em>config/initializers</em>. Отметьте, что этот блок <em>будет</em> выполнен для рейк-тасков. Полезно для конфигурирования настроек, установленных другими инициализаторами:</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.after_initialize do
+  ActionView::Base.sanitized_allowed_tags.delete 'div'
+end
+</pre>
+</div>
+<ul>
+	<li><tt>config.allow_concurrency</tt> должна быть true, чтобы позволить одновременную (тредобезопасную, threadsafe) обработку действия. По умолчанию false. Вы, возможно, не захотите устанавливать ее непосредственно, хотя бы потому, что необходима серия других поправок, чтобы тредобезопасный режим заработал правильно. Также может быть включена с помощью <tt>threadsafe!</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.asset_host</tt> устанавливает хост для ресурсов (ассетов). Полезна, когда для хостинга ресурсов используются <span class="caps">CDN</span>, или когда вы хотите обойти встроенную в браузеры политику ограничения домена при использовании различных псевдонимов доменов. Укороченная версия <tt>config.action_controller.asset_host</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.asset_path</tt> позволяет обрамлять пути до ресурсов. Она может быть вызываемой, строкой или быть <tt>nil</tt>, который является значением по умолчанию. Например, обычный путь для <tt>blog.js</tt> будет <tt>/javascripts/blog.js</tt>, допустим абсолютный путь это <tt>path</tt>. Если <tt>config.asset_path</tt> вызываемая, Rails вызывет ее при создании пути к ресурсу, передав <tt>path</tt> как аргумент. Если <tt>config.asset_path</tt> строка, ожидается, что она в формате <tt>sprintf</tt> с <tt>%s</tt> в том месте, где будет вставлен <tt>path</tt>. В этих случаях, Rails выдаст обрамленный путь. Короткая версия <tt>config.action_controller.asset_path</tt>.</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.asset_path = proc { |path| &quot;/blog/public#{path}&quot; }
+</pre>
+</div>
+<div class="note"><p>Конфигурация <tt>config.asset_path</tt> игнорируется, если включен файлопровод (asset pipeline), а она включена по умолчанию.</p></div>
+<ul>
+	<li><tt>config.autoload_once_paths</tt> принимает массив путей, по которым Rails будет загружать константы, не стирающиеся между запросами. Уместна, если <tt>config.cache_classes</tt> является false, что является в режиме development по умолчанию. В противном случае все автозагрузки происходят только раз. Все элементы этого массива также должны быть в <tt>autoload_paths</tt>. По умолчанию пустой массив.</li>
+</ul>
+<ul>
+	<li><tt>config.autoload_paths</tt> принимает массив путей, по которым Rails будет автоматически загружать константы.По умолчанию все директории в <tt>app</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.cache_classes</tt> контролирует, будут ли классы и модули приложения перезагружены при каждом запросе. По умолчанию false в режиме development и true в режимах test и production. Также может быть включено с помощью <tt>threadsafe!</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.action_view.cache_template_loading</tt> контролирует, будут ли шаблоны перезагружены при каждом запросе. Умолчания те же, что и для <tt>config.cache_classes</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.cache_store</tt> конфигурирует, какое хранилище кэша использовать для кэширования Rails. Опции включают один из символов <tt>:memory_store</tt>, <tt>:file_store</tt>, <tt>:mem_cache_store</tt>, <tt>:null_store</tt> или объекта, реализующего <span class="caps">API</span> кэша. По умолчанию <tt>:file_store</tt> если существует директория <tt>tmp/cache</tt>, а в ином случае <tt>:memory_store</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.colorize_logging</tt> определяет, использовать ли коды цвета <span class="caps">ANSI</span> при логировании информации. По умолчанию true.</li>
+</ul>
+<ul>
+	<li><tt>config.consider_all_requests_local</tt> это флажок. Если true, тогда любая ошибка вызовет детальную отладочную информацию, которая будет выгружена в отклик <span class="caps">HTTP</span>, и контроллер <tt>Rails::Info</tt> покажет контекст выполнения приложения в <tt>/rails/info/properties</tt>. по умолчанию true в режимах development и test, и false в режиме production. Для более детального контроля, установить ее в false и примените <tt>local_request?</tt> в контроллерах для определения, какие запросы должны предоставлять отладочную информацию при ошибках.</li>
+</ul>
+<ul>
+	<li><tt>config.console</tt> позволит установить класс, который будет использован как консоль при вызове <tt>rails console</tt>. Лучше всего запускать его в блоке <tt>console</tt>: <span class="rails_mark rails_mark_4">Rails 4</span></li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+console do
+  # этот блок вызывается только при запуске консоли,
+  # поэтому можно безопасно поместить тут pry
+  require &quot;pry&quot;
+  config.console = Pry
+end
+</pre>
+</div>
+<ul>
+	<li><tt>config.dependency_loading</tt> это флажок, позволяющий отключить автозагрузку констант, если установить его false. Он работает только если <tt>config.cache_classes</tt> установлен в true, что является по умолчанию в режиме production. Этот флажок устанавливается в false <tt>config.threadsafe!</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.eager_load_paths</tt> принимает массив путей, из которых Rails будет нетерпеливо загружать при загрузке, если включено кэширование классов. По умолчанию каждая папка в директории <tt>app</tt> приложения.</li>
+</ul>
+<ul>
+	<li><tt>config.encoding</tt> настраивает кодировку приложения. По умолчанию <span class="caps">UTF</span>-8.</li>
+</ul>
+<ul>
+	<li><tt>config.exceptions_app</tt> устанавливает приложение по обработке исключений, вызываемое промежуточной программой ShowException, когда происходит исключение. По умолчанию <tt>ActionDispatch::PublicExceptions.new(Rails.public_path)</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.file_watcher</tt> класс, используемый для обнаружения обновлений файлов в файловой системе, когда <tt>config.reload_classes_only_on_change</tt> равно true. Должен соответствовать <tt>ActiveSupport::FileUpdateChecker</tt> <span class="caps">API</span>.</li>
+</ul>
+<ul>
+	<li><tt>config.filter_parameters</tt> используется для фильтрации параметров, которые не должны быть показаны в логах, такие как пароли или номера кредитных карт.</li>
+</ul>
+<ul>
+	<li><tt>config.force_ssl</tt> принуждает все запросы быть под протоколом <span class="caps">HTTPS</span>, используя промежуточную программу <tt>ActionDispatch::SSL</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.log_level</tt> определяет многословие логгера Rails.Эта опция по умолчанию <tt>:debug</tt> для всех режимов, кроме production, для которого по умолчанию <tt>:info</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.log_tags</tt> принимает список методов, на которые отвечает объект <tt>request</tt>. С помощью этого становится просто тегировать строки лога отладочной информацией, такой как поддомен и id запроса &#8212; очень полезно для отладки многопользовательского приложения.</li>
+</ul>
+<ul>
+	<li><tt>config.logger</tt> принимает логгер, соответствующий интерфейсу Log4r или класса Ruby по умолчанию <tt>Logger</tt>. По умолчанию экземпляр <tt>ActiveSupport::BufferedLogger</tt>, с автоматическим приглушением в режиме production.</li>
+</ul>
+<ul>
+	<li><tt>config.middleware</tt> позволяет настроить промежуточные программы приложения. Это подробнее раскрывается в разделе <a href="#configuring-middleware">Конфигурирование промежуточных программ</a> ниже.</li>
+</ul>
+<ul>
+	<li><tt>config.preload_frameworks</tt> включает или отключает предварительную загрузку всех фреймворков при старте. Включается <tt>config.threadsafe!</tt>. По умолчанию <tt>nil</tt>, то есть отключена.</li>
+</ul>
+<ul>
+	<li><tt>config.queue</tt> настраивает для приложения другую реализацию очереди. По умолчанию <tt>Rails::Queueing::Queue</tt>. Отметьте, что если будет изменена очередь по умолчанию, не будет инициализирован <tt>queue_consumer</tt> по умолчанию, так как управление запуском и закрытием потребителя(-лей) новой очереди зависит от ее реализации. <span class="rails_mark rails_mark_4">Rails 4</span></li>
+</ul>
+<ul>
+	<li><tt>config.queue_consumer</tt> настраивает реализацию другого потребителя для очереди по умолчанию. По умолчанию <tt>Rails::Queueing::ThreadedConsumer</tt>. <span class="rails_mark rails_mark_4">Rails 4</span></li>
+</ul>
+<ul>
+	<li><tt>config.reload_classes_only_on_change</tt> включает или отключает перезагрузку классов только при изменении отслеживаемых файлов. По умолчанию отслеживает все по путям автозагрузки и установлена true. Если <tt>config.cache_classes</tt> установлена true, Эта опция игнорируется.</li>
+</ul>
+<ul>
+	<li><tt>config.secret_token</tt> используется для определения ключа, позволяющего сессиям приложения быть верифицированными по известному ключу безопасности, чтобы избежать подделки. Приложения получают <tt>config.secret_token</tt> установленным в случайный ключ в <tt>config/initializers/secret_token.rb</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.serve_static_assets</tt> конфигурирует сам Rails на обслуживание статичных ресурсов. По умолчанию true, но в среде production выключается, так как серверные программы (т.е. Nginx или Apache), используемое для запуска приложения, должно обслуживать статичные ресурс вместо него. В отличие от установки по умолчанию, установите ее в true при запуске (абсолютно не рекомендуется!) или тестировании вашего приложения в режиме production с использованием WEBrick. В противном случае нельзя воспользоваться кэшированием страниц и запросами файлов, существующих обычно в директории public, что в любом случае испортит ваше приложение на Rails.</li>
+</ul>
+<ul>
+	<li><tt>config.session_store</tt> обычно настраивается в <tt>config/initializers/session_store.rb</tt> и определяет, какой класс использовать для хранения сессии. Возможные значения <tt>:cookie_store</tt>, которое по умолчанию, <tt>:mem_cache_store</tt> и <tt>:disabled</tt>. Последнее говорит Rails не связываться с сессиями. Произвольные хранилища сессии также могут быть определены:</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.session_store :my_custom_store
+</pre>
+</div>
+<p>Это произвольное хранилище должно быть определено как <tt>ActionDispatch::Session::MyCustomStore</tt>. В дополнение к символу, они также могут быть объектами, соблюдающими определенное <span class="caps">API</span>, такое как <tt>ActiveRecord::SessionStore</tt>, в этом случае никакого специального пространства имен не требуется.</p>
+<ul>
+	<li><tt>config.threadsafe!</tt> включает <tt>allow_concurrency</tt>, <tt>cache_classes</tt>, <tt>dependency_loading</tt> и <tt>preload_frameworks</tt>, чтобы сделать приложение тредобезопасным.</li>
+</ul>
+<div class="warning"><p>Нитебезопасные операции несовместимы с нормальной работой в режиме development Rails. В частности, автоматическая загрузка зависимостей и перезагрузка классов будет автоматически выключена, если вызовите <tt>config.threadsafe!</tt>.</p></div>
+<ul>
+	<li><tt>config.time_zone</tt> устанавливает временную зону по умолчанию для приложения и включает понимание временных зон для Active Record.</li>
+</ul>
+<ul>
+	<li><tt>config.whiny_nils</tt> включает или отключает предупреждения когда вызывается определенный набор методов у <tt>nil</tt> и он не отвечает на них. По умолчанию true в средах development и test.</li>
+</ul>
+<h4>Настройка ресурсов (ассетов)</h4>
+<p>По умолчанию Rails 3.1 настроен на использование гема <tt>sprockets</tt> для управления ресурсами в приложении. Этот гем соединяет и сжимает ресурсы, чтобы сделать их обслуживание менее болезненным.</p>
+<ul>
+	<li><tt>config.assets.enabled</tt> это флажок, контролирующий, будет ли включен файлопровод (asset pipeline). Это явно устанавливается в <tt>config/application.rb</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.compress</tt> это флажок, включающий компрессию компилируемых ресурсов. Он явно указан true в <tt>config/production.rb</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.css_compressor</tt> определяет используемый компрессор <span class="caps">CSS</span>. По умолчанию установлен <tt>sass-rails</tt>. Единственное альтернативное значение в настоящий момент это <tt>:yui</tt>, использующее гем <tt>yui-compressor</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.js_compressor</tt> определяет используемый компрессор JavaScript. Возможные варианты <tt>:closure</tt>, <tt>:uglifier</tt> и <tt>:yui</tt> требуют использование гемов <tt>closure-compiler</tt>, <tt>uglifier</tt> или <tt>yui-compressor</tt> соответственно.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.paths</tt> содержит пути, используемые для поиска ресурсов. Присоединение путей к этой конфигурационной опции приведет к тому, что
+эти пути будут использованы в поиске ресурсов.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.precompile</tt> позволяет определить дополнительные ресурсы (иные, чем <tt>application.css</tt> и <tt>application.js</tt>), которые будут предварительно компилированы при запуске <tt>rake assets:precompile</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.prefix</tt> определяет префикс из которого будут обслуживаться ресурсы. По умолчанию <tt>/assets</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.digest</tt> включает использование меток MD5 в именах файлов. Установлено по умолчанию <tt>true</tt> в <tt>production.rb</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.debug</tt> отключает слияние и сжатие ресурсов. Установлено по умолчанию <tt>true</tt> в <tt>development.rb</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.manifest</tt> определяет полный путь, используемый для размещения манифестнго файла прекомпилятора ресурсов. По умолчанию используется <tt>config.assets.prefix</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.cache_store</tt> определяет хранилище кэша, которое будет использовать Sprockets. По умолчанию это файловое хранилище Rails.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.version</tt> опциональная строка, используемая при генерации хеша MD5. Может быть изменена для принудительной рекомпиляции всех файлов.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.compile</tt> &#8212; булево значение, используемое для включения компиляции Sprockets на лету в production.</li>
+</ul>
+<ul>
+	<li><tt>config.assets.logger</tt> accepts a logger conforming to the interface of Log4r or the default Ruby <tt>Logger</tt> class. Defaults to the same configured at <tt>config.logger</tt>. Setting <tt>config.assets.logger</tt> to false will turn off served assets logging.</li>
+</ul>
+<h4>Конфигурирование генераторов</h4>
+<p>Rails 3 позволяет изменить, какие генераторы следует использовать, с помощью метода <tt>config.generators</tt>. Этот метод принимает блок:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.generators do |g|
+  g.orm :active_record
+  g.test_framework :test_unit
+end
+</pre>
+</div>
+<p>Полный перечень методов, которые можно использовать в этом блоке, следующий:</p>
+<ul>
+	<li><tt>assets</tt> позволяет создавать ресурсы при построении скаффолда. По умолчнию <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>force_plural</tt> позволяет имена моделей во множественном числе. По умолчанию <tt>false</tt>.</li>
+</ul>
+<ul>
+	<li><tt>helper</tt> определяет, генерировать ли хелперы. По умолчанию <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>integration_tool</tt> определяет используемый интеграционный инструмент. По умолчанию <tt>nil</tt>.</li>
+</ul>
+<ul>
+	<li><tt>javascripts</tt> включает в генераторах хук для javascript. Используется в Rails при запуске генератора <tt>scaffold</tt>. По умолчанию <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>javascript_engine</tt> конфигурирует используемый движок (например, coffee) при создании ресурсов. По умолчанию <tt>nil</tt>.</li>
+</ul>
+<ul>
+	<li><tt>orm</tt> определяет используемую orm. По умолчанию <tt>false</tt> и используется Active Record.</li>
+</ul>
+<ul>
+	<li><tt>performance_tool</tt> определяет используемый инструмент оценки производительности. По умолчанию <tt>nil</tt>.</li>
+</ul>
+<ul>
+	<li><tt>resource_controller</tt> определяет используемый генератор для создания контроллера при использовании <tt>rails generate resource</tt>. По умолчанию <tt>:controller</tt>.</li>
+</ul>
+<ul>
+	<li><tt>scaffold_controller</tt>, отличающийся от <tt>resource_controller</tt>, определяет используемый генератор для создания <em>скаффолдингового</em> контроллера при использовании <tt>rails generate scaffold</tt>. По умолчанию <tt>:scaffold_controller</tt>.</li>
+</ul>
+<ul>
+	<li><tt>stylesheets</tt> включает в генераторах хук для таблиц стилей. Используется в Rails при запуске генератора <tt>scaffold</tt> , но этот хук также может использоваться в других генераторах. По умолчанию <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>stylesheet_engine</tt> конфигурирует используемый при создании ресурсов движок <span class="caps">CSS</span> (например, sass). По умолчанию <tt>:css</tt>.</li>
+</ul>
+<ul>
+	<li><tt>test_framework</tt> определяет используемый тестовый фреймворк. По умолчанию <tt>false</tt>, и используется Test::Unit.</li>
+</ul>
+<ul>
+	<li><tt>template_engine</tt> определяет используемый движок шаблонов, такой как <span class="caps">ERB</span> или Haml. По умолчанию <tt>:erb</tt>.</li>
+</ul>
+<h4 id="configuring-middleware">Конфигурирование промежуточных программ (middleware)</h4>
+<p>Каждое приложение Rails имеет стандартный набор промежуточных программ, используемых в следующем порядке в среде development:</p>
+<ul>
+	<li><tt>ActionDispatch::SSL</tt> принуждает каждый запрос быть под протоколом <span class="caps">HTTPS</span>. Будет доступно, если <tt>config.force_ssl</tt> установлена <tt>true</tt>. Передаваемые сюда опции могут быть настроены с помощью <tt>config.ssl_options</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Static</tt> используется для обслуживания статичных ресурсов (ассетов). Отключено если <tt>config.serve_static_assets</tt> равна <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>Rack::Lock</tt> оборачивает приложение в mutex, таким образом оно может быть вызвано только в одном треде одновременно. Включено только если <tt>config.action_controller.allow_concurrency</tt> установлена как <tt>false</tt>, что является состоянием по умолчанию.</li>
+</ul>
+<ul>
+	<li><tt>ActiveSupport::Cache::Strategy::LocalCache</tt> служит простым кэшем в памяти. Этот кэш не является тредобезопасным и предназначен только как временное хранилище кэша для отдельного треда.</li>
+</ul>
+<ul>
+	<li><tt>Rack::Runtime</tt> устанавливает заголовок <tt>X-Runtime</tt>, содержащия время (в секундах), затраченное на выполнение запроса.</li>
+</ul>
+<ul>
+	<li><tt>Rails::Rack::Logger</tt> пишет в лог, что начался запрос. После выполнения запроса сбрасывает логи.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::ShowExceptions</tt> ловит исключения, возвращаемые приложением, и рендерит прекрасные страницы исключения, если запрос локальный или если <tt>config.consider_all_requests_local</tt> установлена <tt>true</tt>. Если <tt>config.action_dispatch.show_exceptions</tt> установлена <tt>false</tt>, исключения будут вызваны не смотря ни на что.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::RequestId</tt> создает уникальный заголовок X-Request-Id, доступный для отклика, и включает метод <tt>ActionDispatch::Request#uuid</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::RemoteIp</tt> проверяет на атаки с ложных IP. Конфигурируется с помощью настроек <tt>config.action_dispatch.ip_spoofing_check</tt> и <tt>config.action_dispatch.trusted_proxies</tt>.</li>
+</ul>
+<ul>
+	<li><tt>Rack::Sendfile</tt> перехватывает отклики, чьи тела были обслужены файлом, и заменяет их специфичным для сервером заголовком X-Sendfile. Конфигурируется с помощью <tt>config.action_dispatch.x_sendfile_header</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Callbacks</tt> запускает подготовленные колбэки до обслуживания запроса.</li>
+</ul>
+<ul>
+	<li><tt>ActiveRecord::ConnectionAdapters::ConnectionManagement</tt> очищает активные соединения до каждого запроса, за исключением случая, когда ключ <tt>rack.test</tt> в окрежении запроса установлен <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActiveRecord::QueryCache</tt> кэширует все запросы <span class="caps">SELECT</span>, созданные в запросе. Если имел место <span class="caps">INSERT</span> или <span class="caps">UPDATE</span>, то кэш очищается.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Cookies</tt> устанавливает куки для каждого запроса.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Session::CookieStore</tt> ответственно за хранение сессии в куки. Для этого может использоваться альтернативная промежуточная программа, при изменении <tt>config.action_controller.session_store</tt> на альтернативное значение. Кроме того, переданные туда опции могут быть сконфигурированы <tt>config.action_controller.session_options</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Flash</tt> настраивает ключи <tt>flash</tt>. Доступно только если у <tt>config.action_controller.session_store</tt> установленно значение.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::ParamsParser</tt> парсит параметры запроса в <tt>params</tt>.</li>
+</ul>
+<ul>
+	<li><tt>Rack::MethodOverride</tt> позволяет методу быть переопределенным, если установлен <tt>params[:_method]</tt>. Это промежуточная программа, поддерживающая типы методов <span class="caps">HTTP</span> <span class="caps">PATCH</span>, <span class="caps">PUT</span> и <span class="caps">DELETE</span>.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Head</tt> преобразует запросы <span class="caps">HEAD</span> в запросы <span class="caps">GET</span> и обслуживает их соответствующим образом.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::BestStandardsSupport</tt> включает &#8220;best standards support&#8221;, таким образом IE8 корректно рендерит некоторые элементы.</li>
+</ul>
+<p>Кроме этих полезных промежуточных программ можно добавить свои, используя метод <tt>config.middleware.use</tt>:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.middleware.use Magical::Unicorns
+</pre>
+</div>
+<p>Это поместит промежуточную программу <tt>Magical::Unicorns</tt> в конец стека. Можно использовать <tt>insert_before</tt>, если желаете добавить промежуточную программу перед другой.</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.middleware.insert_before ActionDispatch::Head, Magical::Unicorns
+</pre>
+</div>
+<p>Также есть <tt>insert_after</tt>, который вставляет промежуточную программу после другой:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.middleware.insert_after ActionDispatch::Head, Magical::Unicorns
+</pre>
+</div>
+<p>Промежуточные программы также могут быть полностью переставлены и заменены другими:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.middleware.swap ActionDispatch::BestStandardsSupport, Magical::Unicorns
+</pre>
+</div>
+<p>Они также могут быть убраны из стека полностью:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.middleware.delete ActionDispatch::BestStandardsSupport
+</pre>
+</div>
+<h4>Конфигурирование i18n</h4>
+<ul>
+	<li><tt>config.i18n.default_locale</tt> устанавливает локаль по умолчанию для приложения, используемого для интернационализации. По умолчанию <tt>:en</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.i18n.load_path</tt> устанавливает путь, используемый Rails для поиска файлов локали. По умолчанию <tt>config/locales/*.{yml,rb}</tt>.</li>
+</ul>
+<h4>Конфигурирование Active Record</h4>
+<p><tt>config.active_record</tt> включает ряд конфигурационных опций:</p>
+<ul>
+	<li><tt>config.active_record.logger</tt> принимает логгер, соответствующий интерфейсу Log4r или дефолтного класса Ruby 1.8.x Logger, который затем передается на любые новые сделанные соединения с базой данных. Можете получить этот логгер, вызвав <tt>logger</tt> или на любом классе модели ActiveRecord, или на экземпляре модели ActiveRecord. Установите его в nil, чтобы отключить логирование.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.primary_key_prefix_type</tt> позволяет настроить именование столбцов первичного ключа. По умолчанию Rails полагает, что столбцы первичного ключа именуются <tt>id</tt> (и эта конфигурационная опция не нуждается в установке). Есть два возможных варианта:
+	<ul>
+		<li><tt>:table_name</tt> сделает первичный ключ для класса Customer как <tt>customerid</tt></li>
+		<li><tt>:table_name_with_underscore</tt> сделает первичный ключ для класса Customer как <tt>customer_id</tt></li>
+	</ul></li>
+</ul>
+<ul>
+	<li><tt>config.active_record.table_name_prefix</tt> позволяет установить глобальную строку, добавляемую в начало имен таблиц. Если установить ее равным <tt>northwest_</tt>, то класс Customer будет искать таблицу <tt>northwest_customers</tt>. По умолчанию это пустая строка.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.table_name_suffix</tt> позволяет установить глобальную строку, добавляемую в конец имен таблиц. Если установить ее равным <tt>_northwest</tt>, то класс Customer будет искать таблицу <tt>customers_northwest</tt>. По умолчанию это пустая строка.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.pluralize_table_names</tt> определяет, должен Rails искать имена таблиц базы данных в единственном или множественном числе. Если установлено <tt>true</tt> (по умолчанию), то класс Customer будет использовать таблицу <tt>customers</tt>. Если установить <tt>false</tt>, то класс Customers будет использовать таблицу <tt>customer</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.default_timezone</tt> определяет, использовать <tt>Time.local</tt> (если установлено <tt>:local</tt>) или <tt>Time.utc</tt> (если установлено <tt>:utc</tt>) для считывания даты и времени из базы данных. По умолчанию <tt>:local</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.schema_format</tt> регулирует формат для выгрузки схемы базы данных в файл. Опции следующие: <tt>:ruby</tt> (по умолчанию) для независимой от типа базы данных версии, зависимой от миграций, или <tt>:sql</tt> для набора (потенциально зависимого от типа БД) выражений <span class="caps">SQL</span>.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.timestamped_migrations</tt> регулирует, должны ли миграции нумероваться серийными номерами или временными метками. По умолчанию <tt>true</tt> для использования временных меток, которые более предпочтительны если над одним проектом работают несколько разработчиков.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.lock_optimistically</tt> регулирует, должен ли ActiveRecord использовать оптимистичную блокировку. По умолчанию <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.whitelist_attributes</tt> создает пустой белый лист атрибутов, доступных для массового назначения, для всех моделей вашего приложения.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.auto_explain_threshold_in_seconds</tt> настраивает порог для автоматических <span class="caps">EXPLAIN</span> (<tt>nil</tt> отключает эту возможность). Запросы, превышающие порог, получат залогированным из план запроса. По умолчанию 0.5 в режиме development.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.dependent_restrict_raises</tt> проконтролирует поведение, когда удаляется объект со связью <tt>:dependent =&gt; :restrict</tt>. Установка false предотвратит вызов <tt>DeleteRestrictionError</tt>, а вместо этого добавит ошибку в объект модели. По умолчанию false в режиме development.</li>
+</ul>
+<ul>
+	<li><tt>config.active_record.mass_assignment_sanitizer</tt> определит строгость экранизации массового назначения в Rails. По умолчанию <tt>:strict</tt>. В этом режиме массовое назначение любого не-<tt>attr_accessible</tt> атрибута в вызове <tt>create</tt> или <tt>update_attributes</tt> вызовет исключение. Установка этой опции в <tt>:logger</tt> всего лишь будет писать в файл лога, когда назначется атрибут, и не будет вызывать исключения.</li>
+</ul>
+<p>Адаптер MySQL добавляет дополнительную конфигурационную опцию:</p>
+<ul>
+	<li><tt>ActiveRecord::ConnectionAdapters::MysqlAdapter.emulate_booleans</tt> регулирует, должен ли ActiveRecord рассматривать все столбцы <tt>tinyint(1)</tt> в базе данных MySQL как boolean. По умолчанию <tt>true</tt>.</li>
+</ul>
+<p>Дампер схемы добавляет дополнительную конфигурационную опцию:</p>
+<ul>
+	<li><tt>ActiveRecord::SchemaDumper.ignore_tables</tt> принимает массив таблиц, которые <em>не</em> должны быть включены в любой создаваемый файл схемы. Эта настройка будет проигнорирована в любом случае, кроме <tt>ActiveRecord::Base.schema_format == :ruby</tt>.</li>
+</ul>
+<h4>Конфигурирование Action Controller</h4>
+<p><tt>config.action_controller</tt> включает несколько конфигурационных настроек:</p>
+<ul>
+	<li><tt>config.action_controller.asset_host</tt> устанавливает хост для ресурсов. Полезна, когда для хостинга ресурсов используются <span class="caps">CDN</span>, или когда вы хотите обойти встроенную в браузеры политику ограничения домена при использовании различных псевдонимов доменов.</li>
+</ul>
+<ul>
+	<li><tt>config.action_controller.asset_path</tt> принимает блок, который конфигурирует, где могут быть найдены ресурсы. Краткая версия <tt>config.action_controller.asset_path</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.action_controller.page_cache_directory</tt> должна быть корнем документов на веб-сервере, устанавливается с использованием <tt>Base.page_cache_directory = "/document/root"</tt>. Для Rails эта директория уже установлена как <tt>Rails.public_path</tt> (что обычно равно <tt>Rails.root + "/public"</tt>). Изменение этой настройки может быть полезным для избегания конфликтов с файлами в <tt>public/</tt>, но осуществление этого потребует настройки вашего веб-сервера для слежения в новом расположении за кэшированными файлами.</li>
+</ul>
+<ul>
+	<li><tt>config.action_controller.page_cache_extension</tt> конфигурирует расширение, используемое для кэшированных страниц, сохраненных в <tt>page_cache_directory</tt>. По умолчанию <tt>html</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.action_controller.perform_caching</tt> конфигурирует, должно ли приложение выполнять кэширование. Установлено false в режиме development, true в production.</li>
+</ul>
+<ul>
+	<li><tt>config.action_controller.default_charset</tt> определяет кодировку по умолчанию для всех рендеров. По умолчанию &#8220;utf-8&#8221;.</li>
+</ul>
+<ul>
+	<li><tt>config.action_controller.logger</tt> принимает логгер, соответствующий интерфейсу Log4r или дефолтного класса Ruby Logger, который затем используется для логирования информации от Action Controller. Установите его в nil, чтобы отключить логирование.</li>
+</ul>
+<ul>
+	<li><tt>config.action_controller.request_forgery_protection_token</tt> устанавливает имя параметра токена для RequestForgery. Вызов <tt>protect_from_forgery</tt> по умолчанию устанавливает его в <tt>:authenticity_token</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.action_controller.allow_forgery_protection</tt> включает или отключает защиту от <span class="caps">CSRF</span>. По умолчанию <tt>false</tt> в режиме тестирования и <tt>true</tt> в остальных режимах.</li>
+</ul>
+<ul>
+	<li><tt>relative_url_root</tt> может использоваться, что бы сообщить Rails, что вы развертываетеся в субдиректории. По умолчанию <tt>ENV['RAILS_RELATIVE_URL_ROOT']</tt>.</li>
+</ul>
+<p>Код кэширования добавляет две настройки:</p>
+<ul>
+	<li><tt>ActionController::Base.page_cache_directory</tt> устанавливает директорию, в которой Rails создаст кэшированные страницы для вашего веб-сервера. По умолчанию <tt>Rails.public_path</tt> (который обычно устанавливается <tt>Rails.root </tt> &#8220;/public&#8221;+.</li>
+</ul>
+<ul>
+	<li><tt>ActionController::Base.page_cache_extension</tt> устанавливает расширение, используемое при создании страниц для кэша (это игнорируется, если входящий запрос уже имеет расширение). По умолчанию <tt>.html</tt>.</li>
+</ul>
+<p>Хранение сессии Active Record также может быть сконфигурировано:</p>
+<ul>
+	<li><tt>ActiveRecord::SessionStore::Session.table_name</tt> устанавливает имя таблицы, используемой для хранения сессий. По умолчанию <tt>sessions</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActiveRecord::SessionStore::Session.primary_key</tt> устанавливает имя столбца ID, используемого в таблице сессий. По умолчанию <tt>session_id</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActiveRecord::SessionStore::Session.data_column_name</tt> устанавливает имя столбца, используемого для хранения данных сессии. По умолчанию <tt>data</tt>.</li>
+</ul>
+<h4>Конфигурирование Action Dispatch</h4>
+<ul>
+	<li><tt>config.action_dispatch.session_store</tt> устанавливает имя хранилища данных сессии. По умолчанию <tt>:cookie_store</tt>; другие валидные опции включают <tt>:active_record_store</tt>, <tt>:mem_cache_store</tt> или имя вашего собственного класса.</li>
+</ul>
+<ul>
+	<li><tt>config.action_dispatch.tld_length</tt> устанавливает длину <span class="caps">TLD</span> (домена верхнего уровня) для приложения. По умолчанию <tt>1</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Callbacks.before</tt> принимает блок кода для запуска до запроса.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Callbacks.to_prepare</tt> принимает блок для запуска после <tt>ActionDispatch::Callbacks.before</tt>, но до запроса. Запускается для каждого запроса в режиме <tt>development</tt>, но лишь единожды в <tt>production</tt> или режиме с <tt>cache_classes</tt>, установленной <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActionDispatch::Callbacks.after</tt> принимает блок кода для запуска после запроса.</li>
+</ul>
+<h4>Конфигурирование Action View</h4>
+<p><tt>config.action_view</tt> включает несколько конфигурационных настроек:</p>
+<ul>
+	<li><tt>config.action_view.field_error_proc</tt> предоставляет генератор <span class="caps">HTML</span> для отображения ошибок, приходящих от Active Record. По умолчанию:</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+Proc.new { |html_tag, instance| %Q(&lt;div class=&quot;field_with_errors&quot;&gt;#{html_tag}&lt;/div&gt;).html_safe }
+</pre>
+</div>
+<ul>
+	<li><tt>config.action_view.default_form_builder</tt> говорит Rails, какой form builder использовать по умолчанию. По умолчанию это <tt>ActionView::Helpers::FormBuilder</tt>. Если хотите, чтобы после инициализации загружался ваш класс form builder (и, таким образом, перезагружался с каждым запросом в development), можно передать его как строку.</li>
+</ul>
+<ul>
+	<li><tt>config.action_view.logger</tt> принимает логгер, соответствующий интерфейсу Log4r или классу Ruby по умолчанию Logger, который затем используется для логирования информации от Action Mailer. Установите <tt>nil</tt> для отключения логирования.</li>
+</ul>
+<ul>
+	<li><tt>config.action_view.erb_trim_mode</tt> задает режим обрезки, который будет использоваться <span class="caps">ERB</span>. По умолчанию <tt>'-'</tt>. Подробнее смотрите в <a href="http://www.ruby-doc.org/stdlib/libdoc/erb/rdoc/">документации по <span class="caps">ERB</span></a>.</li>
+</ul>
+<ul>
+	<li><tt>config.action_view.javascript_expansions</tt> это хэш, содержащий расширения, используемые для тега включения JavaScript. По умолчанию это определено так:</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.action_view.javascript_expansions = { :defaults =&gt; %w(jquery jquery_ujs) }
+</pre>
+</div>
+<p>Однако, можно добавить к нему, чтобы определить что-то другое:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.action_view.javascript_expansions[:prototype] = ['prototype', 'effects', 'dragdrop', 'controls']
+</pre>
+</div>
+<p>И обратиться во вьюхе с помощью следующего кода:</p>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+&lt;%= javascript_include_tag :prototype %&gt;
+</pre>
+</div>
+<ul>
+	<li><tt>config.action_view.stylesheet_expansions</tt> работает так же, как и <tt>javascript_expansions</tt>, но у него нет ключа default По ключам, определенным для этого хэша, можно обращаться во вьюхах так:</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+&lt;%= stylesheet_link_tag :special %&gt;
+</pre>
+</div>
+<ul>
+	<li><tt>config.action_view.cache_asset_ids</tt> Со включенным кэшем хелпер тегов ресурсов будет меньше нагружать файловую систему (реализация по умолчанию проверяет временную метку файловой системы). Однако, это препятствует модификации любого файла ресурса, пока сервер запущен.</li>
+</ul>
+<ul>
+	<li><tt>config.action_view.embed_authenticity_token_in_remote_forms</tt> позволяет установить поведение по умолчанию для <tt>authenticity_token</tt> в формах с <tt>:remote => true</tt>. По умолчанию установлен false, что означает, что remote формы не включают <tt>authenticity_token</tt>, что полезно при фрагментарном кэшировании формы. Remote формы получают аутентификацию из тега <tt>meta</tt>, поэтому встраивание бесполезно, если, конечно, вы не поддерживаете браузеры без JavaScript. В противном случае можно либо передать <tt>:authenticity_token => true</tt> как опцию для формы, либо установить эту настройку в <tt>true</tt> <span class="rails_mark rails_mark_4">Rails 4</span></li>
+</ul>
+<ul>
+	<li><tt>config.action_view.prefix_partial_path_with_controller_namespace</tt> определяет должны ли партиалы искаться в поддиректории шаблонов для контроллеров в пространсве имен, или нет. Например, рассмотрим контроллер с именем <tt>Admin::PostsController</tt>, который рендерит этот шаблон: <span class="rails_mark rails_mark_4">Rails 4</span></li>
+</ul>
+<erb>
+<p>&lt;%= render @post %&gt;
+<erb></p>
+<p>Настройка по умолчанию <tt>true</tt>, что использует партиал в <tt>/admin/posts/_post.erb</tt>. Установка значение в <tt>false</tt> будет рендерить <tt>/posts/_post.erb</tt>, что является тем же поведением, что и рендеринг из контроллера не в пространстве имен, такого как <tt>PostsController</tt>.</p>
+<h4>Конфигурирование Action Mailer</h4>
+<p>Имеется несколько доступных настроек <tt>ActionMailer::Base</tt>:</p>
+<ul>
+	<li><tt>config.action_mailer.logger</tt> принимает логгер, соответствующий интерфейсу Log4r или класса Ruby по умолчанию Logger, который затем используется для логирования информации от Action Mailer. Установите его в nil, чтобы отключить логирование.</li>
+</ul>
+<ul>
+	<li><tt>config.action_mailer.smtp_settings</tt> позволяет детально сконфигурировать метод доставки <tt>:smtp</tt>. Она принимает хэш опций, который может включать любые из следующих:
+	<ul>
+		<li><tt>:address</tt> &#8212; Позволяет использовать удаленный почтовый сервер. Просто измените его значение по умолчанию &#8220;localhost&#8221;.</li>
+		<li><tt>:port</tt> &#8212;  В случае, если ваш почтовый сервер не работает с портом 25, можете изменить это.</li>
+		<li><tt>:domain</tt> &#8212; Если нужно определить домен <span class="caps">HELO</span>, это делается здесь.</li>
+		<li><tt>:user_name</tt> &#8212; Если почтовый сервер требует аутентификацию, установите имя пользователя этой настройкой.</li>
+		<li><tt>:password</tt> &#8212; Если почтовый сервер требует аутентификацию, установите пароль этой настройкой.</li>
+		<li><tt>:authentication</tt> &#8212; Если почтовый сервер требует аутентификацию, здесь необходимо установить тип аутентификации. Это должен быть один из символов <tt>:plain</tt>, <tt>:login</tt>, <tt>:cram_md5</tt>.</li>
+	</ul></li>
+</ul>
+<ul>
+	<li><tt>config.action_mailer.sendmail_settings</tt> Позволяет детально сконфигурировать метод доставки <tt>sendmail</tt>. Она принимает хэш опций, который может включать любые из этих опций:
+	<ul>
+		<li><tt>:location</tt> &#8212; Размещение исполняемого файла sendmail. По умолчанию <tt>/usr/sbin/sendmail</tt>.</li>
+		<li><tt>:arguments</tt> &#8212; Аргументы командной строки. По умолчанию <tt>-i -t</tt>.</li>
+	</ul></li>
+</ul>
+<ul>
+	<li><tt>config.action_mailer.raise_delivery_errors</tt> определяет, должна ли вызываться ошибка, если доставка письма не может быть завершена. По умолчанию <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.action_mailer.delivery_method</tt> определяет метод доставки. Допустимыми значениями являются <tt>:smtp</tt> (по умолчанию), <tt>:sendmail</tt> и <tt>:test</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.action_mailer.perform_deliveries</tt> определяет, должна ли почта фактически доставляться. По умолчанию <tt>true</tt>; удобно установить ее <tt>false</tt> при тестировании.</li>
+</ul>
+<ul>
+	<li><tt>config.action_mailer.default_options</tt> <span class="rails_mark rails_mark_4">Rails 4</span>(в Rails 3 &#8211; <tt>config.action_mailer.default</tt>) конфигурирует значения по умолчанию Action Mailer. Используется для установки таких опций, как `from` или`reply_to` для каждого рассыльщика. Эти значения по умолчанию следующие:</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+:mime_version =&gt; &quot;1.0&quot;,
+:charset      =&gt; &quot;UTF-8&quot;,
+:content_type =&gt; &quot;text/plain&quot;,
+:parts_order  =&gt; [ &quot;text/plain&quot;, &quot;text/enriched&quot;, &quot;text/html&quot; ]
+</pre>
+</div>
+<ul>
+	<li><tt>config.action_mailer.observers</tt> регистрирует обсерверы, которые будут уведомлены при доставке почты.</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.action_mailer.observers = [&quot;MailObserver&quot;]
+</pre>
+</div>
+<ul>
+	<li><tt>config.action_mailer.interceptors</tt> регистрирует перехватчики, которые будут вызваны до того, как почта будет отослана.</li>
+</ul>
+<div class="code_container">
+<pre class="brush: ruby; gutter: false; toolbar: false">
+config.action_mailer.interceptors = [&quot;MailInterceptor&quot;]
+</pre>
+</div>
+<h4>Конфигурирование Active Support</h4>
+<p>Имеется несколько конфигурационных настроек для Active Support:</p>
+<ul>
+	<li><tt>config.active_support.bare</tt> включает или отключает загрузку <tt>active_support/all</tt> при загрузке Rails. По умолчанию <tt>nil</tt>, что означает, что <tt>active_support/all</tt> загружается.</li>
+</ul>
+<ul>
+	<li><tt>config.active_support.escape_html_entities_in_json</tt> включает или отключает экранирование сущностей <span class="caps">HTML</span> в сериализации <span class="caps">JSON</span>. По умолчанию <tt>false</tt>.</li>
+</ul>
+<ul>
+	<li><tt>config.active_support.use_standard_json_time_format</tt> включает или отключает сериализацию дат в формат <span class="caps">ISO</span> 8601. По умолчанию <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActiveSupport::BufferedLogger.silencer</tt> устанавливают <tt>false</tt>, чтобы отключить возможность silence logging в блоке. По умолчанию <tt>true</tt>.</li>
+</ul>
+<ul>
+	<li><tt>ActiveSupport::Cache::Store.logger</tt> определяет логгер, используемый в операциях хранения кэша.</li>
+</ul>
+<ul>
+	<li><tt>ActiveSupport::Deprecation.behavior</tt> альтернативный сеттер для <tt>config.active_support.deprecation</tt>, конфигурирующий поведение предупреждений об устаревании в Rails.</li>
+</ul>
+<ul>
+	<li><tt>ActiveSupport::Deprecation.silence</tt> принимает блок, в котором все предупреждения об устаревании умалчиваются.</li>
+</ul>
+<ul>
+	<li><tt>ActiveSupport::Deprecation.silenced</tt> устанавливает, отображать ли предупреждения об устаревании.</li>
+</ul>
+<ul>
+	<li><tt>ActiveSupport::Logger.silencer</tt> устанавливают <tt>false</tt>, чтобы отключить возможность silence logging в блоке. По умолчанию <tt>true</tt>.</li>
+</ul>
+<h4>Конфигурирование базы данных</h4>
+<p>Почти каждое приложение на Rails взаимодействует с базой данных. Какую базу данных использовать, определяется в конфигурационном файле <tt>config/database.yml</tt>. Если вы откроете этот файл в новом приложении на Rails, то увидите базу данных по умолчанию, настроенную на использование SQLite3. По умолчанию, файл содержит разделы для трех различных сред, в которых может быть запущен Rails:</p>
+<ul>
+	<li>Среда <tt>development</tt> используется на вашем рабочем/локальном компьютере для того, чтобы вы могли взаимодействовать с приложением.</li>
+	<li>Среда <tt>test</tt> используется при запуске автоматических тестов.</li>
+	<li>Среда <tt>production</tt> используется, когда вы развертываете свое приложения во всемирной сети для использования.</li>
+</ul>
+<div class="info"><p>Вам не нужно обновлять конфигурации баз данных вручную. Если взглянете на опции генератора приложения, то увидите, что одна из опций называется <tt>&#8212;database</tt>. Эта опция позволяет выбрать адаптер из списка наиболее часто используемых реляционных баз данных. Можно даже запускать генератор неоднократно: <tt>cd .. &amp;&amp; rails new blog —database=mysql</tt>. После того, как подтвердите перезапись <tt>config/database.yml</tt>, ваше приложение станет использовать MySQL вместо SQLite. Подробные примеры распространенных соединений с базой данных указаны ниже.</p></div>
+<h5>Конфигурирование базы данных SQLite3</h5>
+<p>В Rails есть встроенная поддержка <a href="http://www.sqlite.org">SQLite3</a>, являющейся легким несерверным приложением по управлению базами данных. Хотя нагруженная среда production может перегрузить SQLite, она хорошо работает для разработки и тестирования. Rails при создании нового проекта использует базу данных SQLite, но Вы всегда можете изменить это позже.</p>
+<p>Вот раздел дефолтного конфигурационного файла (<tt>config/database.yml</tt>) с информацией о соединении для среды development:</p>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: false">
+development:
+  adapter: sqlite3
+  database: db/development.sqlite3
+  pool: 5
+  timeout: 5000
+</pre>
+</div>
+<div class="note"><p>В этом руководстве мы используем базу данных SQLite3 для хранения данных, поскольку эта база данных работает с нулевыми настройками. Rails также поддерживает MySQL и PostgreSQL &#8220;из коробки&#8221;, и имеет плагины для многих СУБД. Если вы уже используете базу данных в работе, в Rails скорее всего есть адаптер для нее.</p></div>
+<h5>Конфигурирование базы данных MySQL</h5>
+<p>Если Вы выбрали MySQL вместо SQLite3, ваш <tt>config/database.yml</tt> будет выглядеть немного по другому. Вот секция development:</p>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: false">
+development:
+  adapter: mysql2
+  encoding: utf8
+  database: blog_development
+  pool: 5
+  username: root
+  password:
+  socket: /tmp/mysql.sock
+</pre>
+</div>
+<p>Если на вашем компьютере установленная MySQL имеет пользователя root с пустым паролем, эта конфигурация у вас заработает. В противном случае измените username и password в разделе <tt>development</tt> на правильные.</p>
+<h5>Конфигурирование базы данных PostgreSQL</h5>
+<p>Если Вы выбрали PostgreSQL, ваш <tt>config/database.yml</tt> будет модифицирован для использования базы данных PostgreSQL:</p>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: false">
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: blog_development
+  pool: 5
+  username: blog
+  password:
+</pre>
+</div>
+<p>Можно отключить Prepared Statements следующим образом:</p>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: false">
+production:
+  adapter: postgresql
+  prepared_statements: false
+</pre>
+</div>
+<h5>Конфигурирование базы данных SQLite3 для платформы JRuby</h5>
+<p>Если вы выбрали SQLite3 и используете JRuby, ваш <tt>config/database.yml</tt> будет выглядеть немного по-другому. Вот секция development:</p>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: false">
+development:
+  adapter: jdbcsqlite3
+  database: db/development.sqlite3
+</pre>
+</div>
+<h5>Конфигурирование базы данных MySQL для платформы JRuby</h5>
+<p>Если вы выбрали MySQL и используете JRuby, ваш <tt>config/database.yml</tt> будет выглядеть немного по-другому. Вот секция development:</p>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: false">
+development:
+  adapter: jdbcmysql
+  database: blog_development
+  username: root
+  password:
+</pre>
+</div>
+<h5>Конфигурирование базы данных PostgreSQL для платформы JRuby</h5>
+<p>Наконец, если вы выбрали PostgreSQL и используете JRuby, ваш <tt>config/database.yml</tt> будет выглядеть немного по-другому. Вот секция development:</p>
+<div class="code_container">
+<pre class="brush: plain; gutter: false; toolbar: false">
+development:
+  adapter: jdbcpostgresql
+  encoding: unicode
+  database: blog_development
+  username: blog
+  password:
+</pre>
+</div>
+<p>Измените username и password в секции <tt>development</tt> на правильные.</p>
+<div id='links'>
+<div id='prev_link'><a href="/configuring-rails-applications/locations-for-initialization-code" class="prev_page">Расположение инициализационного кода</a></div>
+<div id='next_link'><a href="/configuring-rails-applications/rails-environment-settings" class="next_page">Настройка среды Rails</a></div>
+</div>
+<div class="discussions"><a href="/discussions/new?discussion%5Bsubject_id%5D=148&amp;discussion%5Bsubject_type%5D=Page">&#1054;&#1089;&#1090;&#1072;&#1074;&#1080;&#1090;&#1100; &#1082;&#1086;&#1084;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;&#1080;&#1081; &#1080;&#1083;&#1080; &#1079;&#1072;&#1076;&#1072;&#1090;&#1100; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;</a></div>
+</div>
+<div class='clear'></div>
+<div id='footer'>
+<p>
+<a href="https://github.com/morsbox/rusrails" id="github_link">github</a>
+<a href="http://morsbox.ru" id="morsbox_link">MORSbox</a>
+2010 - 2012
+<a href="http://twitter.com/rusrails" id="twitter_link">Твиттер</a>
+Хостинг -
+<a href="http://locum.ru?code=91f0442af4234d9f732d89e111795557f795edb6" id="locum_link">Locum.ru</a>
+</p>
+<p>
+<a href="http://creativecommons.org/licenses/by-sa/3.0/">Лицензия CC BY-SA 3.0</a>
+, "Rails", "Ruby on Rails" и логотип Rails - торговые марки D. H. Hansson
+<!-- Yandex.Metrika counter -->
+<div style='display:none'>
+<script>
+  //<![CDATA[
+    (function(w, c) {
+      (w[c] = w[c] || []).push(function() {
+        try {
+          w.yaCounter1006929 = new Ya.Metrika(1006929);
+           yaCounter1006929.trackLinks(true);
+        } catch(e) {}
+      });
+    })(window, 'yandex_metrika_callbacks');
+  //]]>
+</script>
+</div>
+<script defer="defer" src="//mc.yandex.ru/metrika/watch.js" type="text/javascript"></script>
+<noscript>
+<div style='display:none'><img alt="1006929" src="//mc.yandex.ru/watch/1006929" /></div>
+</noscript>
+<!-- /Yandex.Metrika counter -->
+
+</p>
+</div>
+</div>
+</body>
+</html>

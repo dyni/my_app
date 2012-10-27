@@ -1,0 +1,285 @@
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/kostia/.rvm/src/yaml-0.1.4/config/missing --run aclocal-1.11 
+/home/kostia/.rvm/src/yaml-0.1.4/config/missing: строка 52: aclocal-1.11: команда не найдена
+WARNING: `aclocal-1.11' is missing on your system.  You should only need it if
+         you modified `acinclude.m4' or `configure.ac'.  You might want
+         to install the `Automake' and `Perl' packages.  Grab them from
+         any GNU archive site.
+CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/kostia/.rvm/src/yaml-0.1.4/config/missing --run autoconf
+ cd . && /bin/bash /home/kostia/.rvm/src/yaml-0.1.4/config/missing --run automake-1.11 --foreign
+/home/kostia/.rvm/src/yaml-0.1.4/config/missing: строка 52: autoconf: команда не найдена
+/home/kostia/.rvm/src/yaml-0.1.4/config/missing: строка 52: automake-1.11: команда не найдена
+WARNING: `autoconf' is missing on your system.  You should only need it if
+         you modified `configure.ac'.  You might want to install the
+         `Autoconf' and `GNU m4' packages.  Grab them from any GNU
+         archive site.
+/bin/bash ./config.status --recheck
+WARNING: `automake-1.11' is missing on your system.  You should only need it if
+         you modified `Makefile.am', `acinclude.m4' or `configure.ac'.
+         You might want to install the `Automake' and `Perl' packages.
+         Grab them from any GNU archive site.
+running CONFIG_SHELL=/bin/bash /bin/bash ./configure --prefix=/home/kostia/.rvm/usr --no-create --no-recursion
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking the maximum length of command line arguments... 3458764513820540925
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for doxygen... false
+checking for ANSI C header files... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+configure: creating ./config.status
+ /bin/bash ./config.status
+config.status: creating yaml-0.1.pc
+config.status: creating include/Makefile
+config.status: creating src/Makefile
+config.status: creating Makefile
+config.status: creating tests/Makefile
+config.status: creating win32/Makefile
+config.status: creating config.h
+config.status: config.h is unchanged
+config.status: executing depfiles commands
+config.status: executing libtool commands
+(CDPATH="${ZSH_VERSION+.}:" && cd . && /bin/bash /home/kostia/.rvm/src/yaml-0.1.4/config/missing --run autoheader)
+/home/kostia/.rvm/src/yaml-0.1.4/config/missing: строка 52: autoheader: команда не найдена
+WARNING: `autoheader' is missing on your system.  You should only need it if
+         you modified `acconfig.h' or `configure.ac'.  You might want
+         to install the `Autoconf' and `GNU m4' packages.  Grab them
+         from any GNU archive site.
+rm -f stamp-h1
+touch config.h.in
+cd . && /bin/bash ./config.status config.h
+config.status: creating config.h
+config.status: config.h is unchanged
+make  all-recursive
+make[1]: Вход в каталог `/home/kostia/.rvm/src/yaml-0.1.4'
+Making all in include
+make[2]: Вход в каталог `/home/kostia/.rvm/src/yaml-0.1.4/include'
+make[2]: Цель `all' не требует выполнения команд.
+make[2]: Выход из каталога `/home/kostia/.rvm/src/yaml-0.1.4/include'
+Making all in src
+make[2]: Вход в каталог `/home/kostia/.rvm/src/yaml-0.1.4/src'
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT api.lo -MD -MP -MF .deps/api.Tpo -c -o api.lo api.c
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT reader.lo -MD -MP -MF .deps/reader.Tpo -c -o reader.lo reader.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT api.lo -MD -MP -MF .deps/api.Tpo -c api.c  -fPIC -DPIC -o .libs/api.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT reader.lo -MD -MP -MF .deps/reader.Tpo -c reader.c  -fPIC -DPIC -o .libs/reader.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT reader.lo -MD -MP -MF .deps/reader.Tpo -c reader.c -o reader.o >/dev/null 2>&1
+mv -f .deps/reader.Tpo .deps/reader.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c -o scanner.lo scanner.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c scanner.c  -fPIC -DPIC -o .libs/scanner.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT api.lo -MD -MP -MF .deps/api.Tpo -c api.c -o api.o >/dev/null 2>&1
+mv -f .deps/api.Tpo .deps/api.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c -o parser.lo parser.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c parser.c  -fPIC -DPIC -o .libs/parser.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT parser.lo -MD -MP -MF .deps/parser.Tpo -c parser.c -o parser.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT scanner.lo -MD -MP -MF .deps/scanner.Tpo -c scanner.c -o scanner.o >/dev/null 2>&1
+mv -f .deps/parser.Tpo .deps/parser.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT loader.lo -MD -MP -MF .deps/loader.Tpo -c -o loader.lo loader.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT loader.lo -MD -MP -MF .deps/loader.Tpo -c loader.c  -fPIC -DPIC -o .libs/loader.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT loader.lo -MD -MP -MF .deps/loader.Tpo -c loader.c -o loader.o >/dev/null 2>&1
+mv -f .deps/loader.Tpo .deps/loader.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT writer.lo -MD -MP -MF .deps/writer.Tpo -c -o writer.lo writer.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT writer.lo -MD -MP -MF .deps/writer.Tpo -c writer.c  -fPIC -DPIC -o .libs/writer.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT writer.lo -MD -MP -MF .deps/writer.Tpo -c writer.c -o writer.o >/dev/null 2>&1
+mv -f .deps/writer.Tpo .deps/writer.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT emitter.lo -MD -MP -MF .deps/emitter.Tpo -c -o emitter.lo emitter.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT emitter.lo -MD -MP -MF .deps/emitter.Tpo -c emitter.c  -fPIC -DPIC -o .libs/emitter.o
+mv -f .deps/scanner.Tpo .deps/scanner.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT dumper.lo -MD -MP -MF .deps/dumper.Tpo -c -o dumper.lo dumper.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT dumper.lo -MD -MP -MF .deps/dumper.Tpo -c dumper.c  -fPIC -DPIC -o .libs/dumper.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT emitter.lo -MD -MP -MF .deps/emitter.Tpo -c emitter.c -o emitter.o >/dev/null 2>&1
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I.. -I../include -g -O2 -MT dumper.lo -MD -MP -MF .deps/dumper.Tpo -c dumper.c -o dumper.o >/dev/null 2>&1
+mv -f .deps/dumper.Tpo .deps/dumper.Plo
+mv -f .deps/emitter.Tpo .deps/emitter.Plo
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2 -release 0 -version-info 2:2:0  -o libyaml.la -rpath /home/kostia/.rvm/usr/lib api.lo reader.lo scanner.lo parser.lo loader.lo writer.lo emitter.lo dumper.lo  
+libtool: link: gcc -shared  .libs/api.o .libs/reader.o .libs/scanner.o .libs/parser.o .libs/loader.o .libs/writer.o .libs/emitter.o .libs/dumper.o      -Wl,-soname -Wl,libyaml-0.so.2 -o .libs/libyaml-0.so.2.0.2
+libtool: link: (cd ".libs" && rm -f "libyaml-0.so.2" && ln -s "libyaml-0.so.2.0.2" "libyaml-0.so.2")
+libtool: link: (cd ".libs" && rm -f "libyaml.so" && ln -s "libyaml-0.so.2.0.2" "libyaml.so")
+libtool: link: ar cru .libs/libyaml.a  api.o reader.o scanner.o parser.o loader.o writer.o emitter.o dumper.o
+libtool: link: ranlib .libs/libyaml.a
+libtool: link: ( cd ".libs" && rm -f "libyaml.la" && ln -s "../libyaml.la" "libyaml.la" )
+make[2]: Выход из каталога `/home/kostia/.rvm/src/yaml-0.1.4/src'
+Making all in .
+make[2]: Вход в каталог `/home/kostia/.rvm/src/yaml-0.1.4'
+make[2]: Выход из каталога `/home/kostia/.rvm/src/yaml-0.1.4'
+Making all in tests
+make[2]: Вход в каталог `/home/kostia/.rvm/src/yaml-0.1.4/tests'
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT run-scanner.o -MD -MP -MF .deps/run-scanner.Tpo -c -o run-scanner.o run-scanner.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT run-parser.o -MD -MP -MF .deps/run-parser.Tpo -c -o run-parser.o run-parser.c
+mv -f .deps/run-scanner.Tpo .deps/run-scanner.Po
+mv -f .deps/run-parser.Tpo .deps/run-parser.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT run-loader.o -MD -MP -MF .deps/run-loader.Tpo -c -o run-loader.o run-loader.c
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT run-emitter.o -MD -MP -MF .deps/run-emitter.Tpo -c -o run-emitter.o run-emitter.c
+run-emitter.c: В функции «print_output»:
+run-emitter.c:208:5: предупреждение: format «%d» expects argument of type «int», but argument 2 has type «size_t» [-Wformat]
+run-emitter.c:209:5: предупреждение: format «%d» expects argument of type «int», but argument 3 has type «size_t» [-Wformat]
+run-emitter.c: В функции «main»:
+run-emitter.c:322:9: предупреждение: format «%d» expects argument of type «int», but argument 2 has type «size_t» [-Wformat]
+mv -f .deps/run-loader.Tpo .deps/run-loader.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT run-dumper.o -MD -MP -MF .deps/run-dumper.Tpo -c -o run-dumper.o run-dumper.c
+run-dumper.c: В функции «print_output»:
+run-dumper.c:182:5: предупреждение: format «%d» expects argument of type «int», but argument 2 has type «size_t» [-Wformat]
+run-dumper.c:183:5: предупреждение: format «%d» expects argument of type «int», but argument 3 has type «size_t» [-Wformat]
+run-dumper.c: В функции «main»:
+run-dumper.c:306:9: предупреждение: format «%d» expects argument of type «int», but argument 2 has type «size_t» [-Wformat]
+mv -f .deps/run-emitter.Tpo .deps/run-emitter.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT example-reformatter.o -MD -MP -MF .deps/example-reformatter.Tpo -c -o example-reformatter.o example-reformatter.c
+example-reformatter.c: В функции «main»:
+example-reformatter.c:124:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter.c:128:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter.c:138:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter.c:138:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter.c:138:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-reformatter.c:138:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-reformatter.c:143:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter.c:143:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter.c:153:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter.c:153:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter.c:153:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-reformatter.c:153:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-reformatter.c:158:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter.c:158:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+mv -f .deps/run-dumper.Tpo .deps/run-dumper.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT example-reformatter-alt.o -MD -MP -MF .deps/example-reformatter-alt.Tpo -c -o example-reformatter-alt.o example-reformatter-alt.c
+mv -f .deps/example-reformatter.Tpo .deps/example-reformatter.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT example-deconstructor.o -MD -MP -MF .deps/example-deconstructor.Tpo -c -o example-deconstructor.o example-deconstructor.c
+example-reformatter-alt.c: В функции «main»:
+example-reformatter-alt.c:124:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter-alt.c:128:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter-alt.c:138:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter-alt.c:138:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter-alt.c:138:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-reformatter-alt.c:138:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-reformatter-alt.c:143:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter-alt.c:143:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter-alt.c:153:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter-alt.c:153:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter-alt.c:153:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-reformatter-alt.c:153:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-reformatter-alt.c:158:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter-alt.c:158:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter-alt.c:168:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter-alt.c:168:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-reformatter-alt.c:168:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-reformatter-alt.c:168:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-reformatter-alt.c:173:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-reformatter-alt.c:173:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor.c: В функции «main»:
+example-deconstructor.c:1037:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor.c:1041:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor.c:1051:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor.c:1051:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor.c:1051:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-deconstructor.c:1051:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-deconstructor.c:1056:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor.c:1056:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor.c:1066:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor.c:1066:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor.c:1066:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-deconstructor.c:1066:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-deconstructor.c:1071:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor.c:1071:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+mv -f .deps/example-reformatter-alt.Tpo .deps/example-reformatter-alt.Po
+gcc -DHAVE_CONFIG_H -I. -I..  -I../include   -g -O2 -MT example-deconstructor-alt.o -MD -MP -MF .deps/example-deconstructor-alt.Tpo -c -o example-deconstructor-alt.o example-deconstructor-alt.c
+example-deconstructor-alt.c: В функции «main»:
+example-deconstructor-alt.c:707:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:711:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:721:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:721:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:721:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:721:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:726:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:726:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:736:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:736:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:736:25: предупреждение: format «%d» expects argument of type «int», but argument 7 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:736:25: предупреждение: format «%d» expects argument of type «int», but argument 8 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:741:25: предупреждение: format «%d» expects argument of type «int», but argument 4 has type «size_t» [-Wformat]
+example-deconstructor-alt.c:741:25: предупреждение: format «%d» expects argument of type «int», but argument 5 has type «size_t» [-Wformat]
+mv -f .deps/example-deconstructor.Tpo .deps/example-deconstructor.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o run-scanner run-scanner.o ../src/libyaml.la 
+mv -f .deps/example-deconstructor-alt.Tpo .deps/example-deconstructor-alt.Po
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o run-parser run-parser.o ../src/libyaml.la 
+libtool: link: gcc -g -O2 -o .libs/run-scanner run-scanner.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o run-loader run-loader.o ../src/libyaml.la 
+libtool: link: gcc -g -O2 -o .libs/run-parser run-parser.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o run-emitter run-emitter.o ../src/libyaml.la 
+libtool: link: gcc -g -O2 -o .libs/run-loader run-loader.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o run-dumper run-dumper.o ../src/libyaml.la 
+libtool: link: gcc -g -O2 -o .libs/run-emitter run-emitter.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example-reformatter example-reformatter.o ../src/libyaml.la 
+libtool: link: gcc -g -O2 -o .libs/run-dumper run-dumper.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example-reformatter-alt example-reformatter-alt.o ../src/libyaml.la 
+libtool: link: gcc -g -O2 -o .libs/example-reformatter example-reformatter.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example-deconstructor example-deconstructor.o ../src/libyaml.la 
+libtool: link: gcc -g -O2 -o .libs/example-reformatter-alt example-reformatter-alt.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+/bin/bash ../libtool --tag=CC   --mode=link gcc  -g -O2   -o example-deconstructor-alt example-deconstructor-alt.o ../src/libyaml.la 
+libtool: link: gcc -g -O2 -o .libs/example-deconstructor example-deconstructor.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+libtool: link: gcc -g -O2 -o .libs/example-deconstructor-alt example-deconstructor-alt.o  ../src/.libs/libyaml.so -Wl,-rpath -Wl,/home/kostia/.rvm/usr/lib
+make[2]: Выход из каталога `/home/kostia/.rvm/src/yaml-0.1.4/tests'
+Making all in win32
+make[2]: Вход в каталог `/home/kostia/.rvm/src/yaml-0.1.4/win32'
+make[2]: Цель `all' не требует выполнения команд.
+make[2]: Выход из каталога `/home/kostia/.rvm/src/yaml-0.1.4/win32'
+make[1]: Выход из каталога `/home/kostia/.rvm/src/yaml-0.1.4'

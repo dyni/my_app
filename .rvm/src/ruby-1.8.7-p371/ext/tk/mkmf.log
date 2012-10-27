@@ -1,0 +1,407 @@
+have_func: checking for ruby_native_thread_p() in ruby.h... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:5:53: ошибка: «ruby_native_thread_p» undeclared (first use in this function)
+conftest.c:5:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))ruby_native_thread_p; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+/tmp/ccxZcbH3.o: In function `t':
+/home/kostia/.rvm/src/ruby-1.8.7-p371/ext/tk/conftest.c:5: undefined reference to `ruby_native_thread_p'
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { ruby_native_thread_p(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_errinfo() in ruby.h... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:5:53: ошибка: «rb_errinfo» undeclared (first use in this function)
+conftest.c:5:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rb_errinfo; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+/tmp/ccxA7W46.o: In function `t':
+/home/kostia/.rvm/src/ruby-1.8.7-p371/ext/tk/conftest.c:5: undefined reference to `rb_errinfo'
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { rb_errinfo(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_safe_level() in ruby.h... -------------------- yes
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:5:53: ошибка: «rb_safe_level» undeclared (first use in this function)
+conftest.c:5:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rb_safe_level; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { rb_safe_level(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_hash_lookup() in ruby.h... -------------------- yes
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rb_hash_lookup; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_proc_new() in ruby.h... -------------------- yes
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:5:53: ошибка: «rb_proc_new» undeclared (first use in this function)
+conftest.c:5:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rb_proc_new; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { rb_proc_new(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_obj_untrust() in ruby.h... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:5:53: ошибка: «rb_obj_untrust» undeclared (first use in this function)
+conftest.c:5:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rb_obj_untrust; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+/tmp/ccHcEUoP.o: In function `t':
+/home/kostia/.rvm/src/ruby-1.8.7-p371/ext/tk/conftest.c:5: undefined reference to `rb_obj_untrust'
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { rb_obj_untrust(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_obj_taint() in ruby.h... -------------------- yes
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rb_obj_taint; return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_set_safe_level_force() in ruby.h... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:5:53: ошибка: «rb_set_safe_level_force» undeclared (first use in this function)
+conftest.c:5:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rb_set_safe_level_force; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+/tmp/cc0hKOwc.o: In function `t':
+/home/kostia/.rvm/src/ruby-1.8.7-p371/ext/tk/conftest.c:5: undefined reference to `rb_set_safe_level_force'
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { rb_set_safe_level_force(); return 0; }
+/* end */
+
+--------------------
+
+have_func: checking for rb_sourcefile() in ruby.h... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:5:53: ошибка: «rb_sourcefile» undeclared (first use in this function)
+conftest.c:5:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))rb_sourcefile; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static  -lrt -ldl -lcrypt -lm   -lc"
+/tmp/ccRGN8Be.o: In function `t':
+/home/kostia/.rvm/src/ruby-1.8.7-p371/ext/tk/conftest.c:5: undefined reference to `rb_sourcefile'
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { rb_sourcefile(); return 0; }
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct RArray.ptr in ruby.h... -------------------- yes
+
+"gcc -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC     -c conftest.c"
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int s = (char *)&((struct RArray*)0)->ptr - (char *)0;
+/* end */
+
+--------------------
+
+have_struct_member: checking for struct RArray.len in ruby.h... -------------------- yes
+
+"gcc -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC     -c conftest.c"
+checked program was:
+/* begin */
+1: #include <ruby.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int s = (char *)&((struct RArray*)0)->len - (char *)0;
+/* end */
+
+--------------------
+
+have_library: checking for t_open() in -lnsl... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lnsl  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «t_open» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))t_open; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lnsl  -lrt -ldl -lcrypt -lm   -lc"
+/tmp/ccik9uxr.o: In function `t':
+/home/kostia/.rvm/src/ruby-1.8.7-p371/ext/tk/conftest.c:3: undefined reference to `t_open'
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { t_open(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for socket() in -lsocket... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lsocket  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «socket» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))socket; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lsocket  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lsocket
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { socket(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for dlopen() in -ldl... -------------------- yes
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -ldl  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «dlopen» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))dlopen; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -ldl  -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { dlopen(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for log() in -lm... -------------------- yes
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -ldl  -lruby-static -lm -ldl  -lrt -ldl -lcrypt -lm   -lc"
+checked program was:
+/* begin */
+1: #include <math.h>
+2: 
+3: /*top*/
+4: int main() { return 0; }
+5: int t() { void ((*volatile p)()); p = (void ((*)()))log; return 0; }
+/* end */
+
+--------------------
+
+"gcc -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC     -c conftest.c"
+conftest.c:4:3: ошибка: #error 
+conftest.c:5:1: ошибка: expected identifier or «(» before «>>» token
+checked program was:
+/* begin */
+1: #include "ruby.h"
+2: /*top*/
+3: #ifndef HAVE_NATIVETHREAD
+4: # error
+5: >>>>>> HAVE_NATIVETHREAD undefined <<<<<<
+6: #endif
+/* end */
+
+find_library: checking for XOpenDisplay() in -lX11... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -lm -ldl  -lruby-static -lX11 -lm -ldl  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «XOpenDisplay» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))XOpenDisplay; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic    -lm -ldl  -lruby-static -lX11 -lm -ldl  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lX11
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { XOpenDisplay(); return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L/usr/lib/X11 -Wl,-R/usr/lib/X11 -L.  -rdynamic -Wl,-export-dynamic    -lm -ldl  -lruby-static -lX11 -lm -ldl  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «XOpenDisplay» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))XOpenDisplay; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/tk    -g -O2  -fPIC   conftest.c  -L. -L../.. -L/usr/lib/X11 -Wl,-R/usr/lib/X11 -L.  -rdynamic -Wl,-export-dynamic    -lm -ldl  -lruby-static -lX11 -lm -ldl  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lX11
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { XOpenDisplay(); return 0; }
+/* end */
+
+--------------------
+

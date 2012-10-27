@@ -1,0 +1,262 @@
+status: 200
+content-length: 5352
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/kmahjongg/
+x-cache: HIT from sumac.canonical.com
+age: 263
+expires: Sat, 27 Oct 2012 08:46:30 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 08:41:30 GMT
+etag: "00c4aae9073146ac2add95c649c72148"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 08:41:30 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from sumac.canonical.com:3128
+
+{
+    "rid": "be5c7a5ae48d605c090a568abd6d1234",
+    "data": [
+        {
+            "rating": 4.0,
+            "package_name": "xbill"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "luola"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "gnobots2"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "xscavenger"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "fofix"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "a7xpg"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "flobopuyo"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "passage"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "criticalmass"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "amor"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "tennix"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "xscorch"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "noiz2sa"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "xboing"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "egoboo"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "balazar"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "linthesia"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "bugsx"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "barrage"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "chocolate-doom"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "stella"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "bygfoot"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "kbounce"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "mmpong-gl"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "dopewars"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "powder"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "zatacka"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "fceux"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "computer-janitor-gtk"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "crawl-tiles"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "tictactoe-ng"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "gemdropx"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "gravitation"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "oneisenough"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "amphetamine"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "freedroid"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "monster-masher"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "triplane"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "rlvm"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "gnibbles"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "exult"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "xqf"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "ballz"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "snake4"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "acm"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "stepbill.app"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "gargoyle-free"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "fuse-emulator-sdl"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "gomoku.app"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "netrek-client-cow"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "asciijump"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "heroes-sdl"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "lmarbles"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "gnomekiss"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "yabause-gtk"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "kanadic"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "visualboyadvance-gtk"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "enemylines7"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "airstrike"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "balder2d"
+        }
+    ],
+    "app": "kmahjongg"
+}

@@ -1,0 +1,167 @@
+
+SHELL = /bin/sh
+
+#### Start of system configuration section. ####
+top_srcdir = $(topdir)/.
+srcdir = $(top_srcdir)/ext/pty
+topdir = ../..
+hdrdir = $(top_srcdir)
+VPATH = $(srcdir):$(topdir):$(hdrdir)
+RUBYLIB = -
+RUBYOPT = -rpurelib.rb
+prefix = $(DESTDIR)/home/kostia/.rvm/rubies/ruby-1.8.7-p371
+exec_prefix = $(prefix)
+dvidir = $(docdir)
+mandir = $(datarootdir)/man
+datadir = $(datarootdir)
+vendorarchdir = $(vendorlibdir)/$(sitearch)
+sbindir = $(exec_prefix)/sbin
+psdir = $(docdir)
+oldincludedir = $(DESTDIR)/usr/include
+libexecdir = $(exec_prefix)/libexec
+sitedir = $(libdir)/ruby/site_ruby
+pdfdir = $(docdir)
+bindir = $(exec_prefix)/bin
+archdir = $(rubylibdir)/$(arch)
+sitelibdir = $(sitedir)/$(ruby_version)
+localstatedir = $(prefix)/var
+infodir = $(datarootdir)/info
+localedir = $(datarootdir)/locale
+htmldir = $(docdir)
+vendorlibdir = $(vendordir)/$(ruby_version)
+includedir = $(prefix)/include
+datarootdir = $(prefix)/share
+sharedstatedir = $(prefix)/com
+sysconfdir = $(prefix)/etc
+vendordir = $(libdir)/ruby/vendor_ruby
+sitearchdir = $(sitelibdir)/$(sitearch)
+docdir = $(datarootdir)/doc/$(PACKAGE)
+rubylibdir = $(libdir)/ruby/$(ruby_version)
+libdir = $(exec_prefix)/lib
+
+CC = gcc
+LIBRUBY = $(LIBRUBY_SO)
+LIBRUBY_A = lib$(RUBY_SO_NAME)-static.a
+LIBRUBYARG_SHARED = -Wl,-R -Wl,$(libdir) -L$(libdir) -l$(RUBY_SO_NAME)
+LIBRUBYARG_STATIC = -l$(RUBY_SO_NAME)-static
+
+RUBY_EXTCONF_H = 
+CFLAGS   =  -fPIC -g -O2  -fPIC $(cflags) 
+INCFLAGS = -I. -I../.. -I../../. -I../.././ext/pty
+DEFS     = 
+CPPFLAGS = -DHAVE_SYS_STROPTS_H -DHAVE_SETRESUID -DHAVE_PTY_H -DHAVE_OPENPTY   
+CXXFLAGS = $(CFLAGS) 
+ldflags  = -L.  -rdynamic -Wl,-export-dynamic
+dldflags = 
+archflag = 
+DLDFLAGS = $(ldflags) $(dldflags) $(archflag)
+LDSHARED = $(CC) -shared
+AR = ar
+EXEEXT = 
+
+RUBY_INSTALL_NAME = ruby
+RUBY_SO_NAME = ruby
+arch = x86_64-linux
+sitearch = x86_64-linux
+ruby_version = 1.8
+ruby = $(topdir)/miniruby -I'$(topdir)' -I'$(top_srcdir)/lib' -I'$(extout)/$(arch)' -I'$(extout)/common' -I./- -I'$(top_srcdir)/ext' -rpurelib.rb
+RUBY = $(ruby)
+RM = rm -f
+MAKEDIRS = mkdir -p
+INSTALL = /usr/bin/install -c
+INSTALL_PROG = $(INSTALL) -m 0755
+INSTALL_DATA = $(INSTALL) -m 644
+COPY = cp
+
+#### End of system configuration section. ####
+
+preload = 
+
+libpath = . $(topdir)
+LIBPATH =  -L. -L$(topdir)
+DEFFILE = 
+
+CLEANFILES = mkmf.log
+DISTCLEANFILES = 
+
+extout = $(topdir)/.ext
+extout_prefix = $(extout)$(target_prefix)/
+target_prefix = 
+LOCAL_LIBS = 
+LIBS = $(LIBRUBYARG_SHARED) -lutil  -lrt -ldl -lcrypt -lm   -lc
+SRCS = pty.c
+OBJS = pty.o
+TARGET = pty
+DLLIB = $(TARGET).so
+EXTSTATIC = 
+STATIC_LIB = $(TARGET).a
+
+BINDIR        = $(extout)/bin
+RUBYCOMMONDIR = $(extout)/common
+RUBYLIBDIR    = $(RUBYCOMMONDIR)$(target_prefix)
+RUBYARCHDIR   = $(extout)/$(arch)$(target_prefix)
+
+TARGET_SO     = $(RUBYARCHDIR)/$(DLLIB)
+CLEANLIBS     = $(RUBYARCHDIR)/$(TARGET).so $(RUBYARCHDIR)/$(TARGET).il? $(RUBYARCHDIR)/$(TARGET).tds $(RUBYARCHDIR)/$(TARGET).map
+CLEANOBJS     = *.o *.a *.s[ol] *.pdb *.exp *.bak
+
+all:		install
+static:		$(STATIC_LIB) install-rb
+
+clean:
+		@-$(RM) $(CLEANLIBS) $(CLEANOBJS) $(CLEANFILES)
+
+distclean:	clean
+		@-$(RM) Makefile $(RUBY_EXTCONF_H) conftest.* mkmf.log
+		@-$(RM) core ruby$(EXEEXT) *~ $(DISTCLEANFILES)
+
+realclean:	distclean
+install: install-so install-rb
+
+install-so: $(RUBYARCHDIR)
+install-so: $(RUBYARCHDIR)/$(DLLIB)
+install-rb: pre-install-rb install-rb-default
+install-rb-default: pre-install-rb-default
+pre-install-rb: Makefile
+pre-install-rb-default: Makefile
+pre-install-rb-default: $(RUBYLIBDIR)
+install-rb-default: $(RUBYLIBDIR)/expect.rb
+$(RUBYLIBDIR)/expect.rb: $(srcdir)/lib/expect.rb $(RUBYLIBDIR)
+	$(COPY) $(srcdir)/lib/expect.rb $(@D)
+$(RUBYARCHDIR):
+	$(MAKEDIRS) $@
+$(RUBYLIBDIR):
+	$(MAKEDIRS) $@
+
+site-install: site-install-so site-install-rb
+site-install-so: install-so
+site-install-rb: install-rb
+
+.SUFFIXES: .c .m .cc .cxx .cpp .C .o
+
+.cc.o:
+	$(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) -c $<
+
+.cxx.o:
+	$(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) -c $<
+
+.cpp.o:
+	$(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) -c $<
+
+.C.o:
+	$(CXX) $(INCFLAGS) $(CPPFLAGS) $(CXXFLAGS) -c $<
+
+.c.o:
+	$(CC) $(INCFLAGS) $(CPPFLAGS) $(CFLAGS) -c $<
+
+$(RUBYARCHDIR)/$(DLLIB): $(OBJS) Makefile
+	@-$(RM) $@
+	@-$(MAKEDIRS) $(@D)
+	$(LDSHARED) -o $@ $(OBJS) $(LIBPATH) $(DLDFLAGS) $(LOCAL_LIBS) $(LIBS)
+
+$(STATIC_LIB): $(OBJS)
+	$(AR) cru $@ $(OBJS)
+	@-ranlib $(DLLIB) 2> /dev/null || true
+
+###
+pty.o: pty.c $(hdrdir)/ruby.h $(topdir)/config.h $(hdrdir)/defines.h

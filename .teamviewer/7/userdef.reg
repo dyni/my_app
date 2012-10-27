@@ -1,0 +1,48 @@
+WINE REGISTRY Version 2
+;; All keys relative to \\User\\.Default
+
+#arch=win32
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\Shell Folders] 1351359695
+"AppData"="C:\\users\\kostia\\Application Data"
+"Cache"="C:\\users\\kostia\\Local Settings\\Temporary Internet Files"
+"Cookies"="C:\\users\\kostia\\Cookies"
+"Desktop"="C:\\users\\kostia\\\x420\x430\x431\x43e\x447\x438\x439 \x441\x442\x43e\x43b"
+"Favorites"="C:\\users\\kostia\\\x418\x437\x431\x440\x430\x43d\x43d\x43e\x435"
+"Fonts"="C:\\windows\\Fonts"
+"History"="C:\\users\\kostia\\Local Settings\\History"
+"Local AppData"="C:\\users\\kostia\\Local Settings\\Application Data"
+"My Music"="C:\\users\\kostia\\\x41c\x43e\x44f \x43c\x443\x437\x44b\x43a\x430"
+"My Pictures"="C:\\users\\kostia\\\x41c\x43e\x438 \x440\x438\x441\x443\x43d\x43a\x438"
+"My Videos"="C:\\users\\kostia\\\x41c\x43e\x438 \x444\x438\x43b\x44c\x43c\x44b"
+"NetHood"="C:\\users\\kostia\\\x421\x435\x442\x435\x432\x43e\x435 \x43e\x43a\x440\x443\x436\x435\x43d\x438\x435"
+"Personal"="C:\\users\\kostia\\\x41c\x43e\x438 \x434\x43e\x43a\x443\x43c\x435\x43d\x442\x44b"
+"PrintHood"="C:\\users\\kostia\\\x41f\x440\x438\x43d\x442\x435\x440\x44b"
+"Programs"="C:\\users\\kostia\\\x413\x43b\x430\x432\x43d\x43e\x435 \x43c\x435\x43d\x44e\\\x41f\x440\x43e\x433\x440\x430\x43c\x43c\x44b"
+"Recent"="C:\\users\\kostia\\\x41d\x435\x434\x430\x432\x43d\x435\x435"
+"SendTo"="C:\\users\\kostia\\\x41e\x442\x43f\x440\x430\x432\x438\x442\x44c"
+"Start Menu"="C:\\users\\kostia\\\x413\x43b\x430\x432\x43d\x43e\x435 \x43c\x435\x43d\x44e"
+"StartUp"="C:\\users\\kostia\\\x413\x43b\x430\x432\x43d\x43e\x435 \x43c\x435\x43d\x44e\\\x41f\x440\x43e\x433\x440\x430\x43c\x43c\x44b\\\x410\x432\x442\x43e\x437\x430\x433\x440\x443\x437\x43a\x430"
+"Templates"="C:\\users\\kostia\\\x428\x430\x431\x43b\x43e\x43d\x44b"
+
+[Software\\Microsoft\\Windows\\CurrentVersion\\Explorer\\User Shell Folders] 1351359695
+"AppData"=str(2):"%USERPROFILE%\\Application Data"
+"Cache"=str(2):"%USERPROFILE%\\Local Settings\\Temporary Internet Files"
+"Cookies"=str(2):"%USERPROFILE%\\Cookies"
+"Desktop"=str(2):"%USERPROFILE%\\\x420\x430\x431\x43e\x447\x438\x439 \x441\x442\x43e\x43b"
+"Favorites"=str(2):"%USERPROFILE%\\\x418\x437\x431\x440\x430\x43d\x43d\x43e\x435"
+"Fonts"=str(2):"C:\\windows\\Fonts"
+"History"=str(2):"%USERPROFILE%\\Local Settings\\History"
+"Local AppData"=str(2):"%USERPROFILE%\\Local Settings\\Application Data"
+"My Music"=str(2):"%USERPROFILE%\\\x41c\x43e\x44f \x43c\x443\x437\x44b\x43a\x430"
+"My Pictures"=str(2):"%USERPROFILE%\\\x41c\x43e\x438 \x440\x438\x441\x443\x43d\x43a\x438"
+"My Videos"=str(2):"%USERPROFILE%\\\x41c\x43e\x438 \x444\x438\x43b\x44c\x43c\x44b"
+"NetHood"=str(2):"%USERPROFILE%\\\x421\x435\x442\x435\x432\x43e\x435 \x43e\x43a\x440\x443\x436\x435\x43d\x438\x435"
+"Personal"=str(2):"%USERPROFILE%\\\x41c\x43e\x438 \x434\x43e\x43a\x443\x43c\x435\x43d\x442\x44b"
+"PrintHood"=str(2):"%USERPROFILE%\\\x41f\x440\x438\x43d\x442\x435\x440\x44b"
+"Programs"=str(2):"%USERPROFILE%\\\x413\x43b\x430\x432\x43d\x43e\x435 \x43c\x435\x43d\x44e\\\x41f\x440\x43e\x433\x440\x430\x43c\x43c\x44b"
+"Recent"=str(2):"%USERPROFILE%\\\x41d\x435\x434\x430\x432\x43d\x435\x435"
+"SendTo"=str(2):"%USERPROFILE%\\\x41e\x442\x43f\x440\x430\x432\x438\x442\x44c"
+"Start Menu"=str(2):"%USERPROFILE%\\\x413\x43b\x430\x432\x43d\x43e\x435 \x43c\x435\x43d\x44e"
+"StartUp"=str(2):"%USERPROFILE%\\\x413\x43b\x430\x432\x43d\x43e\x435 \x43c\x435\x43d\x44e\\\x41f\x440\x43e\x433\x440\x430\x43c\x43c\x44b\\\x410\x432\x442\x43e\x437\x430\x433\x440\x443\x437\x43a\x430"
+"Templates"=str(2):"%USERPROFILE%\\\x428\x430\x431\x43b\x43e\x43d\x44b"

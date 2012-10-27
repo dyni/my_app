@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='utf-8'?>
+<?xml-stylesheet type="text/xsl" href="log-store-xml.xsl"?>
+<log>
+<message time='20121027T16:03:57' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='866d95e8-8f67-4b20-a477-9c3dad20594a'>Это какой то ужас. Бля застрял на Gemfile</message>
+<message time='20121027T16:04:53' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='d9f99f0a-0070-4957-877c-081d49cd32b1'>запускаю новое приложение вроде всё начинает создавать, а потом красными буквами пишет There was an error in your Gemfile, and Bundler cannot continue.
+</message>
+<message time='20121027T16:05:06' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='3eca3250-732d-44d9-ba48-824ff1f037ac'>пол дня мучаюсь</message>
+<message time='20121027T16:06:13' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='8e4c8f74-8b5a-4c58-9f53-2a9f4af346d0'>заметил что запускает bundle install  и выдаёт ошибку. Не встречал такого?</message>
+<message time='20121027T16:18:40' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-11'>Ну скинь сылку на файл</message>
+<message time='20121027T16:18:53' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-12'>Скажу что не так</message>
+<message time='20121027T16:19:31' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='b4851b02-06df-4ad3-9105-727812ed7246'>бля я хз как тут скидывать.</message>
+<message time='20121027T16:20:08' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='9b970232-58f3-4bf9-afd5-3e3ce20483a8'>в общем когда запускаю в терминале приложение</message>
+<message time='20121027T16:20:33' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='c136553d-6927-4f89-9cf7-a66df16c1f8d'>вот такое</message>
+<message time='20121027T16:20:36' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='7b2e7a16-a6ad-4a4b-9097-e999617edf56'>kostia@kostia-ThinkPad-E520:~$ rails new first_app
+       exist  
+   identical  README.rdoc
+   identical  Rakefile
+   identical  config.ru
+   identical  .gitignore
+    conflict  Gemfile
+Overwrite /home/kostia/first_app/Gemfile? (enter &quot;h&quot; for help) [Ynaqdh] y
+       force  Gemfile
+       exist  app
+   identical  app/assets/images/rails.png
+   identical  app/assets/javascripts/application.js
+   identical  app/assets/stylesheets/application.css
+   identical  app/controllers/application_controller.rb
+   identical  app/helpers/application_helper.rb
+       exist  app/mailers
+       exist  app/models
+   identical  app/views/layouts/application.html.erb
+   identical  app/mailers/.gitkeep
+   identical  app/models/.gitkeep
+       exist  config
+   identical  config/routes.rb
+   identical  config/application.rb
+   identical  config/environment.rb
+       exist  config/environments
+   identical  config/environments/development.rb
+   identical  config/environments/production.rb
+   identical  config/environments/test.rb
+       exist  config/initializers
+   identical  config/initializers/backtrace_silencers.rb
+   identical  config/initializers/inflections.rb
+   identical  config/initializers/mime_types.rb
+    conflict  config/initializers/secret_token.rb
+Overwrite /home/kostia/first_app/config/initializers/secret_token.rb? (enter &quot;h&quot; for help) [Ynaqdh] y
+       force  config/initializers/secret_token.rb
+   identical  config/initializers/session_store.rb
+   identical  config/initializers/wrap_parameters.rb
+       exist  config/locales
+   identical  config/locales/en.yml
+   identical  config/boot.rb
+   identical  config/database.yml
+       exist  db
+   identical  db/seeds.rb
+       exist  doc
+   identical  doc/README_FOR_APP
+       exist  lib
+       exist  lib/tasks
+   identical  lib/tasks/.gitkeep
+       exist  lib/assets
+   identical  lib/assets/.gitkeep
+       exist  log
+   identical  log/.gitkeep
+       exist  public
+   identical  public/404.html
+   identical  public/422.html
+   identical  public/500.html
+   identical  public/favicon.ico
+   identical  public/index.html
+   identical  public/robots.txt
+       exist  script
+   identical  script/rails
+       exist  test/fixtures
+   identical  test/fixtures/.gitkeep
+       exist  test/functional
+   identical  test/functional/.gitkeep
+       exist  test/integration
+   identical  test/integration/.gitkeep
+       exist  test/unit
+   identical  test/unit/.gitkeep
+   identical  test/performance/browsing_test.rb
+   identical  test/test_helper.rb
+       exist  tmp/cache
+       exist  tmp/cache/assets
+       exist  vendor/assets/javascripts
+   identical  vendor/assets/javascripts/.gitkeep
+       exist  vendor/assets/stylesheets
+   identical  vendor/assets/stylesheets/.gitkeep
+       exist  vendor/plugins
+   identical  vendor/plugins/.gitkeep
+         run  bundle install
+/var/lib/gems/1.8/gems/bundler-1.2.1/lib/bundler/source.rb:271: uninitialized constant Bundler::GemInstaller (NameError)
+       /var/lib/gems/1.8/gems/bundler-1.2.1/lib/bundler/dsl.rb:21:in `initialize&apos;
+       /var/lib/gems/1.8/gems/bundler-1.2.1/lib/bundler/dsl.rb:6:in `new&apos;
+       /var/lib/gems/1.8/gems/bundler-1.2.1/lib/bundler/dsl.rb:6:in `evaluate&apos;
+       /var/lib/gems/1.8/gems/bundler-1.2.1/lib/bundler/definition.rb:18:in `build&apos;
+       /usr/lib/ruby/vendor_ruby/bundler.rb:136:in `definition&apos;
+       /usr/lib/ruby/vendor_ruby/bundler/cli.rb:222:in `install&apos;
+       /usr/lib/ruby/vendor_ruby/bundler/vendor/thor/task.rb:22:in `send&apos;
+       /usr/lib/ruby/vendor_ruby/bundler/vendor/thor/task.rb:22:in `run&apos;
+       /usr/lib/ruby/vendor_ruby/bundler/vendor/thor/invocation.rb:118:in `invoke_task&apos;
+       /usr/lib/ruby/vendor_ruby/bundler/vendor/thor.rb:246:in `dispatch&apos;
+       /usr/lib/ruby/vendor_ruby/bundler/vendor/thor/base.rb:389:in `start&apos;
+       /var/lib/gems/1.8/gems/bundler-1.2.1/bin/bundle:14
+       /var/lib/gems/1.8/gems/bundler-1.2.1/lib/bundler/friendly_errors.rb:4:in `with_friendly_errors&apos;
+       /var/lib/gems/1.8/gems/bundler-1.2.1/bin/bundle:14
+There was an error in your Gemfile, and Bundler cannot continue.
+</message>
+<message time='20121027T16:21:12' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='fb57f1fe-75a8-4d1d-b3eb-13389cd9d15f'>видишь в самом низу и в начале пишет ошибку.</message>
+<message time='20121027T16:22:09' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='9f7082bb-d89e-4cea-b507-dabdaba2b718'>может я что то не так сделал</message>
+<message time='20121027T16:22:19' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='608b2dba-079a-466b-b55b-594c244614a5'>проверяю какие версии стоят у меня</message>
+<message time='20121027T16:22:23' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='ace431e0-08b3-427c-984c-d9c7ec63e648'>kostia@kostia-ThinkPad-E520:~$ ruby -v
+ruby 1.8.7 (2011-06-30 patchlevel 352) [x86_64-linux]
+kostia@kostia-ThinkPad-E520:~$ rails -v
+Rails 3.2.8
+kostia@kostia-ThinkPad-E520:~$ gem -v
+1.8.15
+kostia@kostia-ThinkPad-E520:~$ 
+</message>
+<message time='20121027T16:23:00' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='54257605-1f83-4b64-ad9b-a04a996631dd'>посмотри вот тут http://russian.railstutorial.org/chapters/beginning#code:default_gemfile</message>
+<message time='20121027T16:23:28' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='c6fd75e2-18cc-4ac0-943e-990bfcd8adcb'>я что то не могу понять. Мне там строчку дописать нужно?</message>
+<message time='20121027T16:25:38' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-15'>Бля чета ты совсем не то делаешь</message>
+<message time='20121027T16:25:55' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='a327a3f2-db72-4c85-874e-55a7c3912964'>ну я с самого начала начал</message>
+<message time='20121027T16:26:09' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-17'>Пишет он тебе что уже есть такие файлы</message>
+<message time='20121027T16:26:37' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-18'>Значит ты уже создавал приложение</message>
+<message time='20121027T16:26:52' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-19'>И почему у тебя руби 187</message>
+<message time='20121027T16:27:01' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-20'>Надо 193</message>
+<message time='20121027T16:27:20' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-21'>Ты rvm ставил?</message>
+<message time='20121027T16:27:47' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='7d73ebe1-2673-414f-a8df-52639f289dcb'>да</message>
+<message time='20121027T16:28:05' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='3f279abf-ef9c-47d1-bb87-614948244a7f'>может я не правильно поставил?</message>
+<message time='20121027T16:28:12' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='372bfe6a-7c27-41a0-9590-7fc872a6e01c'>вот тут брал </message>
+<message time='20121027T16:28:13' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='eee5a0a9-bfdb-4a20-8d56-ec233d8c89f8'>https://rvm.io//rvm/install/</message>
+<message time='20121027T16:28:35' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='043fca3a-78d6-4576-8bd8-4b78c7b4c1e1'>первую строчку прописывал</message>
+<message time='20121027T16:28:57' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='06dc0dba-580f-40f6-b720-43d48b1f8edb'>а не, все прописывал по очерёдности</message>
+<message time='20121027T16:29:04' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='75e2c365-41d5-40fd-9603-73e53f5ee1ba'>наверно тут мой косяк?</message>
+<message time='20121027T16:29:13' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-29'>Ну да но руби 193</message>
+<message time='20121027T16:29:22' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-30'>Должно быть</message>
+<message time='20121027T16:29:51' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-31'>Ты делаешь по туториалу?</message>
+<message time='20121027T16:29:58' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='b6b59147-9d86-4038-a2c1-c6e7506e36a2'>да</message>
+<message time='20121027T16:30:01' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-33'>Каждый пункт?</message>
+<message time='20121027T16:30:07' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='a8ee484d-2275-47bc-bcdb-345ae5b2ec6b'>да</message>
+<message time='20121027T16:30:14' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='f0873052-cd43-4f4b-969a-815fb5927984'>Сейчас заново буду делать</message>
+<message time='20121027T16:30:26' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='a5a183f8-3df4-4d45-bdbd-5028240f356c'>а что тут нужно прописать https://rvm.io//rvm/install/</message>
+<message time='20121027T16:30:38' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='b96aeffa-4adf-4141-b9e5-507d1939e01c'>какждую строку?или две первые?</message>
+<message time='20121027T16:30:48' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-38'>На английском туториал актуальнее</message>
+<message time='20121027T16:31:12' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='53bfeed6-f8bf-43a7-914e-2a4bd7304d73'>Я бля читаю, такое чувство что машина переводила</message>
+<message time='20121027T16:32:03' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-40'>Ту ссылку что ты дал</message>
+<message time='20121027T16:32:11' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='c8000fe7-f4de-47dc-bd86-be801b7921a0'>да</message>
+<message time='20121027T16:32:22' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-42'>Там раньше по тексту</message>
+<message time='20121027T16:32:36' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-43'>Прлписано как 1.9.2</message>
+<message time='20121027T16:32:45' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-44'>Ставить</message>
+<message time='20121027T16:32:53' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-45'>Gemset</message>
+<message time='20121027T16:33:01' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-46'>И все такое</message>
+<message time='20121027T16:33:04' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='b2123ec3-1531-4ff4-bbc0-8514fbe0c7c4'>н</message>
+<message time='20121027T16:33:06' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='98d06417-eb99-4cf3-b470-b4c223da676e'>нуэ</message>
+<message time='20121027T16:33:16' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-49'>Ты что пропустил это?</message>
+<message time='20121027T16:33:33' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='dc676509-e655-41c3-bddc-4578cbf27931'>да не. Погоди я уже запутался.</message>
+<message time='20121027T16:33:52' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-51'>Туьориал</message>
+<message time='20121027T16:34:03' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='67264451-9d93-425c-8d04-60f24b91ce7f'>Короче я делал по туториалу и остоновился на Gemfile</message>
+<message time='20121027T16:34:46' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='885af43c-d309-44b8-af33-42d8bc293ec9'>я уже и приложение создал. но не могу сервер запустить</message>
+<message time='20121027T16:34:48' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-53'>Как ты на нем останоаился если рвм ненастроил</message>
+<message time='20121027T16:35:16' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-54'>Там написанр как рвм настраивать</message>
+<message time='20121027T16:35:38' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='9ba82b63-af3c-4392-a3fa-9095dc870064'>да я его настроил.</message>
+<message time='20121027T16:35:39' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-55'>Руби жолжно 1.9.ц</message>
+<message time='20121027T16:35:47' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='94f76ac9-a0ec-4416-8ba8-20786e720ff6'>ок</message>
+<message time='20121027T16:35:57' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='b9f7306b-0c14-47f0-ab60-0c54d6d8d29a'>с самого начала начну.</message>
+<message time='20121027T16:35:58' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-58'>Чего у тебя руби 187</message>
+<message time='20121027T16:36:15' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='ded7787f-4aa7-4fae-86ca-844f690c7a6b'>я его по дефолту поставил наверно</message>
+<message time='20121027T16:36:16' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-60'>Nado 192 193</message>
+<message time='20121027T16:36:22' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='8c5d3288-4ea3-4f95-a5e2-f654a4f24f7e'>ок</message>
+<message time='20121027T16:38:08' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='b3c80399-58d0-46bf-8dcd-5bb25e94c7c0'>ну вот ruby 1.9.2p320 (2012-04-20 revision 35421) [x86_64-linux]
+</message>
+<message time='20121027T16:38:35' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='1a6dc2c8-4483-4164-9036-43de66a0a3f9'>теперь правильно</message>
+<message time='20121027T16:51:45' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-63'>Nu da</message>
+<message time='20121027T16:51:57' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-64'>1.9.3</message>
+<message time='20121027T16:52:04' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-65'>Лучще</message>
+<message time='20121027T16:52:08' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='62ff4d55-bd6a-4d06-9076-33efc6838ad3'>всё равно бред какой-то</message>
+<message time='20121027T16:52:15' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-67'>?</message>
+<message time='20121027T16:52:32' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='73ddf1eb-7b5e-4afb-9971-6ce8997ed7b7'>проверяю rails -v</message>
+<message time='20121027T16:52:42' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='9c352741-8963-4152-be80-40f0fd2fb307'>пишет ошибка</message>
+<message time='20121027T16:53:04' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='89f1c9f2-9e75-4a6b-8135-ebec9ae1f1f9'>вот такая</message>
+<message time='20121027T16:53:05' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='14113825-f488-4414-a6f7-f6c8d96cd053'>/usr/lib/ruby/vendor_ruby/1.8/rubygems/dependency.rb:247:in `to_specs&apos;: Could not find rails (&gt;= 0) amongst [bundler-1.2.1, rake-0.9.2.2, rubygems-bundler-1.1.0, rvm-1.11.3.5] (Gem::LoadError)
+	from /usr/lib/ruby/vendor_ruby/1.8/rubygems/dependency.rb:256:in `to_spec&apos;
+	from /usr/lib/ruby/vendor_ruby/1.8/rubygems.rb:1208:in `gem&apos;
+	from /usr/local/bin/rails:18
+</message>
+<message time='20121027T16:53:16' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='25d77bdf-972d-4a42-ab95-688c20e7d3ca'>где-то я что то накосячил</message>
+<message time='20121027T16:56:02' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-71'>А ты их ставил?</message>
+<message time='20121027T16:56:26' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-72'>Rails -v</message>
+<message time='20121027T16:56:34' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-73'>Что дает?</message>
+<message time='20121027T16:57:10' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='ae6588d8-2ce5-4f12-a90c-964ae5fd2dc0'>показывает установлена ли версия рельсов. а мне показывает то что я выше написал</message>
+<message time='20121027T16:57:35' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='503badb4-a5a9-4da1-ae9a-164c4acec201'>я сейчас заново начну. Всё удалил уже. буду делать ещё раз.</message>
+<message time='20121027T16:57:39' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-76'>Говорит что нету</message>
+<message time='20121027T16:58:16' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='942c5a45-7a54-40dc-adf8-d0643a77e72a'>короче если я где-то стану я тебе напишу. поможешь. </message>
+<message time='20121027T16:59:20' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='371446e2-aa4c-4dc2-84af-6c716b9f92a0'>вот я рельсы удалил и показывает теперь при запросе что не файлов</message>
+<message time='20121027T16:59:22' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='908589c6-fa45-4bfe-824d-ce03962aac8a'>kostia@kostia-ThinkPad-E520:~$ rails -v
+/usr/local/bin/rails:9:in `require&apos;: no such file to load -- rubygems (LoadError)
+	from /usr/local/bin/rails:9
+</message>
+<message time='20121027T16:59:39' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='030948a4-b076-49d8-9f58-3447049bb4d3'>правильно?</message>
+<message time='20121027T17:00:21' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-80'>Поставь их просто</message>
+<message time='20121027T17:00:39' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-81'>Как там gem install rails</message>
+<message time='20121027T17:00:48' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-82'>Вроде так</message>
+<message time='20121027T17:01:00' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='39c6e645-f428-406c-9f61-a9629ba06b4e'>да я это знаю</message>
+<message time='20121027T17:01:19' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-84'>Бля я думал ты там апликэшен вовсю клепаеш</message>
+<message time='20121027T17:01:40' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-85'>А ты тока с рвмом разбираешся</message>
+<message time='20121027T17:01:58' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-86'>Читай англ версию</message>
+<message time='20121027T17:02:07' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='d25d4895-0901-4dd9-a396-832c1b06b879'>да я просто начал нет как-то</message>
+<message time='20121027T17:02:13' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-88'>версиюв русской могут быть нюансы</message>
+<message time='20121027T17:02:20' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='f06f7f70-6c49-44b3-8b81-894853ba63e6'>ну я вот и вижу</message>
+<message time='20121027T17:03:05' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='26b6676c-45c5-4017-8b8c-d86aff522394'>просто я всё ставил и проверял</message>
+<message time='20121027T17:03:22' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='f0f190ee-37bc-48c1-ae6a-c2e05b47b31a'>тут вот https://rvm.io//rvm/install/</message>
+<message time='20121027T17:03:26' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='b5e55345-45ca-408a-af57-38575153e746'>не могу понять</message>
+<message time='20121027T17:03:36' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='378e1e92-16f3-4a6f-b100-e156e2392321'>именно две строки устанавливать?</message>
+<message time='20121027T17:03:41' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='fe03fdc9-0e06-4c82-98cc-e8f298256c04'>верхние или же все?</message>
+<message time='20121027T17:14:26' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-93'>1 строку и все</message>
+<message time='20121027T17:14:34' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-94'>Остальное руками</message>
+<message time='20121027T17:14:45' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-95'>Вобще щас тренд</message>
+<message time='20121027T17:14:53' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-96'>Не юзать рвм</message>
+<message time='20121027T17:15:03' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-97'>А rbenv</message>
+<message time='20121027T17:15:19' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='9Q61z5H-98'>Но для новичков пойдет</message>
+<message time='20121027T17:15:32' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='baf4238c-6d54-43cf-b252-7093f0a47186'>да мне бы хотя бы запустить</message>
+<message time='20121027T17:15:43' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='c7120659-fa9f-485a-aaf2-e662a08f0591'>а потом дальше буду разбираться</message>
+<message time='20121027T17:16:04' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='0d7eeaab-2d45-49bf-9ce0-f3d02bcbdbec'>в общем запустил</message>
+<message time='20121027T17:16:16' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='91169ac3-3e1b-4959-ad41-25ef5a4e2b9b'>вроде, но падла не грузится ((((</message>
+<message time='20121027T17:18:36' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_0'>два варианта</message>
+<message time='20121027T17:18:45' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_1'>либо дай досутп к рабочему столу</message>
+<message time='20121027T17:18:54' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_2'>либо сам разбирайся</message>
+<message time='20121027T17:19:12' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_3'>тяжело тебе чтото посоветоввать дистанционно</message>
+<message time='20121027T17:19:22' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='bae11dda-2b4e-4f71-a242-10200b1f0f7d'>а как дать доступ?</message>
+<message time='20121027T17:19:30' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_4'>teamviewer</message>
+<message time='20121027T17:19:53' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='054e6d43-84ce-489b-ada0-2e8f72d2bd92'>на линуксе?</message>
+<message time='20121027T17:20:04' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_5'>в гугле вбей и поставь</message>
+<message time='20121027T17:20:11' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='2d2cb67b-59f8-4247-91d7-aab4441ee2a9'>jr</message>
+<message time='20121027T17:20:13' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='ddb539cc-2759-4d8a-94e1-55bf91179142'>ok</message>
+<message time='20121027T17:42:20' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='e5b54a06-6b96-424c-8344-7ef16360dc78'>173 826 315</message>
+<message time='20121027T17:42:24' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='2072935c-e473-4d8c-ac74-c7d03c5d8f8e'>pass 2128</message>
+<message time='20121027T18:00:48' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_6'>логинюсь?</message>
+<message time='20121027T18:02:33' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='b446cf24-dff5-467c-9978-92c29ab9f444'>жду</message>
+<message time='20121027T18:12:16' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_7'>нехвататет пакета какогото</message>
+<message time='20121027T18:13:09' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_8'>вот эти запусти комманды потом скажешь</message>
+<message time='20121027T18:13:16' id='eskidan@gmail.com' name='Evgeniy Skidan' token='8e6b8d98fc9e3b0137f4917568c39198b6f017f0' isuser='false' type='normal' message-token='E71E4AD945212FDD_9'>у меня из коробки все работало</message>
+<message time='20121027T18:14:08' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='e6f5be03-c75c-46e1-8fd2-42ae2f7b4c82'>в плане из коробки?</message>
+<message time='20121027T18:14:47' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='61c1f511-2535-4714-b890-00ac213f542c'>пишет что Уже установлена самая новая версия python-software-properties.</message>
+<message time='20121027T18:16:03' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='bbf212a8-34b1-49cc-a0c3-d6493ddd9763'>обновляюсь</message>
+<message time='20121027T18:20:38' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='84986cc9-4f08-4d7a-bc2e-84f1214c4e7e'>ничего как было так и осталось</message>
+<message time='20121027T18:22:45' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='31b9c1ce-90ee-4fee-94a3-7379da140b25'>Урааааа</message>
+<message time='20121027T18:22:48' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='24bd1d99-3452-40a1-bf52-af3279337292'>заработало!!!</message>
+<message time='20121027T18:23:03' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='bce63588-25e1-4a2d-a778-6ab34c03a85c'>пошёл дальше читать</message>
+<message time='20121027T18:25:59' id='kostiadunets@gmail.com' name='Костя Дунец' token='ec1310ddbf11af41e11a780ac90fb59b6d79d001' isuser='true' type='normal' message-token='7532b5e7-4ccb-4743-914d-3cca4082ccbd'>Спасибо что посмотрел, буду должен )</message>
+</log>

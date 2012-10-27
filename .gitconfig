@@ -1,0 +1,7 @@
+[user]
+	name = Kostia
+	email = kostiadunet@gmail.com
+[alias]
+	co = checkout
+[core]
+	editor = gvim -f

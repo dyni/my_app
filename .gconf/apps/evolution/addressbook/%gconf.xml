@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="sources" mtime="1351327231" type="list" ltype="string">
+		<li type="string">
+			<stringvalue>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;group uid=&quot;1351327231.6195.0@kostia-ThinkPad-E520&quot; name=&quot;&amp;#x41D;&amp;#x430; &amp;#x44D;&amp;#x442;&amp;#x43E;&amp;#x43C; &amp;#x43A;&amp;#x43E;&amp;#x43C;&amp;#x43F;&amp;#x44C;&amp;#x44E;&amp;#x442;&amp;#x435;&amp;#x440;&amp;#x435;&quot; base_uri=&quot;local:&quot; readonly=&quot;no&quot;&gt;&lt;source uid=&quot;1351327231.6195.1@kostia-ThinkPad-E520&quot; name=&quot;&amp;#x41B;&amp;#x438;&amp;#x447;&amp;#x43D;&amp;#x43E;&amp;#x435;&quot; relative_uri=&quot;system&quot;&gt;&lt;properties&gt;&lt;property name=&quot;completion&quot; value=&quot;true&quot;/&gt;&lt;/properties&gt;&lt;/source&gt;&lt;/group&gt;
+</stringvalue>
+		</li>
+	</entry>
+</gconf>

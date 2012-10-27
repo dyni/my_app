@@ -1,0 +1,134 @@
+status: 200
+content-length: 2585
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/warzone2100/
+x-cache: HIT from papeda.canonical.com
+age: 220
+expires: Sat, 27 Oct 2012 08:45:14 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 08:40:14 GMT
+etag: "d8bc22692bcd73f718da23349ba1d7e8"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 08:40:12 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from papeda.canonical.com:3128
+
+{
+    "rid": "2b59e5085a35672cd9ccc7f6ab969dc4",
+    "data": [
+        {
+            "rating": 4.0,
+            "package_name": "gnobots2"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "fofix"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "sweethome3d"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "bovo"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "gmail-notify"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "3dchess"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "aeolus"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "acm"
+        },
+        {
+            "rating": 4.0,
+            "package_name": "nanny"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "upnp-inspector"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gnome-panel-bonobo"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gnome-panel"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "ekiga"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "software-properties-gtk"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "foobillard"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "cairo-clock"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "tennix"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gwget"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "notification-daemon"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "kbounce"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "theclockworkman"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "openuniverse"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "dasher"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gnome-menus"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "epdfview"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gpointing-device-settings"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "flpsed"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "totem"
+        }
+    ],
+    "app": "warzone2100"
+}

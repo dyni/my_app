@@ -1,0 +1,99 @@
+have_library: checking for tgetnum() in -lncurses... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/readline    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lncurses  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «tgetnum» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))tgetnum; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/readline    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lncurses  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lncurses
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { tgetnum(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for tgetnum() in -ltermcap... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/readline    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -ltermcap  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «tgetnum» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))tgetnum; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/readline    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -ltermcap  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -ltermcap
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { tgetnum(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for tgetnum() in -lcurses... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/readline    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lcurses  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «tgetnum» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))tgetnum; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/readline    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -lcurses  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -lcurses
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { tgetnum(); return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for readline/readline.h... -------------------- no
+
+"gcc -E -I../.. -I../../. -I../.././ext/readline    -g -O2  -fPIC    conftest.c -o conftest.i"
+conftest.c:1:31: фатальная ошибка: readline/readline.h: Нет такого файла или каталога
+компиляция прервана.
+checked program was:
+/* begin */
+1: #include <readline/readline.h>
+/* end */
+
+--------------------
+
+have_header: checking for editline/readline.h... -------------------- no
+
+"gcc -E -I../.. -I../../. -I../.././ext/readline    -g -O2  -fPIC    conftest.c -o conftest.i"
+conftest.c:1:31: фатальная ошибка: editline/readline.h: Нет такого файла или каталога
+компиляция прервана.
+checked program was:
+/* begin */
+1: #include <editline/readline.h>
+/* end */
+
+--------------------
+

@@ -1,0 +1,12 @@
+export PATH ; PATH="/home/kostia/.rvm/gems/ruby-1.8.7-p371@rails2tutorial/bin:/home/kostia/.rvm/gems/ruby-1.8.7-p371@global/bin:/home/kostia/.rvm/rubies/ruby-1.8.7-p371/bin:/home/kostia/.rvm/bin:$PATH"
+export rvm_env_string ; rvm_env_string='ruby-1.8.7-p371@rails2tutorial'
+export rvm_path ; rvm_path='/home/kostia/.rvm'
+export rvm_ruby_string ; rvm_ruby_string='ruby-1.8.7-p371'
+export rvm_gemset_name ; rvm_gemset_name='rails2tutorial'
+export RUBY_VERSION ; RUBY_VERSION='ruby-1.8.7-p371'
+export GEM_HOME ; GEM_HOME='/home/kostia/.rvm/gems/ruby-1.8.7-p371@rails2tutorial'
+export GEM_PATH ; GEM_PATH='/home/kostia/.rvm/gems/ruby-1.8.7-p371@rails2tutorial:/home/kostia/.rvm/gems/ruby-1.8.7-p371@global'
+export MY_RUBY_HOME ; MY_RUBY_HOME='/home/kostia/.rvm/rubies/ruby-1.8.7-p371'
+export IRBRC ; IRBRC='/home/kostia/.rvm/rubies/ruby-1.8.7-p371/.irbrc'
+unset MAGLEV_HOME
+unset RBXOPT

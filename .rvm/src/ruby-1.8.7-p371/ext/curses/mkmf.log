@@ -1,0 +1,98 @@
+have_library: checking for tgetent() in -ltinfo... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/curses    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -ltinfo  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «tgetent» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))tgetent; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/curses    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -ltinfo  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -ltinfo
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { tgetent(); return 0; }
+/* end */
+
+--------------------
+
+have_library: checking for tgetent() in -ltermcap... -------------------- no
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/curses    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -ltermcap  -lrt -ldl -lcrypt -lm   -lc"
+conftest.c: В функции «t»:
+conftest.c:3:53: ошибка: «tgetent» undeclared (first use in this function)
+conftest.c:3:53: замечание: each undeclared identifier is reported only once for each function it appears in
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { void ((*volatile p)()); p = (void ((*)()))tgetent; return 0; }
+/* end */
+
+"gcc -o conftest -I../.. -I../../. -I../.././ext/curses    -g -O2  -fPIC   conftest.c  -L. -L../.. -L.  -rdynamic -Wl,-export-dynamic     -lruby-static -ltermcap  -lrt -ldl -lcrypt -lm   -lc"
+/usr/bin/ld: cannot find -ltermcap
+collect2: выполнение ld завершилось с кодом возврата 1
+checked program was:
+/* begin */
+1: /*top*/
+2: int main() { return 0; }
+3: int t() { tgetent(); return 0; }
+/* end */
+
+--------------------
+
+have_header: checking for ncurses.h... -------------------- no
+
+"gcc -E -I../.. -I../../. -I../.././ext/curses    -g -O2  -fPIC    conftest.c -o conftest.i"
+conftest.c:1:21: фатальная ошибка: ncurses.h: Нет такого файла или каталога
+компиляция прервана.
+checked program was:
+/* begin */
+1: #include <ncurses.h>
+/* end */
+
+--------------------
+
+have_header: checking for ncurses/curses.h... -------------------- no
+
+"gcc -E -I../.. -I../../. -I../.././ext/curses    -g -O2  -fPIC    conftest.c -o conftest.i"
+conftest.c:1:28: фатальная ошибка: ncurses/curses.h: Нет такого файла или каталога
+компиляция прервана.
+checked program was:
+/* begin */
+1: #include <ncurses/curses.h>
+/* end */
+
+--------------------
+
+have_header: checking for curses_colr/curses.h... -------------------- no
+
+"gcc -E -I../.. -I../../. -I../.././ext/curses    -g -O2  -fPIC    conftest.c -o conftest.i"
+conftest.c:1:32: фатальная ошибка: curses_colr/curses.h: Нет такого файла или каталога
+компиляция прервана.
+checked program was:
+/* begin */
+1: #include <curses_colr/curses.h>
+/* end */
+
+--------------------
+
+have_header: checking for curses.h... -------------------- no
+
+"gcc -E -I../.. -I../../. -I../.././ext/curses    -g -O2  -fPIC    conftest.c -o conftest.i"
+conftest.c:1:20: фатальная ошибка: curses.h: Нет такого файла или каталога
+компиляция прервана.
+checked program was:
+/* begin */
+1: #include <curses.h>
+/* end */
+
+--------------------
+

@@ -1,0 +1,149 @@
+status: 200
+content-length: 5151
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7), 1.1 reviews.ubuntu.com
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/ru/any/any/any/dosbox/page/1/helpful/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Sat, 27 Oct 2012 08:49:56 GMT
+server: Apache/2.2.14 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 08:44:56 GMT
+connection: close
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 08:44:55 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "DOSBox Emulator", 
+        "language": "ru", 
+        "reviewer_username": "erpTWym", 
+        "usefulness_total": 8, 
+        "usefulness_favorable": 8, 
+        "review_text": "Только с этой штукой я смог вспомнить юность - поиграть в любимую игру Z!", 
+        "date_deleted": null, 
+        "summary": "Вещь!", 
+        "version": "0.74-2", 
+        "id": 30314, 
+        "date_created": "2011-11-19 08:06:46", 
+        "reviewer_displayname": "Alexander Makhnev", 
+        "package_name": "dosbox", 
+        "distroseries": "oneiric"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "DOSBox Emulator", 
+        "language": "ru", 
+        "reviewer_username": "sepferod", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Отличный эмулятор все старые игры идут наура", 
+        "date_deleted": null, 
+        "summary": "Хорошое приложение", 
+        "version": "0.74-2", 
+        "id": 56043, 
+        "date_created": "2012-09-02 20:48:23", 
+        "reviewer_displayname": "Белокаменский Кирилл", 
+        "package_name": "dosbox", 
+        "distroseries": "oneiric"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "DOSBox Emulator", 
+        "language": "ru", 
+        "reviewer_username": "GbkLCPK", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 0, 
+        "review_text": "Epic WIN!\nНаконец-то поиграю в X-COM: Enemy Unknown!\nСпасибо разработчикам!", 
+        "date_deleted": null, 
+        "summary": "Хороший, годный эмулятор", 
+        "version": "0.74-2", 
+        "id": 53151, 
+        "date_created": "2012-07-28 06:37:45", 
+        "reviewer_displayname": "Анонимус", 
+        "package_name": "dosbox", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "DOSBox Emulator", 
+        "language": "ru", 
+        "reviewer_username": "rPJARWX", 
+        "usefulness_total": 8, 
+        "usefulness_favorable": 8, 
+        "review_text": "Пользовался им долгое время под Windows, отзывы только положительные - помогает окунуться в детство. Под Ubuntu тоже всё замечательно работает.", 
+        "date_deleted": null, 
+        "summary": "?", 
+        "version": "0.74-1", 
+        "id": 7571, 
+        "date_created": "2011-05-15 19:09:28", 
+        "reviewer_displayname": "Алексей", 
+        "package_name": "dosbox", 
+        "distroseries": "natty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "DOSBox Emulator", 
+        "language": "ru", 
+        "reviewer_username": "bALTTNL", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Согласен. Пользовался раньше VDMSound (из-под Windows), потом все-таки решил попробовать ее. и понеслась...", 
+        "date_deleted": null, 
+        "summary": "Лучший в своем роде", 
+        "version": "0.74-1", 
+        "id": 12123, 
+        "date_created": "2011-06-12 19:43:45", 
+        "reviewer_displayname": "DenSpirit", 
+        "package_name": "dosbox", 
+        "distroseries": "natty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "DOSBox Emulator", 
+        "language": "ru", 
+        "reviewer_username": "nQWdwAe", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Действительно хорошая штука. Помогла для запуска оконных батников.", 
+        "date_deleted": null, 
+        "summary": "Спасибо авторам", 
+        "version": "0.74-1", 
+        "id": 14631, 
+        "date_created": "2011-07-04 13:47:49", 
+        "reviewer_displayname": "Escimo", 
+        "package_name": "dosbox", 
+        "distroseries": "natty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "DOSBox Emulator", 
+        "language": "ru", 
+        "reviewer_username": "v-i-shipkov", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Программа даёт жизнь ДОСу. Иногда очень не хватает.", 
+        "date_deleted": null, 
+        "summary": "Автор молодец", 
+        "version": "0.74-1", 
+        "id": 23214, 
+        "date_created": "2011-10-07 12:59:47", 
+        "reviewer_displayname": "Валерий Шипков", 
+        "package_name": "dosbox", 
+        "distroseries": "natty"
+    }
+]

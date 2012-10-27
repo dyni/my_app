@@ -1,0 +1,5 @@
+ruby-1.9.3-p286 -- 
+rbx-head -- 
+ruby-1.8.7-p371 -- 
+ruby-1.8.7-p302 -- 
+ruby-1.9.2-p320 -- --with-zlib-dir=/home/kostia/.rvm/usr

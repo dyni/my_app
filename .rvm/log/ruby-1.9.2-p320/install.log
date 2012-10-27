@@ -1,0 +1,20 @@
+./miniruby -I./lib -I.ext/common -I./- -r./ext/purelib.rb  ./tool/rbinstall.rb --make="make" --dest-dir="" --extout=".ext" --mflags="" --make-flags="" --data-mode=0644 --prog-mode=0755 --installed-list .installed.list --mantype="doc"
+installing binary commands:   /home/kostia/.rvm/rubies/ruby-1.9.2-p320/bin
+installing base libraries:    /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib
+installing arch files:        /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/x86_64-linux
+installing command scripts:   /home/kostia/.rvm/rubies/ruby-1.9.2-p320/bin
+installing library scripts:   /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1
+installing common headers:    /home/kostia/.rvm/rubies/ruby-1.9.2-p320/include/ruby-1.9.1
+installing manpages:          /home/kostia/.rvm/rubies/ruby-1.9.2-p320/share/man/man1
+installing extension objects: /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/x86_64-linux
+installing extension objects: /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/site_ruby/1.9.1/x86_64-linux
+installing extension objects: /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/vendor_ruby/1.9.1/x86_64-linux
+installing extension headers: /home/kostia/.rvm/rubies/ruby-1.9.2-p320/include/ruby-1.9.1/x86_64-linux
+installing extension scripts: /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1
+installing extension scripts: /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/site_ruby/1.9.1
+installing extension scripts: /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/vendor_ruby/1.9.1
+installing extension headers: /home/kostia/.rvm/rubies/ruby-1.9.2-p320/include/ruby-1.9.1/ruby
+installing default gems:      /home/kostia/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/gems/1.9.1 (cache, doc, gems, specifications)
+                              rake 0.8.7
+                              rdoc 2.5.8
+                              minitest 1.6.0

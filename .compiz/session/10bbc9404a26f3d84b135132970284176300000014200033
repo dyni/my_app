@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<compiz_session id="10bbc9404a26f3d84b135132970284176300000014200033">
+  <window id="10bbc9404a26f3d84b135134164553408300000014200037" title="Little By Little (Absolute Radio 90s (Modem))" class="Rhythmbox" name="rhythmbox" command="rhythmbox">
+    <geometry x="65" y="24" width="790" height="560"/>
+    <workspace index="0"/>
+  </window>
+  <window id="10bbc9404a26f3d84b135134692173060200000014200047" title="Terminal" class="Gnome-terminal" name="gnome-terminal" role="gnome-terminal-window-8229--470825349-1351346921" command="gnome-terminal">
+    <geometry x="112" y="36" width="722" height="434"/>
+    <workspace index="0"/>
+  </window>
+</compiz_session>

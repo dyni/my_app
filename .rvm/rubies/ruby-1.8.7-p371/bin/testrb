@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+ENV['GEM_HOME']=ENV['GEM_HOME'] || '/home/kostia/.rvm/gems/ruby-1.8.7-p371'
+ENV['GEM_PATH']=ENV['GEM_PATH'] || '/home/kostia/.rvm/gems/ruby-1.8.7-p371:/home/kostia/.rvm/gems/ruby-1.8.7-p371@global'
+ENV['PATH']='/home/kostia/.rvm/gems/ruby-1.8.7-p371/bin:/home/kostia/.rvm/gems/ruby-1.8.7-p371@global/bin:/home/kostia/.rvm/rubies/ruby-1.8.7-p371/bin:' + ENV['PATH']
+
+require 'test/unit'
+(r = Test::Unit::AutoRunner.new(true)).process_args(ARGV) or
+  abort r.options.banner + " tests..."
+exit r.run

@@ -1,0 +1,8 @@
+2012-10-27 12:18:51,328 - root         MainThread    :  INFO     - Logger initialized
+2012-10-27 12:18:51,329 - Service      MainThread    :  INFO     - Service starting
+2012-10-27 12:18:51,329 - Service      MainThread    :  INFO     - Running from the source tree
+2012-10-27 12:18:51,993 - root         MainThread    :  INFO     - Logger initialized
+2012-10-27 12:18:51,993 - Accounts     MainThread    :  INFO     - Running from the system path
+2012-10-27 12:18:53,727 - root         MainThread    :  INFO     - Logger initialized
+2012-10-27 12:18:53,728 - Accounts     MainThread    :  INFO     - Running from the system path
+2012-10-27 12:20:03,044 - Storage      MainThread    :  INFO     - Cleaning up database...

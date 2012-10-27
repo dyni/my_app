@@ -1,0 +1,2 @@
+patching file ext/openssl/ossl_ssl.c
+Hunk #1 succeeded at 103 with fuzz 3 (offset -4 lines).

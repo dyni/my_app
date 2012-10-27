@@ -1,0 +1,570 @@
+2012/10/27 21:41:37.094    42    43 G0!! VerifySignature() : WinVerifyTrust failed, result=2
+2012/10/27 21:41:37.097    42    43 G0!! VerifySignature() : WinVerifyTrust failed, result=2
+2012/10/27 21:41:37.149    42    43 G0!! CSettings::LoadAll() load from storage exception: Couldn't find Registry Key
+2012/10/27 21:41:37.236    42    43 G0   X ErrorHandler org 7df2e7a0, def 7dd85950 cur 7da8b630
+2012/10/27 21:41:37.241    42    43 G0   XTest extension: base 0, error 0, version 2.2
+2012/10/27 21:41:37.242    42    43 G0   Wine: Wine DLL initialized
+2012/10/27 21:41:37.242    42    43 G0   Wine: Wine 1.2.1
+
+2012/10/27 21:41:37.245    42    43 G0   Monitors: X11 Windowing System, \\.\DISPLAY1, 1366x768, flags=21
+2012/10/27 21:41:37.266    42    43 G0!! CSettings::LoadAll() load from storage exception: Couldn't find Registry Key
+2012/10/27 21:41:37.266    42    43 G0   UpdateOnlineState newOnlineValue 0
+2012/10/27 21:41:37.272    42    43 G0   Generating new RSA private/public key pair
+2012/10/27 21:41:37.311    42    43 G0!! QueryVPNRegKey: Could not find registry key for network adapters.
+2012/10/27 21:41:37.317    42    43 G0!! VerifySignature() : WinVerifyTrust failed, result=2, Errorcode=2
+2012/10/27 21:41:37.318    42    43 G0!! MachineHooks: Library not found, Errorcode=126
+                    
+                    
+                    
+Start:              2012/10/27 21:41:37.321
+Version:            7.0.9360
+ID:                 0
+License:            0
+Server:             master6.teamviewer.com
+IC:                 100346124
+OS:                 Lx Ubuntu 12.04.1 LT (32-bit)
+IP:                 192.168.0.101
+MID:                0x74e50ba75cd4_b32081bf_421e92d2a76e1cb5
+Proxy-Settings:     Type=1 IP= User=
+IE:                 8.0.6001.18702
+AppPath:            C:\Program Files\TeamViewer\Version7\TeamViewer.exe
+2012/10/27 21:41:37.328    42    43 G0!! LogStartupInfo() username exception: CToken::GetUserName(): LookupAccountSid() size failed!, Errorcode=0
+UserAccount:        <unknown>
+
+2012/10/27 21:41:37.328    42    43 G0   Using IPC-Port 6039
+2012/10/27 21:41:37.329    42    43 G0   UpdateOnlineState newOnlineValue 0
+2012/10/27 21:41:37.329    42    43 G0   Starting intra process connection
+2012/10/27 21:41:37.330    42    44 G0   CInterProcessNetwork::SetDyngateIDforSession() id=0 session=0 ptype=2
+2012/10/27 21:41:37.330    42    44 G0!  LCTerminalServer::GetUsername() Failed to get domain name! LE = 0
+2012/10/27 21:41:37.330    42    44 G0!  CTerminalServer::GetUsername() Failed to get user name! LE = 0
+2012/10/27 21:41:37.330    42    44 G0!  CTerminalServer::GetUsername() No valid user name - try to use fallback!
+2012/10/27 21:41:37.333    42    44 G0!  LCTerminalServer::GetUsername() Failed to get domain name! LE = 0
+2012/10/27 21:41:37.333    42    44 G0!  CTerminalServer::GetUsername() Failed to get user name! LE = 0
+2012/10/27 21:41:37.333    42    44 G0!  CTerminalServer::GetUsername() No valid user name - try to use fallback!
+2012/10/27 21:41:37.334    42    44 G0   UpdateOnlineState newOnlineValue 1
+2012/10/27 21:41:37.334    42    44 G0   TeamViewer is going online!
+2012/10/27 21:41:37.334    42    48 G0   EnumComputers.0
+2012/10/27 21:41:37.336    42    44 G0   Received Control_InitIPC_Response processtype=1
+2012/10/27 21:41:37.337    42    44 G0   Received Control_InitIPC_Response runningProcesses=3
+2012/10/27 21:41:37.337    42    50 G0   KeepAliveThread started
+2012/10/27 21:41:37.337    42    44 G0   Control_InitIPC_Response: all processes 3 completely initialized
+2012/10/27 21:41:37.340    42    51 G0!! ProxySearch.GetProxiesFromPAC: WinHttpGetProxyForUrl(WPAD) failed for URL 'http://www.teamviewer.com/' with error 12178, Errorcode=12178
+2012/10/27 21:41:37.340    42    51 G0!! ProxySearch.GetProxiesFromPAC: WinHttpGetProxyForUrl(WPAD) failed for URL 'https://www.teamviewer.com:443/' with error 12178, Errorcode=12178
+2012/10/27 21:41:37.387    42    43 G0   CServerGUI::TryRestoreWallpaper(): restoring Wallpaper
+2012/10/27 21:41:37.387    42    43 G0!! CServerGUI::TryRestoreWallpaper(): SystemParametersInfo(SPI_SETDESKWALLPAPER) (restore) failed with error 0
+2012/10/27 21:41:37.450    42    50 G0   CT2 CT.Send.CMD_PING From=0 To=0 L=4
+2012/10/27 21:41:37.535    42    50 G0   CT2 CT.Receive.CMD_PINGOK From=0 To=0 L=4
+2012/10/27 21:41:37.629    42    50 G0   NetWatchdog: Ping successful!
+2012/10/27 21:41:37.630    42    50 G0   NetWatchdog: Internet is now connected
+2012/10/27 21:41:37.630    42    43 G0   StringCompare locale: Russian_Russia.1251
+2012/10/27 21:41:37.655    42    50 G0!! S2 NC.connecttcp() SO_SNDBUF set to 131072 but is 262142
+2012/10/27 21:41:37.698    42    43 G0   Tray created!
+2012/10/27 21:41:37.698    42    43 G0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=0 ka=0 lanAllowed=0 lanOnly=0 networkState=1
+2012/10/27 21:41:37.732    42    50 G0   CT3 CT.Send.CMD_MASTERCOMMAND From=0 To=0 L=158
+2012/10/27 21:41:37.742    42    54 G0   ChangeThreadDesktop(): SetThreadDesktop to default successful
+2012/10/27 21:41:37.816    42    50 G0   CT3 CT.Receive.CMD_MASTERRESPONSE From=0 To=0 L=11
+2012/10/27 21:41:37.817    42    50 G0   CT3 CT.Disconnect
+2012/10/27 21:41:37.817    42    50 G0!  MC.Reg f=Reg&ic=100346124&id=0&logging=1&mac=0x74e50ba75cd4_b32081bf_421e92d2a76e1cb5&mid=0x74e50ba75cd4_b32081bf_421e92d2a76e1cb5&os=Lx Ubuntu 12.04.1 LT&v=7.0.9360 - 0#173826315
+2012/10/27 21:41:37.817    42    50 G0   CInterProcessNetwork::SetDyngateIDforSession() id=173826315 session=0 ptype=2
+2012/10/27 21:41:37.817    42    50 G0!  LCTerminalServer::GetUsername() Failed to get domain name! LE = 0
+2012/10/27 21:41:37.818    42    50 G0!  CTerminalServer::GetUsername() Failed to get user name! LE = 0
+2012/10/27 21:41:37.818    42    50 G0!  CTerminalServer::GetUsername() No valid user name - try to use fallback!
+2012/10/27 21:41:37.840    42    50 G0!! S3 NC.connecttcp() SO_SNDBUF set to 131072 but is 262142
+2012/10/27 21:41:37.917    42    50 G0   CT4 CT.Send.CMD_MASTERCOMMAND From=173826315 To=0 L=262
+2012/10/27 21:41:37.942    42    43 G0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=173826315 ka=0 lanAllowed=0 lanOnly=0 networkState=1
+2012/10/27 21:41:37.999    42    50 G0   CT4 CT.Receive.CMD_MASTERRESPONSE From=0 To=173826315 L=4
+2012/10/27 21:41:38.000    42    50 G0   CT4 CT.Disconnect
+2012/10/27 21:41:38.023    42    50 G0!! S4 NC.connecttcp() SO_SNDBUF set to 131072 but is 262142
+2012/10/27 21:41:38.101    42    50 G0   CT5 CT.Send.CMD_MASTERCOMMAND From=173826315 To=0 L=265
+2012/10/27 21:41:38.184    42    50 G0   CT5 CT.Receive.CMD_MASTERRESPONSE From=0 To=173826315 L=4
+2012/10/27 21:41:38.185    42    50 G0   CT5 CT.Disconnect
+2012/10/27 21:41:38.186    42    50 G0!! CheckCommercialUse() exception: Couldn't find Registry Key
+2012/10/27 21:41:38.186    42    50 G0   Non-Commercial use
+2012/10/27 21:41:38.189    42    50 G0   Resource-Language:ru
+2012/10/27 21:41:38.190    42    50 G0!! MACAddressSelection: no MAC found for MID version 1!, Errorcode=259
+2012/10/27 21:41:38.217    42    50 G0!! S5 NC.connecttcp() SO_SNDBUF set to 131072 but is 262142
+2012/10/27 21:41:38.294    42    50 G0   CT6 CT.Send.CMD_MASTERCOMMAND From=173826315 To=0 L=467
+2012/10/27 21:41:38.384    42    50 G0   CT6 CT.Receive.CMD_MASTERRESPONSE From=0 To=173826315 L=101
+2012/10/27 21:41:38.386    42    50 G0   CT6 CT.Disconnect
+2012/10/27 21:41:38.386    42    50 G0   MC.L addonchannels=0&client=TV&f=Login&gw=0&gwlevel=400&hideonlinestatus=0&httpout=1&ic=100346124&id=173826315&keepalive=1&language=ru&licensetype=0&logging=1&mid=0x74e50ba75cd4_b32081bf_421e92d2a76e1cb5&mids=2&midscn=F3691C9B2D810FE5AD55C50DE43F3C75&midsdn=F3691C9B2D810FE5AD55C50DE43F3C75&midsmguid=e529c5d491134acbba71efb17f02c121&midsms=&midsut=0&midsuuid=&noofactivekeepalive=0&os=Lx Ubuntu 12.04.1 LT&port443out=0&runtime=1&supportedfeatures=7133&tcpout=1&v=7.0.9360 - 0#OK_10000_-_2__37.252.224.3:5938_31684_1_-1_0.0.0.0__178.77.120.7_178.77.120.6_1_173826315_1_0_0_0_9
+2012/10/27 21:41:38.387    42    50 G0   CInterProcessNetwork::SetDyngateIDforSession() id=173826315 session=0 ptype=2
+2012/10/27 21:41:38.388    42    50 G0!  LCTerminalServer::GetUsername() Failed to get domain name! LE = 0
+2012/10/27 21:41:38.389    42    43 G0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=173826315 ka=0 lanAllowed=0 lanOnly=0 networkState=1
+2012/10/27 21:41:38.392    42    50 G0!  CTerminalServer::GetUsername() Failed to get user name! LE = 0
+2012/10/27 21:41:38.392    42    50 G0!  CTerminalServer::GetUsername() No valid user name - try to use fallback!
+2012/10/27 21:41:38.394    42    50 G0   local license differs from master license
+2012/10/27 21:41:38.394    42    50 G0   CInterProcessNetwork::SetDyngateIDforSession() id=173826315 session=0 ptype=2
+2012/10/27 21:41:38.395    42    50 G0!  LCTerminalServer::GetUsername() Failed to get domain name! LE = 0
+2012/10/27 21:41:38.395    42    50 G0!  CTerminalServer::GetUsername() Failed to get user name! LE = 0
+2012/10/27 21:41:38.395    42    50 G0!  CTerminalServer::GetUsername() No valid user name - try to use fallback!
+2012/10/27 21:41:38.396    42    43 G0   CMainWindow::ShouldShowDynamicPassword(): dynPw=1 allowIncoming=1 id=173826315 ka=0 lanAllowed=0 lanOnly=0 networkState=1
+2012/10/27 21:41:38.400    42    50 G0   CT7 CT.TM_WaitAtGateway.37.252.224.3:5938 - CT7 - S6
+2012/10/27 21:41:38.401    42    50 G0   CT7 CT.Connect.37.252.224.3:5938
+2012/10/27 21:41:38.401    42    50 G0!! S6 NC.connecttcp() SO_SNDBUF set to 131072 but is 262142
+2012/10/27 21:41:38.476    42    50 G0   CT7 CT.Connected
+2012/10/27 21:41:38.478    42    55 G0   CT7 CT.Run
+2012/10/27 21:41:38.478    42    55 G0   CT7 CT.Send.CMD_IDENTIFY From=173826315 To=0 L=32
+2012/10/27 21:41:38.479    42    55 G0   CT7 CT.Send.CMD_REQUESTKEEPALIVE2 From=173826315 To=0 L=24
+2012/10/27 21:41:38.479    42    55 G0   CConnectionThread::PingRouter(): Router Ping started
+2012/10/27 21:41:38.552    42    55 G0   CT7 Activating support for ccmdV2
+2012/10/27 21:41:38.552    42    55 G0   CT7 CT.Receive.CMD_SESSIONID From=0 To=173826315 L=8
+2012/10/27 21:41:38.554    42    55 G0   CT7 CT.Receive.CMD_IDENTIFY From=0 To=173826315 L=32
+2012/10/27 21:41:38.557    42    55 G0   CT7 CConnectionThread::CmdPingRouter(): Router Pong Received with following Hops: 173826315 683090958
+2012/10/27 21:41:41.134    42    44 G0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=38
+2012/10/27 21:41:41.135    42    44 G0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=38
+2012/10/27 21:41:41.136    42    44 G0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=38
+2012/10/27 21:41:41.137    42    44 G0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=38
+2012/10/27 21:41:41.221    42    55 G0   CConnectionThread::ProcessBuddyCommandClient: CC=3 CT=38
+2012/10/27 21:41:41.222    42    55 G0   MessageLayer: Received and saved message with ID 7
+2012/10/27 21:41:41.615    42    55 G0   CConnectionThread::ProcessBuddyCommandClient: CC=3 CT=38
+2012/10/27 21:41:41.615    42    55 G0   MessageLayer: Received and saved message with ID 1
+2012/10/27 21:41:41.616    42    55 G0   CConnectionThread::ProcessBuddyCommandClient: CC=3 CT=38
+2012/10/27 21:41:41.617    42    55 G0   MessageLayer: Received and saved message with ID 4
+2012/10/27 21:41:41.618    42    55 G0   CConnectionThread::ProcessBuddyCommandClient: CC=3 CT=38
+2012/10/27 21:41:41.619    42    55 G0   MessageLayer: Received and saved message with ID 5
+2012/10/27 22:03:54.672    42    55 G0   CT7 CT.Receive.CMD_REQUESTCONNECT From=683090958 To=173826315 L=48
+2012/10/27 22:03:54.673    42    55 G0   CT8 CT.TM_GWout.178.238.46.113 - CT8 - S7
+2012/10/27 22:03:54.673    42    55 G0   CT8 CT.Connect.178.238.46.113:5938
+2012/10/27 22:03:54.674    42    55 G0!! S7 NC.connecttcp() SO_SNDBUF set to 131072 but is 262142
+2012/10/27 22:03:54.781    42    55 G0   CT8 CT.Connected
+2012/10/27 22:03:54.782    42    55 G0   CT8 CT.Send.CMD_IDENTIFY From=173826315 To=0 L=32
+2012/10/27 22:03:54.782    42    55 G0   CT8 CT.Send.CMD_CONNECTTOWAITINGTHREAD From=173826315 To=0 L=48
+2012/10/27 22:03:54.784    42    55 G0   Starting desktop process for ID 173826315 in session 0
+2012/10/27 22:03:54.785    42    57 G0   CT9 CT.Run
+2012/10/27 22:03:54.787    42    57 G0   CT9 TM.TM_TV
+2012/10/27 22:03:54.815    42    55 G0   CTerminalServer::getPathToApplicationExe(): Choosing filename from partner process.
+2012/10/27 22:03:54.815    42    55 G0   Filename for desktop process is c:\program files\teamviewer\version7\TeamViewer_Desktop.exe
+2012/10/27 22:03:54.846    42    55 G0   Desktop process started, PID=58
+2012/10/27 22:03:54.846    42    55 G0   ConnectionGuard: incoming remote control in sessions: 0(1)
+2012/10/27 22:03:54.849    42    61 G0   CT8 CT.Run
+2012/10/27 22:03:54.849    42    61 G0   CT8 TM.TM_GWout
+2012/10/27 22:03:54.891    42    61 G0   CT8 CT.Receive.CMD_SESSIONID From=0 To=173826315 L=8
+2012/10/27 22:03:54.891    42    57 G0   CT8 Activating support for ccmdV2
+2012/10/27 22:03:55.284    42    61 G0   CT8 CT.Receive.CMD_IDENTIFY From=0 To=173826315 L=32
+2012/10/27 22:03:55.285    42    61 G0   CT8 CT.Receive.CMD_SESSIONMODE From=657437659 To=173826315 L=28
+2012/10/27 22:03:55.287    42    44 G0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=38
+2012/10/27 22:03:55.287    42    44 G0   CSendCommandToMaster::SendBCommandToMaster: CC=3 CT=38
+2012/10/27 22:03:55.380    42    55 G0   CConnectionThread::ProcessBuddyCommandClient: CC=3 CT=38
+2012/10/27 22:03:55.381    42    55 G0   MessageLayer: Received and saved message with ID 6
+2012/10/27 22:03:55.384    42    55 G0   CConnectionThread::ProcessBuddyCommandClient: CC=3 CT=38
+2012/10/27 22:03:55.386    42    55 G0   MessageLayer: Received and saved message with ID 14
+2012/10/27 22:03:55.434    42    44 G0   CInterProcessNetwork::SetDyngateIDforSession() id=173826315 session=0 ptype=4
+2012/10/27 22:03:55.435    42    44 G0!  LCTerminalServer::GetUsername() Failed to get domain name! LE = 0
+2012/10/27 22:03:55.435    42    44 G0!  CTerminalServer::GetUsername() Failed to get user name! LE = 0
+2012/10/27 22:03:55.435    42    44 G0!  CTerminalServer::GetUsername() No valid user name - try to use fallback!
+2012/10/27 22:03:55.436    42    44 G0   CInterProcessNetwork::SetDyngateIDforSession() id=173826315 session=0 ptype=2
+2012/10/27 22:03:55.437    42    44 G0!  LCTerminalServer::GetUsername() Failed to get domain name! LE = 0
+2012/10/27 22:03:55.437    42    44 G0!  CTerminalServer::GetUsername() Failed to get user name! LE = 0
+2012/10/27 22:03:55.437    42    44 G0!  CTerminalServer::GetUsername() No valid user name - try to use fallback!
+2012/10/27 22:03:55.439    42    44 G0   Received Control_InitIPC processtype=4
+2012/10/27 22:03:55.451    42    61 G0   Received encrypted and signed AES 256Bit session key
+2012/10/27 22:03:55.475    42    61 G0!! S9 NC.connecttcp() SO_SNDBUF set to 131072 but is 262142
+2012/10/27 22:03:55.569    42    61 G0   CT10 CT.Send.CMD_MASTERCOMMAND_ENCRYPTED From=173826315 To=0 L=392
+2012/10/27 22:03:55.305    58    64 D0!! VerifySignature() : WinVerifyTrust failed, result=2
+2012/10/27 22:03:55.306    58    64 D0!! VerifySignature() : WinVerifyTrust failed, result=2
+2012/10/27 22:03:55.307    58    64 D0!! VerifySignature() : WinVerifyTrust failed, result=2
+2012/10/27 22:03:55.308    58    64 D0!! VerifySignature() : WinVerifyTrust failed, result=2
+2012/10/27 22:03:55.308    58    64 D0   TeamViewerDesktop started, PID=58
+2012/10/27 22:03:55.376    58    64 D0!! VerifySignature() : WinVerifyTrust failed, result=2
+2012/10/27 22:03:55.377    58    64 D0!! MachineHooks: Library not found
+2012/10/27 22:03:55.379    58    64 D0   X ErrorHandler org 7e2297a0, def 7e080950 cur 7dd97630
+2012/10/27 22:03:55.387    58    64 D0   XTest extension: base 0, error 0, version 2.2
+2012/10/27 22:03:55.388    58    64 D0   Wine: Wine DLL initialized
+2012/10/27 22:03:55.388    58    64 D0   Wine: Wine 1.2.1
+
+2012/10/27 22:03:55.388    58    64 D0   Monitors: X11 Windowing System, \\.\DISPLAY1, 1366x768, flags=21
+2012/10/27 22:03:55.390    58    64 D0   Opening local TCP connection to 127.0.0.1:6039
+2012/10/27 22:03:55.391    58    64 D0   Local TCP connection established
+2012/10/27 22:03:55.471    58    64 D0   Received Control_InitIPC_Response processtype=1
+2012/10/27 22:03:55.471    58    64 D0   Received Control_InitIPC_Response runningProcesses=7
+2012/10/27 22:03:55.523    58    64 D0   Received Control_InitIPC_Response processtype=2
+2012/10/27 22:03:55.523    58    64 D0   Control_InitIPC_Response: all processes 7 completely initialized
+2012/10/27 22:03:55.627    58    64 D0!! ChangeThreadDesktop() GetSystemToken/CImpersonateUser exception: CProcess::FindProcessInSession() no process found
+2012/10/27 22:03:55.627    58    64 D0   ChangeThreadDesktop(): OpenDesktop failed for Desktop winlogon: 0
+2012/10/27 22:03:55.667    58    63 D0   Connection incoming, sessionID = 642790414
+2012/10/27 22:03:55.668    58    65 D0   CLogin::run()
+2012/10/27 22:03:55.668    42    61 G0   CT10 CT.Receive.CMD_MASTERRESPONSE_ENCRYPTED From=0 To=173826315 L=392
+2012/10/27 22:03:55.668    58    65 D0   CLogin::NegotiateVersionServer()
+2012/10/27 22:03:55.673    42    61 G0   CT10 CT.Disconnect
+2012/10/27 22:03:55.673    42    61 G0   Reading partners signature key
+2012/10/27 22:03:55.678    42    61 G0   Session key successfully decrypted, signature check ok
+2012/10/27 22:03:55.682    42    66 G0   CT11 CT.Run
+2012/10/27 22:03:55.682    42    66 G0   CT11 TM.TM_UDP
+2012/10/27 22:03:55.682    42    66 G0   CT11 GWT.UDPFlowVersionHandshake.Received
+2012/10/27 22:03:55.682    42    66 G0   CT11 Activating UDP packet loss control ...
+2012/10/27 22:03:56.190    58    65 D0   CLogin::AuthenticateServer()
+2012/10/27 22:03:56.585    42    66 G0   CT11 GWT.CmdUDPFlowControl.RequestUDP.Received
+2012/10/27 22:03:56.586    42    66 G0   CT11 GWT.SendUDPPings
+2012/10/27 22:03:56.813    42    66 G0   CT11  CT.Receive.CMD_UDPPING From=657437659 To=173826315 L=80
+2012/10/27 22:03:56.813    42    66 G0   CT11 GWT.CmdUDPPing.UDPMasterReply 178.123.86.165:31618
+2012/10/27 22:03:56.813    42    66 G0   CT11 GWT.CmdUDPPing.PingOK.PunchInit
+2012/10/27 22:03:56.814    42    66 G0   CT11 GWT.SendUDPPunchRequest 2
+2012/10/27 22:03:57.280    42    66 G0   CT11  CT.Receive.CMD_UDPPING From=657437659 To=173826315 L=80
+2012/10/27 22:03:57.280    42    66 G0   CT11 GWT.CmdUDPPing.PunchReceived, a=86.57.137.126, p=63280
+2012/10/27 22:03:57.281    42    66 G0!! CUDPFirewallConsideration::GetMACsOfDefaultGateways: SendARP failed for IP 192.168.0.1 with error 50
+2012/10/27 22:03:57.282    42    66 G0   CT11 GWT.SendUDPPunches
+2012/10/27 22:03:57.282    42    66 G0   CT11 punching version 0, type 0
+2012/10/27 22:03:57.344    42    66 G0   CT11 GWT.SendUDPPunches
+2012/10/27 22:03:57.345    42    66 G0   CT11 punching version 0, type 3
+2012/10/27 22:03:57.536    42    66 G0   CT11  CT.Receive.CMD_UDPPING From=657437659 To=173826315 L=80
+2012/10/27 22:03:57.536    42    66 G0!  CT11 GWT.CmdUDPPing.PunchIgnored state=4
+2012/10/27 22:03:57.618    42    66 G0   CT11  CT.Receive.CMD_UDPPING From=657437659 To=173826315 L=448
+2012/10/27 22:03:57.618    42    66 G0   CT11 GWT.CmdUDPPing.MTUReceived
+2012/10/27 22:03:57.631    42    66 G0   CT11  CT.Receive.CMD_UDPPING From=657437659 To=173826315 L=1008
+2012/10/27 22:03:57.631    42    66 G0   CT11 GWT.CmdUDPPing.MTUReceived
+2012/10/27 22:03:57.682    42    66 G0   CT11 GWT.UDPFlowPunchReceived.Received
+2012/10/27 22:03:57.935    42    57 G0   CT11 GWT.UDPFlowMTUReceived.Received
+2012/10/27 22:03:57.985    42    57 G0   CT11 GWT.UDPFlowMTUReceived.Received
+2012/10/27 22:03:58.201    42    57 G0   CT11 GWT.UDPFlowUDPPrepareSwitchToUDP.Received
+2012/10/27 22:03:58.202    42    57 G0   CT11 CTU.SendCarrierSwitchToUDP
+2012/10/27 22:03:58.202    42    57 G0   CT8 CT.Send.CMD_CARRIER_SWITCH From=173826315 To=657437659 L=12
+2012/10/27 22:03:58.203    42    57 G0   CT11 Activating UDP carrier ...
+2012/10/27 22:03:59.348    58    65 D0   CLogin::run(): ConnectionMode == 1
+2012/10/27 22:03:59.349    58    65 D0   CServerThread::Factory(PseudoSocket)
+2012/10/27 22:03:59.350    42    44 G0   CMeetingControl[1]::AddParticipant(): Participant[657437659,1156097415] Role_Spectator, Role_Organizer
+2012/10/27 22:03:59.350    58    65 D0   Default keyboard layout: 04190419
+2012/10/27 22:03:59.351    58    65 D0   Default keyboard layout: 04190419
+2012/10/27 22:03:59.353    42    44 G0   CStreamManager::JoinMeeting() participant=[173826315,642790414] key=0x56076300b58b71113491
+2012/10/27 22:03:59.354    42    44 G0   CMeetingControl[1]::AddParticipant(): Participant[173826315,642790414] Role_Presenter, Role_Spectator
+2012/10/27 22:03:59.354    58    65 D0   CParticipantManager::StartFullSynchronisation: session=642790414, this=00866960
+2012/10/27 22:03:59.356    58    65 D0   WindowObserver::SessionStart: -1; type: 1
+2012/10/27 22:03:59.355    42    44 G0   CPersistentParticipantManager::AddParticipant: [173826315,642790414] type=3 name=
+2012/10/27 22:03:59.360    42    44 G0   CPersistentParticipantManager::AddParticipant: [657437659,1156097415] type=6 name=
+2012/10/27 22:03:59.360    42    44 G0   CPersistentParticipantManager::AddParticipant: [173826315,642790414] type=3 name=
+2012/10/27 22:03:59.361    58    70 D0   DesktopThread started
+2012/10/27 22:03:59.361    58    70 D0   Number of Cores: 2
+2012/10/27 22:03:59.362    42    44 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 1 (StreamType_Chat), Source[173826315,642790414]
+2012/10/27 22:03:59.363    58    65 D0   CLogin::run() leave
+2012/10/27 22:03:59.364    42    44 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 2 (StreamType_VPN), Source[173826315,642790414]
+2012/10/27 22:03:59.364    58    71 D0   ServerThread started
+2012/10/27 22:03:59.366    42    44 G0   CStreamManager::StreamRegistered: streamID=1 type=5 source=[173826315,642790414]
+2012/10/27 22:03:59.366    58    71 D0   ServerThread: Waiting for ParticipantManager synchronization
+2012/10/27 22:03:59.367    42    44 G0   CStreamManager::StreamRegistered: streamID=2 type=7 source=[173826315,642790414]
+2012/10/27 22:03:59.386    42    44 G0   CPersistentParticipantManager::StartSynchronisations: m_toUpdateDestinations |= 4, 013C7DB8
+2012/10/27 22:03:59.388    42    44 G0   DT: Sending InitSignal to DT 933410252
+2012/10/27 22:03:59.389    42    44 G0   CParticipantManager::StartFullSynchronisation: session=642790414, this=02C4E5D8
+2012/10/27 22:03:59.389    42    44 G0   WindowObserverGUI::SessionStart: 1; type: 1
+2012/10/27 22:03:59.390    42    44 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 3 (StreamType_Misc), Source[173826315,642790414]
+2012/10/27 22:03:59.392    42    44 G0   CMeetingControl[1]::AddSubscriber(): StreamID 3, Participant[657437659,1156097415], Source[0,0]
+2012/10/27 22:03:59.394    42    44 G0   CPersistentParticipantManager::StartSynchronisations: m_toUpdateDestinations |= 2, 013C7DB8
+2012/10/27 22:03:59.401    42    44 G0   CStreamManager::StreamRegistered: streamID=3 type=1 source=[173826315,642790414]
+2012/10/27 22:03:59.403    42    44 G0   CStreamManager::StreamSubscribed: ID=3 subscriber=[657437659,1156097415] subscribed=1
+2012/10/27 22:03:59.659    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:03:59.680    42    66 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 4 (StreamType_DragDrop), Source[657437659,1156097415]
+2012/10/27 22:03:59.681    42    44 G0   CStreamManager::StreamRegistered: streamID=4 type=9 source=[657437659,1156097415]
+2012/10/27 22:03:59.682    42    66 G0   CMeetingControl[1]::AddSubscriber(): StreamID 4, Participant[173826315,642790414], Source[0,0]
+2012/10/27 22:03:59.683    42    44 G0   CStreamManager::StreamSubscribed: ID=4 subscriber=[173826315,642790414] subscribed=1
+2012/10/27 22:03:59.685    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:03:59.686    42    66 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 5 (StreamType_Misc), Source[657437659,1156097415]
+2012/10/27 22:03:59.687    42    44 G0   CStreamManager::StreamRegistered: streamID=5 type=1 source=[657437659,1156097415]
+2012/10/27 22:03:59.688    42    66 G0   CMeetingControl[1]::AddSubscriber(): StreamID 5, Participant[173826315,642790414], Source[0,0]
+2012/10/27 22:03:59.689    42    44 G0   CStreamManager::StreamSubscribed: ID=5 subscriber=[173826315,642790414] subscribed=1
+2012/10/27 22:03:59.689    42    66 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 6 (StreamType_Chat), Source[657437659,1156097415]
+2012/10/27 22:03:59.690    42    44 G0   CStreamManager::StreamRegistered: streamID=6 type=5 source=[657437659,1156097415]
+2012/10/27 22:03:59.691    42    66 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 7 (StreamType_VPN), Source[657437659,1156097415]
+2012/10/27 22:03:59.692    42    44 G0   CStreamManager::StreamRegistered: streamID=7 type=7 source=[657437659,1156097415]
+2012/10/27 22:03:59.692    42    44 G0   CParticipantManagerBase::CheckAndSubscribeNewStream(): Subscribe stream now streamID=7 type=7 required=1 supported=1
+2012/10/27 22:03:59.693    42    44 G0   CMeetingControl[1]::AddSubscriber(): StreamID 7, Participant[173826315,642790414], Source[173826315,642790414]
+2012/10/27 22:03:59.695    42    44 G0   CParticipantManagerBase participant  (ID [173826315,642790414]) was added with the role 3
+2012/10/27 22:03:59.696    42    44 G0   CStreamManager::StreamSubscribed: ID=7 subscriber=[173826315,642790414] subscribed=1
+2012/10/27 22:03:59.768    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:03:59.775    42    44 G0   CParticipantManagerBase InteractionDefaults arrived : CInteractionDefaults = (0) [ 0,2,0,0,2,0,0]
+2012/10/27 22:03:59.782    42    44 G0   CParticipantManagerBase participant  (ID [657437659,1156097415]) was added with the role 6
+2012/10/27 22:03:59.786    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:03:59.790    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:03.937    42    44 G0   CPersistentParticipantManager::Synchronize: -start- subscr=6, wSession=0, tvSession=642790414, 013C7DB8
+2012/10/27 22:04:03.938    42    66 G0   CMeetingControl[1]::AddSubscriber(): StreamID 2, Participant[657437659,1156097415], Source[657437659,1156097415]
+2012/10/27 22:04:03.941    42    66 G0   CMeetingControl[1]::AddSubscriber(): StreamID 1, Participant[657437659,1156097415], Source[657437659,1156097415]
+2012/10/27 22:04:03.952    42    44 G0   CPersistentParticipantManager::SendPMSynchronizationComplete 013C7DB8
+2012/10/27 22:04:03.952    42    44 G0   CPersistentParticipantManager::Synchronize: -end- subscr=6, wSession=0, tvSession=642790414, 013C7DB8
+2012/10/27 22:04:03.953    42    44 G0   CParticipantManagerBase participant  (ID [173826315,642790414]) was added with the role 3
+2012/10/27 22:04:03.953    42    44 G0   New Participant added in CParticipantManager 
+2012/10/27 22:04:03.953    42    44 G0   ServerSessionrecorder: Autostart recording function called but not activated.
+2012/10/27 22:04:03.954    42    44 G0   CParticipantManagerBase participant  (ID [657437659,1156097415]) was added with the role 6
+2012/10/27 22:04:03.954    42    44 G0   New Participant added in CParticipantManager 
+2012/10/27 22:04:03.954    42    44 G0   ServerSessionrecorder: Autostart recording function called but not activated.
+2012/10/27 22:04:03.954    42    44 G0   CParticipantManagerBase::CheckAndSubscribeNewStream(): Subscribe stream now streamID=6 type=5 required=1 supported=1
+2012/10/27 22:04:03.955    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:03.955    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:03.956    42    44 G0   CParticipantManager::SynchronizationComplete: session=642790414, this=02C4E5D8
+2012/10/27 22:04:04.282    42    43 G0   DT: Sending InitSignal to DT 933410252
+2012/10/27 22:04:04.287    42    44 G0!  CStreamManager::ReceivedMeetingCommand: unexpected command type 20
+2012/10/27 22:04:04.288    58    63 D0   CParticipantManagerBase participant  (ID [173826315,642790414]) was added with the role 3
+2012/10/27 22:04:04.288    58    63 D0   New Participant added in CParticipantManager 
+2012/10/27 22:04:04.288    42    44 G0   CMeetingControl[1]::AddSubscriber(): StreamID 6, Participant[173826315,642790414], Source[173826315,642790414]
+2012/10/27 22:04:04.289    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.291    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.292    42    44 G0!  CParticipantManager::Received_MeetingCommand(): unknown commandType=20
+2012/10/27 22:04:04.292    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.292    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.292    42    44 G0   CStreamManager::StreamSubscribed: ID=2 subscriber=[657437659,1156097415] subscribed=1
+2012/10/27 22:04:04.292    58    63 D0   CParticipantManagerBase participant  (ID [657437659,1156097415]) was added with the role 6
+2012/10/27 22:04:04.293    58    63 D0   New Participant added in CParticipantManager 
+2012/10/27 22:04:04.293    42    44 G0   CStreamManager::StreamSubscribed: ID=1 subscriber=[657437659,1156097415] subscribed=1
+2012/10/27 22:04:04.294    42    44 G0   CParticipantManagerBase InteractionDefaults arrived : CInteractionDefaults = (0) [ 0,2,0,0,2,0,0]
+2012/10/27 22:04:04.294    42    44 G0   CParticipantManagerBase InteractionDefaults arrived : CInteractionDefaults = (0) [ 0,2,0,0,2,0,0]
+2012/10/27 22:04:04.294    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.295    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.295    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.295    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.296    42    44 G0   DT: Sending InitSignal to DT 933410252
+2012/10/27 22:04:04.296    42    44 G0   CServerThreadInfo unknown commandtype=61
+2012/10/27 22:04:04.297    42    44 G0   CServerThreadInfo unknown commandtype=61
+2012/10/27 22:04:04.297    42    44 G0   CStreamManager::StreamSubscribed: ID=6 subscriber=[173826315,642790414] subscribed=1
+2012/10/27 22:04:04.298    58    63 D0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.299    58    63 D0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.299    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.300    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.301    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.301    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.324    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.325    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.328    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.329    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.344    58    63 D0   CParticipantManager::SynchronizationComplete: session=642790414, this=00866960
+2012/10/27 22:04:04.344    58    71 D0   Resetting Cache. Cache disabled.
+2012/10/27 22:04:04.345    58    63 D0!  CParticipantManager::Received_MeetingCommand(): unknown commandType=20
+2012/10/27 22:04:04.345    58    63 D0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.346    58    63 D0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.347    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.348    42    44 G0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.349    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.350    42    44 G0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.351    58    63 D0   CParticipantManagerBase InteractionDefaults arrived : CInteractionDefaults = (0) [ 0,2,0,0,2,0,0]
+2012/10/27 22:04:04.351    58    63 D0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.351    58    63 D0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.352    58    63 D0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.352    58    63 D0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.353    58    63 D0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.353    58    63 D0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.354    58    63 D0   CParticipantManagerBase access control arrived for participant [173826315,642790414]
+2012/10/27 22:04:04.354    42    44 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 8 (StreamType_Screen), Source[173826315,642790414]
+2012/10/27 22:04:04.355    58    63 D0   CParticipantManagerBase access control arrived for participant [657437659,1156097415]
+2012/10/27 22:04:04.356    42    44 G0   CStreamManager::StreamRegistered: streamID=8 type=2 source=[173826315,642790414]
+2012/10/27 22:04:04.358    58    71 D0   Change screen resolution to 1366X768 was successful!
+2012/10/27 22:04:04.360    58    71 D0   SendInfo() executed.
+2012/10/27 22:04:04.478    42    66 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 9 (StreamType_Misc), Source[657437659,1156097415]
+2012/10/27 22:04:04.480    42    44 G0   CStreamManager::StreamRegistered: streamID=9 type=1 source=[657437659,1156097415]
+2012/10/27 22:04:04.480    42    66 G0   CMeetingControl[1]::AddSubscriber(): StreamID 9, Participant[173826315,642790414], Source[0,0]
+2012/10/27 22:04:04.482    42    44 G0   CStreamManager::StreamSubscribed: ID=9 subscriber=[173826315,642790414] subscribed=1
+2012/10/27 22:04:04.521    42    44 G0   ServerThreadInfo connected to 657437659, client version is 7.0.14563, OS=13
+2012/10/27 22:04:04.532    58    71 D0   ServerThread connected to 657437659, client version is 7.0.14563, OS=13
+2012/10/27 22:04:04.542    42    44 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 10 (StreamType_DragDrop), Source[173826315,642790414]
+2012/10/27 22:04:04.544    42    44 G0   CMeetingControl[1]::AddSubscriber(): StreamID 10, Participant[657437659,1156097415], Source[0,0]
+2012/10/27 22:04:04.547    42    44 G0   CStreamManager::StreamRegistered: streamID=10 type=9 source=[173826315,642790414]
+2012/10/27 22:04:04.549    42    44 G0   CServerClientBaseGUI: registered Drag&Drop stream
+2012/10/27 22:04:04.549    42    44 G0   CStreamManager::StreamSubscribed: ID=10 subscriber=[657437659,1156097415] subscribed=1
+2012/10/27 22:04:04.636    58    71 D0   SetDisplayQuality m=0, bpp=8, q=80, echo=-1
+2012/10/27 22:04:04.637    58    71 D0   ConnectionAccessSettings: RemoteControl: Разрешено FileTransfer: Разрешено ControlRemoteTV: Разрешено SwitchSides: Разрешено AllowDisableRemoteInput: Разрешено AllowVPN: Разрешено AllowPartnerViewDesktop: Разрешено ShareMyFiles: Разрешено ShareFilesWithMe: Разрешено 
+2012/10/27 22:04:04.638    58    70 D0   InitDesktop  Monitor=-1
+2012/10/27 22:04:04.639    58    70 D0   using virtual desktop
+2012/10/27 22:04:04.639    58    70 D0   BPP_USED = 32, colors = 4294967296
+2012/10/27 22:04:04.640    58    70 D0   ==== Open Desktop! ====
+2012/10/27 22:04:04.641    58    71 D0   Switching stream for participant [657437659,1156097415] from -1 to 0
+2012/10/27 22:04:04.643    58    70 D0   XFixes extension: base 99 error 160
+2012/10/27 22:04:04.644    58    70 D0   XDamage extension: base 104 error 170
+
+2012/10/27 22:04:04.646    42    44 G0   CMeetingControl[1]::Received_MeetingRegisterStream(): StreamID 11 (StreamType_DragDrop), Source[173826315,642790414]
+2012/10/27 22:04:04.646    42    44 G0   CMeetingControl[1]::AddSubscriber(): StreamID 11, Participant[657437659,1156097415], Source[0,0]
+2012/10/27 22:04:04.647    58    70 D0   Display is 1368x768x32
+2012/10/27 22:04:04.647    58    70 D0   InitDesktop successful
+2012/10/27 22:04:04.648    42    44 G0   CMeetingControl[1]::AddSubscriber(): StreamID 8, Participant[657437659,1156097415], Source[173826315,642790414]
+2012/10/27 22:04:04.649    42    44 G0   CStreamManager::StreamRegistered: streamID=11 type=9 source=[173826315,642790414]
+2012/10/27 22:04:04.649    58    63 D0   ServerThread: Registered Drag&Drop Stream (0000000b)
+2012/10/27 22:04:04.650    42    44 G0   CStreamManager::StreamSubscribed: ID=11 subscriber=[657437659,1156097415] subscribed=1
+2012/10/27 22:04:04.650    42    44 G0   CStreamManager::StreamSubscribed: ID=8 subscriber=[657437659,1156097415] subscribed=1
+2012/10/27 22:04:04.663    58    71 D0   Resetting Cache. Cache disabled.
+2012/10/27 22:04:04.689    58    70 D0   first fullscreen grab time in ms = 41
+2012/10/27 22:04:04.697    58    19 D0   Change screen resolution to 1366X768 was successful!
+2012/10/27 22:04:04.703    42    44 G0   ServerSessionrecorder: Autostart recording function called but not activated.
+2012/10/27 22:04:04.703    42    44 G0   Display buffers allocated: width = 1368, height = 768, bpp = 8
+2012/10/27 22:04:04.822    58    71 D0   Received cache version 2 from [657437659,1156097415]
+2012/10/27 22:04:04.918    58    19 D0   Caching activated, partners version is 2, own version is 2
+2012/10/27 22:04:15.706    58    71 D0   SetDisplayQuality m=0, bpp=8, q=80, echo=155
+2012/10/27 22:04:26.467    42    66 G0!  CT11 UDP statistics: rrp=346 prp=54 scf=40 
+2012/10/27 22:05:00.289    42    66 G0!  CT11 UDP statistics: dp=1 rrp=2 prp=14 
+2012/10/27 22:05:50.762    42    66 G0!  CT11 UDP statistics: dp=1 rrp=2 prp=69 
+2012/10/27 22:06:36.159    42    66 G0!  CT11 UDP statistics: rrp=1 prp=94 scf=155 
+2012/10/27 22:07:08.739    42    66 G0!  CT11 UDP statistics: prp=8 
+2012/10/27 22:07:57.159    42    66 G0!  CT11 UDP statistics: prp=116 scf=11 
+2012/10/27 22:08:34.218    42    57 G0!  CT11 UDP statistics: prp=62 scf=62 
+2012/10/27 22:09:04.326    42    66 G0!  CT11 UDP statistics: rrp=1 prp=95 scf=70 
+2012/10/27 22:09:37.514    42    66 G0!  CT11 UDP statistics: prp=100 scf=30 
+2012/10/27 22:10:39.861    42    66 G0!  CT11 UDP statistics: rrp=2 prp=82 scf=55 
+2012/10/27 22:11:09.391    42    57 G0!  CT11 UDP statistics: dp=1 rrp=3 prp=139 scf=96 
+2012/10/27 22:11:49.725    42    66 G0!  CT11 UDP statistics: prp=234 scf=343 
+2012/10/27 22:12:11.460    42    55 G0   CConnectionThread::PingRouter(): Router Ping started
+2012/10/27 22:12:11.544    42    55 G0   CT7 CConnectionThread::CmdPingRouter(): Router Pong Received with following Hops: 173826315 683090958
+2012/10/27 22:12:22.225    42    57 G0!  CT11 UDP statistics: prp=14 scf=1 
+2012/10/27 22:12:54.141    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 8, Participant [657437659,1156097415], Source[657437659,1156097415]
+2012/10/27 22:12:54.141    42    44 G0   CStreamManager::StreamSubscribed: ID=8 subscriber=[657437659,1156097415] subscribed=0
+2012/10/27 22:12:54.143    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 1, Participant [657437659,1156097415], Source[0,0]
+2012/10/27 22:12:54.144    42    44 G0   CStreamManager::StreamSubscribed: ID=1 subscriber=[657437659,1156097415] subscribed=0
+2012/10/27 22:12:54.145    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 2, Participant [657437659,1156097415], Source[0,0]
+2012/10/27 22:12:54.146    42    44 G0   CStreamManager::StreamSubscribed: ID=2 subscriber=[657437659,1156097415] subscribed=0
+2012/10/27 22:12:54.146    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 3, Participant [657437659,1156097415], Source[0,0]
+2012/10/27 22:12:54.146    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 10, Participant [657437659,1156097415], Source[0,0]
+2012/10/27 22:12:54.147    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 11, Participant [657437659,1156097415], Source[0,0]
+2012/10/27 22:12:54.147    42    44 G0   CStreamManager::StreamSubscribed: ID=3 subscriber=[657437659,1156097415] subscribed=0
+2012/10/27 22:12:54.148    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 4, Participant[657437659,1156097415]
+2012/10/27 22:12:54.148    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 4, Participant [173826315,642790414], Source[0,0]
+2012/10/27 22:12:54.148    42    44 G0   CStreamManager::StreamSubscribed: ID=10 subscriber=[657437659,1156097415] subscribed=0
+2012/10/27 22:12:54.149    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 5, Participant[657437659,1156097415]
+2012/10/27 22:12:54.149    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 5, Participant [173826315,642790414], Source[0,0]
+2012/10/27 22:12:54.150    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 6, Participant[657437659,1156097415]
+2012/10/27 22:12:54.150    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 6, Participant [173826315,642790414], Source[0,0]
+2012/10/27 22:12:54.150    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 7, Participant[657437659,1156097415]
+2012/10/27 22:12:54.150    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 7, Participant [173826315,642790414], Source[0,0]
+2012/10/27 22:12:54.151    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 9, Participant[657437659,1156097415]
+2012/10/27 22:12:54.151    42    66 G0   CMeetingControl[1]::RemoveSubscriber(): StreamID 9, Participant [173826315,642790414], Source[0,0]
+2012/10/27 22:12:54.151    42    66 G0   CMeetingControl[1]::RemoveParticipant(): Participant [657437659,1156097415], Role_Spectator, Role_Organizer, 1 erased, size 1, EndMeeting 0
+2012/10/27 22:12:54.151    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 1, Participant[173826315,642790414]
+2012/10/27 22:12:54.152    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 2, Participant[173826315,642790414]
+2012/10/27 22:12:54.152    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 3, Participant[173826315,642790414]
+2012/10/27 22:12:54.152    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 8, Participant[173826315,642790414]
+2012/10/27 22:12:54.152    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 10, Participant[173826315,642790414]
+2012/10/27 22:12:54.152    42    66 G0   CMeetingControl[1]::CloseStream(): StreamID 11, Participant[173826315,642790414]
+2012/10/27 22:12:54.152    42    66 G0   CMeetingControl[1]::RemoveParticipant(): Participant [173826315,642790414], Role_Presenter, Role_Spectator, 1 erased, size 0, EndMeeting 0
+2012/10/27 22:12:54.152    42    44 G0!! CMeetingControl[1]::Received_MeetingCloseStream(): participant doesn't exists: [173826315,642790414]
+2012/10/27 22:12:54.153    42    44 G0   CStreamManager::StreamSubscribed: ID=11 subscriber=[657437659,1156097415] subscribed=0
+2012/10/27 22:12:54.153    42    44 G0   CStreamManager::StreamSubscribed: ID=4 subscriber=[173826315,642790414] subscribed=0
+2012/10/27 22:12:54.153    42    44 G0   CStreamManager::StreamUnregistered: streamID=4
+2012/10/27 22:12:54.154    42    44 G0   CStreamManager::StreamSubscribed: ID=5 subscriber=[173826315,642790414] subscribed=0
+2012/10/27 22:12:54.154    42    44 G0   CStreamManager::StreamUnregistered: streamID=5
+2012/10/27 22:12:54.154    42    44 G0   CStreamManager::StreamSubscribed: ID=6 subscriber=[173826315,642790414] subscribed=0
+2012/10/27 22:12:54.154    42    44 G0   CStreamManager::StreamUnregistered: streamID=6
+2012/10/27 22:12:54.154    42    44 G0   CStreamManager::StreamSubscribed: ID=7 subscriber=[173826315,642790414] subscribed=0
+2012/10/27 22:12:54.155    42    44 G0   CStreamManager::StreamUnregistered: streamID=7
+2012/10/27 22:12:54.155    42    44 G0   CStreamManager::StreamSubscribed: ID=9 subscriber=[173826315,642790414] subscribed=0
+2012/10/27 22:12:54.155    42    44 G0   CStreamManager::StreamUnregistered: streamID=9
+2012/10/27 22:12:54.155    42    44 G0   CPersistentParticipantManager::RemoveParticipant: [657437659,1156097415]
+2012/10/27 22:12:54.156    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.156    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.157    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.159    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.159    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.160    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.160    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.160    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.161    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.161    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.161    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.162    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.162    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.162    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.163    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.163    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.163    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.164    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.164    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.164    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.165    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.166    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.166    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.166    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.167    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.167    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.167    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.168    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.168    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.168    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.169    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.169    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.169    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.170    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.170    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.170    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.171    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.171    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.171    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.172    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.172    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.172    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.173    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.173    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.173    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.174    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.175    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.176    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.176    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.176    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.177    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.177    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.177    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.178    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.178    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.178    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.179    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.179    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.179    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.179    42    44 G0   CMeetingControl[1]::Received_UnknownMeetingCommand(): target [657437659,1156097415] does not exists, source [173826315,642790414], CommandType 11
+2012/10/27 22:12:54.180    42    44 G0   CStreamManager::ParticipantRemoved: Participant removed: [657437659,1156097415]
+2012/10/27 22:12:54.213    42    44 G0   CStreamManager::ReceivedEndSession: reason=1
+2012/10/27 22:12:54.263    42    44 G0   CStreamManager::StreamUnregistered: streamID=1
+2012/10/27 22:12:54.264    42    44 G0   CStreamManager::StreamUnregistered: streamID=2
+2012/10/27 22:12:54.283    42    66 G0   CT11  CT.Receive.CMD_DISCONNECT From=657437659 To=173826315 L=4
+2012/10/27 22:12:54.284    42    44 G0   CStreamManager::StreamUnregistered: streamID=3
+2012/10/27 22:12:54.286    42    44 G0   CStreamManager::StreamUnregistered: streamID=8
+2012/10/27 22:12:54.287    42    44 G0   CStreamManager::StreamUnregistered: streamID=10
+2012/10/27 22:12:54.288    42    44 G0   CStreamManager::StreamUnregistered: streamID=11
+2012/10/27 22:12:54.291    42    61 G0   CT8 CT.Receive.CMD_ENDSESSION From=657437659 To=173826315 L=4
+2012/10/27 22:12:54.291    42    61 G0   CConnectionThread::CmdEndSession(): Received CMD_ENDSESSION with reason: 1
+2012/10/27 22:12:54.292    42    57 G0   CT8 CT.Send.CMD_DISCONNECT From=173826315 To=657437659 L=4
+2012/10/27 22:12:54.292    42    61 G0   CT8 CT.Disconnect.WaitForLastAck
+2012/10/27 22:12:54.400    42    61 G0   CT8 CT.Disconnect
+2012/10/27 22:12:54.400    42    66 G0!  CT11 UDP statistics: rf=1 rrp=1 prp=230 scf=349 
+2012/10/27 22:12:54.401    42    66 G0   CT11 CTU.Run.LoopEnd
+2012/10/27 22:12:54.401    42    66 G0   CT11 CT.Disconnect
+2012/10/27 22:12:54.405    42    61 G0   CGatewaySession::ShowSponsoredSessionDialog(): Show SponsoredSession
+2012/10/27 22:12:54.405    42    61 G0   ConnectionGuard: no restrictions
+2012/10/27 22:12:54.406    42    61 G0   CT8 CT.Run.LoopEnd
+2012/10/27 22:12:54.406    42    44 G0   SCB::SendRemoveParticipant: forceEndMeeting=0
+2012/10/27 22:12:54.407    42    44 G0   WindowObserverGUI::SessionEnded: 0
+2012/10/27 22:12:54.442    58    63 D0   Received Control_TerminateProcess
+2012/10/27 22:12:54.444    58    71 D0   ServerThread to 657437659 finished
+2012/10/27 22:12:54.444    58    71 D0   SessionEnded: 0
+2012/10/27 22:12:54.458    58    64 D0   DesktopThread stopped
+2012/10/27 22:12:54.458    58    69 D0!! CServer::RemoveWallpaper(): SystemParametersInfo(SPI_SETDESKWALLPAPER) (restore) failed with error 0
+2012/10/27 22:12:54.458    58    64 D0   DisableServerInput: 0
+2012/10/27 22:12:54.458    58    64 D0   ==== Close Desktop! ====
+2012/10/27 22:12:54.466    58    59 D0   DisableServerInput: 0
+2012/10/27 22:12:54.466    58    69 D0!! CServer::RemoveWallpaper(): SystemParametersInfo(SPI_SETDESKWALLPAPER) (restore) failed with error 0
+2012/10/27 22:12:54.466    58    69 D0   quit ThreadProc
+2012/10/27 22:12:54.489    42    44 G0   CInterProcessNetwork: Received DisconnectIPC from processID 58 (ProcessType: 4 in Session 0) with reason 4
+2012/10/27 22:12:54.489    42    44 G0   CPersistentParticipantManager::RemoveSubscriberProcess: process type=4
+2012/10/27 22:12:54.490    42    44 G0   Process 58 in session 0 has terminated
+2012/10/27 22:12:54.490    58    63 D0   CTcpProcessConnector::HandleRead(): Socket gracefully closed (PID=42)
+2012/10/27 22:12:54.490    58    63 D0!  CInterProcess::EventFunction(): IPC-Connection Closed
+2012/10/27 22:12:54.491    42    44 G0   CTcpProcessConnector::HandleRead(): Socket gracefully closed (PID=58)
+2012/10/27 22:12:54.491    42    44 G0   CInterProcessNetwork::NewInterProcessDataAvailable(): ConnectionClosed session=0 ptype=4
+2012/10/27 22:12:54.492    42    44 G0   UpdateOnlineState newOnlineValue 1
+2012/10/27 22:12:54.492    42    44 G0!! CTcpProcessConnector::CloseConnection(): Shutdown socket returned error 10058: Unknown error, Errorcode=317
+2012/10/27 22:12:54.492    58    63 D0!! CTcpProcessConnector::CloseConnection(): Shutdown socket returned error 10058: Unknown error, Errorcode=317
+2012/10/27 22:12:54.493    42    57 G0   CT9 CT.Run.LoopEnd
+2012/10/27 22:12:54.494    42    57 G0   CT9 CT.Disconnect
+2012/10/27 22:12:54.494    58    59 D0   Wine: Wine DLL freed
+2012/10/27 22:25:17.614    42    43 G0!! MainWindow.OnDestroy: WTSUnRegisterSessionNotification failed with error 0
+2012/10/27 22:25:17.614    42    43 G0   Closing TeamViewer
+2012/10/27 22:25:17.668    42    43 G0   Wine: Wine DLL freed
+2012/10/27 22:25:17.669    42    44 G0   CInterProcessNetwork: Received DisconnectIPC from processID 42 (ProcessType: 2 in Session 0) with reason 1
+2012/10/27 22:25:17.669    42    44 G0   CPersistentParticipantManager::RemoveSubscriberProcess: process type=2
+2012/10/27 22:25:17.669    42    44 G0   Terminate Session TVSession 642790414 in WindowsSession 0 isOutgoing: 0 
+2012/10/27 22:25:17.669    42    44 G0   Process 42 in session 0 has terminated
+2012/10/27 22:25:17.670    42    44 G0!  CInterProcess::EventFunction(): IPC-Connection Closed
+2012/10/27 22:25:17.670    42    44 G0   CInterProcessNetwork::NewInterProcessDataAvailable(): ConnectionClosed session=0 ptype=2
+2012/10/27 22:25:17.670    42    44 G0   UpdateOnlineState m_ManualStop
+2012/10/27 22:25:17.670    42    44 G0   TeamViewer is going offline!
+2012/10/27 22:25:17.670    42    44 G0   Offline() StopListening.WT
+2012/10/27 22:25:17.670    42    44 G0   CT7 CT.Send.CMD_ENDSESSION From=173826315 To=683090958 L=4
+2012/10/27 22:25:17.670    42    44 G0   CConnectionThread::Terminate(): Sent EndSession with reason: 11
+2012/10/27 22:25:17.748    42    55 G0   CT7 CT.Receive.CMD_DISCONNECT From=683090958 To=173826315 L=4
+2012/10/27 22:25:17.749    42    55 G0   CT7 CT.Run.LoopEnd
+2012/10/27 22:25:17.749    42    44 G0   CT7 CT.Disconnect
+2012/10/27 22:25:17.752    42    50 G0   KeepAliveThread ended
+2012/10/27 22:25:17.828    42    44 G0   CT.Disconnect.TM_WaitAtGateway finished
+2012/10/27 22:25:17.829    42    44 G0   CT7 CT.Term.TM_WaitAtGateway: SendQueueThread stopped
+2012/10/27 22:25:17.829    42    44 G0   CT7 CT.Term.TM_WaitAtGateway: Terminated
+2012/10/27 22:25:17.829    42    44 G0   MainApp.Shutdown.GWS.Disconnect n=0
+2012/10/27 22:25:17.829    42    44 G0   Offline() CT.Terminate
+2012/10/27 22:25:17.829    42    44 G0   Offline() Shutdown.WT
+2012/10/27 22:25:17.829    42    44 G0   Shutting down Dyngate

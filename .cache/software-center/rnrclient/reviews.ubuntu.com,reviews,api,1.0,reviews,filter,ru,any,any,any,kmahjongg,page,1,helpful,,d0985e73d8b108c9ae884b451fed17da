@@ -1,0 +1,35 @@
+status: 200
+content-length: 677
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7), 1.1 reviews.ubuntu.com
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/ru/any/any/any/kmahjongg/page/1/helpful/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Sat, 27 Oct 2012 08:50:53 GMT
+server: Apache/2.2.14 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 08:45:53 GMT
+connection: close
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 08:45:53 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "KMahjongg", 
+        "language": "ru", 
+        "reviewer_username": "listath-dark", 
+        "usefulness_total": 2, 
+        "usefulness_favorable": 2, 
+        "review_text": "Стильный и красивый Маджонг. Рекомендую :)", 
+        "date_deleted": null, 
+        "summary": "11.10 без кед)))", 
+        "version": "4:4.7.2-0ubuntu1", 
+        "id": 33312, 
+        "date_created": "2011-12-17 03:14:23", 
+        "reviewer_displayname": "listath dark", 
+        "package_name": "kmahjongg", 
+        "distroseries": "oneiric"
+    }
+]

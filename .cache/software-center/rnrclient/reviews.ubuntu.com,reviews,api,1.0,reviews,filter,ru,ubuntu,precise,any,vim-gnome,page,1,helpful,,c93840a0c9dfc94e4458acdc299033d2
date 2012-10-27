@@ -1,0 +1,35 @@
+status: 200
+content-length: 717
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7), 1.1 reviews.ubuntu.com
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/ru/ubuntu/precise/any/vim-gnome/page/1/helpful/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Sat, 27 Oct 2012 12:31:34 GMT
+server: Apache/2.2.14 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 12:26:34 GMT
+connection: close
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 12:26:34 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "GVim", 
+        "language": "ru", 
+        "reviewer_username": "umreen", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Потратьте пару тройку дней на его освоение и ничего другого уже не нужно. ", 
+        "date_deleted": null, 
+        "summary": "Best Text Editor", 
+        "version": "2:7.3.429-2ubuntu2.1", 
+        "id": 50548, 
+        "date_created": "2012-06-24 14:23:43", 
+        "reviewer_displayname": "Ruiz Aw", 
+        "package_name": "vim-gnome", 
+        "distroseries": "precise"
+    }
+]

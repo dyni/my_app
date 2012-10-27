@@ -1,0 +1,25 @@
+status: 200
+content-length: 193
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/vim-gnome/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Sat, 27 Oct 2012 12:31:04 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 12:26:04 GMT
+etag: "b215dbcd4beedc0c8aba9f77e7409b0d"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 12:26:35 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "cbf265892c66c51cfe18f72585c06592",
+    "data": [
+        {
+            "rating": 3.0,
+            "package_name": "flashplugin-installer"
+        }
+    ],
+    "app": "vim-gnome"
+}

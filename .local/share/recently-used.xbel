@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/kostia/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/adobe-release-x86_64-1.0-1.noarch.rpm" added="2012-10-27T07:45:43Z" modified="2012-10-27T08:19:35Z" visited="2012-10-27T07:45:43Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-rpm"/>
+        <bookmark:applications>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2012-10-27T08:19:35Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/.cache/.fr-OwoV6J/etc/pki/rpm-gpg/RPM-GPG-KEY-adobe-linux" added="2012-10-27T07:45:52Z" modified="2012-10-27T07:45:52Z" visited="2012-10-27T07:45:52Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pgp-keys"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2012-10-27T07:45:52Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="obex://[00:19:63:AB:74:5F]/Memory%20Stick/music/8.AK47%20feat%20%D0%91%D0%B0%D1%81%D1%82%D0%B0%20-%20%5B%D0%96%D0%98%D0%A0%D0%9D%D0%AB%D0%99_2012%5D%20%D0%9A%D1%80%D1%83%D1%82%D0%BE%20%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C%20%D0%B2%20%D1%87%D1%83%D0%B4%D0%B5%D1%81%D0%B0%20(mp3cut.net).mp3" added="2012-10-27T12:40:45Z" modified="2012-10-27T12:40:45Z" visited="2012-10-27T12:40:45Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="audio/mpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;rhythmbox %U&apos;" modified="2012-10-27T12:40:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/rails_projects/new/public/index.html" added="2012-10-27T12:46:21Z" modified="2012-10-27T12:46:21Z" visited="2012-10-27T12:46:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Vim" exec="&apos;gvim %u&apos;" modified="2012-10-27T12:46:21Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/server/public/index.html" added="2012-10-27T14:06:46Z" modified="2012-10-27T14:06:46Z" visited="2012-10-27T14:06:47Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;firefox %u&apos;" modified="2012-10-27T14:06:46Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/rubygems-1.8.24.tgz" added="2012-10-27T14:19:33Z" modified="2012-10-27T14:19:36Z" visited="2012-10-27T14:19:33Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-compressed-tar"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2012-10-27T14:19:33Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2012-10-27T14:19:36Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/rails_projects/first_app/Gemfile" added="2012-10-27T14:32:14Z" modified="2012-10-27T15:05:24Z" visited="2012-10-27T14:32:15Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2012-10-27T14:32:14Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2012-10-27T15:05:24Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/rails_projects/first_app/config/database.yml" added="2012-10-27T15:11:26Z" modified="2012-10-27T15:11:26Z" visited="2012-10-27T15:11:27Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-yaml"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2012-10-27T15:11:26Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///var/lib/gems/1.8/gems/bundler-1.2.1/lib/bundler/source.rb" added="2012-10-27T15:24:17Z" modified="2012-10-27T15:24:17Z" visited="2012-10-27T15:24:17Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2012-10-27T15:24:17Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/first_app/Gemfile" added="2012-10-27T15:48:23Z" modified="2012-10-27T17:26:57Z" visited="2012-10-27T15:48:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2012-10-27T17:26:57Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///usr/bin/gem" added="2012-10-27T16:08:22Z" modified="2012-10-27T16:11:34Z" visited="2012-10-27T16:08:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-ruby"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2012-10-27T16:11:34Z" count="2"/>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2012-10-27T16:10:45Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/%D0%97%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B8/teamviewer_linux_x64.deb" added="2012-10-27T17:23:22Z" modified="2012-10-27T17:24:35Z" visited="2012-10-27T17:23:22Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-deb"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2012-10-27T17:23:22Z" count="1"/>
+          <bookmark:application name="nautilus" exec="&apos;/usr/bin/software-center %u&apos;" modified="2012-10-27T17:23:37Z" count="1"/>
+          <bookmark:application name="File Roller" exec="&apos;file-roller&apos;" modified="2012-10-27T17:24:35Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/kostia/my_app/Gemfile" added="2012-10-27T18:24:41Z" modified="2012-10-27T18:24:41Z" visited="2012-10-27T18:24:42Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2012-10-27T18:24:41Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

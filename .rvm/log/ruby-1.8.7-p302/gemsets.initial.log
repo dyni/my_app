@@ -1,0 +1,22 @@
+[2012-10-27 17:18:33] '/home/kostia/.rvm/scripts/gemsets' initial # under ruby-1.8.7-p302
+Importing initial gemsets for ruby-1.8.7-p302.
+paths: /home/kostia/.rvm/gemsets /home/kostia/.rvm/gemsets/ruby /home/kostia/.rvm/gemsets/ruby/1.8.7 /home/kostia/.rvm/gemsets/ruby/1.8.7/p302
+
+Installing gems listed in /home/kostia/.rvm/gemsets/default.gems file...
+
+
+Processing of /home/kostia/.rvm/gemsets/default.gems is complete.
+
+
+Installing gems listed in /home/kostia/.rvm/gemsets/global.gems file...
+
+installing bundler ...
+Error running 'env GEM_HOME=/home/kostia/.rvm/gems/ruby-1.8.7-p302@global GEM_PATH=/home/kostia/.rvm/gems/ruby-1.8.7-p302@global gem install --remote bundler', please read /home/kostia/.rvm/log/ruby-1.8.7-p302/gem.install.log
+bundler  failed to install ( output logged to: /home/kostia/.rvm/log/ruby-1.8.7-p302/gem.install.log )
+installing rake ...
+Error running 'env GEM_HOME=/home/kostia/.rvm/gems/ruby-1.8.7-p302@global GEM_PATH=/home/kostia/.rvm/gems/ruby-1.8.7-p302@global gem install --remote rake', please read /home/kostia/.rvm/log/ruby-1.8.7-p302/gem.install.log
+rake  failed to install ( output logged to: /home/kostia/.rvm/log/ruby-1.8.7-p302/gem.install.log )
+
+Processing of /home/kostia/.rvm/gemsets/global.gems is complete.
+
+Installation of gems for ruby-1.8.7-p302 is complete.

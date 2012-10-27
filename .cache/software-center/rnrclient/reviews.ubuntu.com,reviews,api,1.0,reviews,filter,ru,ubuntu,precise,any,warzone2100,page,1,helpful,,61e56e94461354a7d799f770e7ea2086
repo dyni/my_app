@@ -1,0 +1,149 @@
+status: 200
+content-length: 5436
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7), 1.1 reviews.ubuntu.com
+content-location: http://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/ru/ubuntu/precise/any/warzone2100/page/1/helpful/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Sat, 27 Oct 2012 08:48:51 GMT
+server: Apache/2.2.14 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 08:43:51 GMT
+connection: close
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 08:43:51 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Warzone 2100", 
+        "language": "ru", 
+        "reviewer_username": "pastushak2007", 
+        "usefulness_total": 3, 
+        "usefulness_favorable": 3, 
+        "review_text": "Игруха одна из самых лучших, ещё на PS играл,  лучше стратегии я не видел ......", 
+        "date_deleted": null, 
+        "summary": "Супер !!!", 
+        "version": "2.3.8-1ubuntu1", 
+        "id": 47555, 
+        "date_created": "2012-05-22 13:46:27", 
+        "reviewer_displayname": "Владимир", 
+        "package_name": "warzone2100", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Warzone 2100", 
+        "language": "ru", 
+        "reviewer_username": "kMPcL8t", 
+        "usefulness_total": 7, 
+        "usefulness_favorable": 5, 
+        "review_text": "Поставил, и снес винндоус!", 
+        "date_deleted": null, 
+        "summary": "Отлично!", 
+        "version": "2.3.8-1ubuntu1", 
+        "id": 48500, 
+        "date_created": "2012-06-01 09:24:44", 
+        "reviewer_displayname": "igor", 
+        "package_name": "warzone2100", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Warzone 2100", 
+        "language": "ru", 
+        "reviewer_username": "CrRF3Dr", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Отличная игра. Напоминает \"Детей Селены\". Что особенно хорошо, интерфейс и подсказки на русском языке. Так, что разобраться с игрой будет не сложно. Тем кто любит военные стратегии игра понравится. ", 
+        "date_deleted": null, 
+        "summary": "Отличная игра с русским переводом!", 
+        "version": "2.3.8-1ubuntu1", 
+        "id": 44585, 
+        "date_created": "2012-04-28 02:58:51", 
+        "reviewer_displayname": "Maks7", 
+        "package_name": "warzone2100", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Warzone 2100", 
+        "language": "ru", 
+        "reviewer_username": "KMBbXKs", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Я играл в эту игру 10 лет назад. И до сих пор восхищаюсь ей, в игры играть уже не играю практически, но эту игру я все равно установлю !)", 
+        "date_deleted": null, 
+        "summary": "Лучшая стратегия которую видел !", 
+        "version": "2.3.8-1ubuntu1", 
+        "id": 47003, 
+        "date_created": "2012-05-16 12:31:41", 
+        "reviewer_displayname": "Phoenix", 
+        "package_name": "warzone2100", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Warzone 2100", 
+        "language": "ru", 
+        "reviewer_username": "bobo4ke", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "I like it...", 
+        "date_deleted": null, 
+        "summary": "I like it...", 
+        "version": "2.3.8-1ubuntu1", 
+        "id": 51352, 
+        "date_created": "2012-07-04 12:05:34", 
+        "reviewer_displayname": "Bobo4ke@mail.ru", 
+        "package_name": "warzone2100", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 4, 
+        "hide": false, 
+        "app_name": "Warzone 2100", 
+        "language": "ru", 
+        "reviewer_username": "dDyLGhP", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Игра просто потрясающая (для Linux разумеется), но печально, что в данной сборке нет видео роликов, их пришлось качать отдельно с сайта разработчика. Из-за этого ставлю 4.", 
+        "date_deleted": null, 
+        "summary": "Лучшая стратегия для Linux!", 
+        "version": "2.3.8-1ubuntu1", 
+        "id": 54702, 
+        "date_created": "2012-08-16 11:50:46", 
+        "reviewer_displayname": "Максим Невзор Зырянов", 
+        "package_name": "warzone2100", 
+        "distroseries": "precise"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Warzone 2100", 
+        "language": "ru", 
+        "reviewer_username": "wR73pNz", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Одна из лучших стратегий на GNU/Linux", 
+        "date_deleted": null, 
+        "summary": "Отлично!", 
+        "version": "2.3.8-1ubuntu1", 
+        "id": 47821, 
+        "date_created": "2012-05-25 10:03:26", 
+        "reviewer_displayname": "Maxim Krasovsky", 
+        "package_name": "warzone2100", 
+        "distroseries": "precise"
+    }
+]

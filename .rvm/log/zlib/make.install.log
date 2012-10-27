@@ -1,0 +1,10 @@
+cp libz.a /home/kostia/.rvm/usr/lib
+chmod 644 /home/kostia/.rvm/usr/lib/libz.a
+cp libz.so.1.2.7 /home/kostia/.rvm/usr/lib
+chmod 755 /home/kostia/.rvm/usr/lib/libz.so.1.2.7
+cp zlib.3 /home/kostia/.rvm/usr/share/man/man3
+chmod 644 /home/kostia/.rvm/usr/share/man/man3/zlib.3
+cp zlib.pc /home/kostia/.rvm/usr/lib/pkgconfig
+chmod 644 /home/kostia/.rvm/usr/lib/pkgconfig/zlib.pc
+cp zlib.h zconf.h /home/kostia/.rvm/usr/include
+chmod 644 /home/kostia/.rvm/usr/include/zlib.h /home/kostia/.rvm/usr/include/zconf.h

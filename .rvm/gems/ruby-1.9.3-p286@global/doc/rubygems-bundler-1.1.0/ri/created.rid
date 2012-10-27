@@ -1,0 +1,9 @@
+Sat, 27 Oct 2012 17:01:57 +0400
+lib/rubygems_plugin.rb	Sat, 27 Oct 2012 17:01:57 +0400
+lib/rubygems-bundler/regenerate_binstubs_command.rb	Sat, 27 Oct 2012 17:01:57 +0400
+lib/rubygems-bundler/rubygems_bundler_installer.rb	Sat, 27 Oct 2012 17:01:57 +0400
+lib/rubygems-bundler/wrapper.rb	Sat, 27 Oct 2012 17:01:57 +0400
+lib/rubygems-bundler/noexec.rb	Sat, 27 Oct 2012 17:01:57 +0400
+lib/rubygems-bundler/version.rb	Sat, 27 Oct 2012 17:01:57 +0400
+lib/rubygems-bundler/fix_wrapper.rb	Sat, 27 Oct 2012 17:01:57 +0400
+lib/rubygems-bundler/uninstaller.rb	Sat, 27 Oct 2012 17:01:57 +0400

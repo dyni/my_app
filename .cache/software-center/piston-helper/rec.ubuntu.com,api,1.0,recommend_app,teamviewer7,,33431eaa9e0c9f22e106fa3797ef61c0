@@ -1,0 +1,23 @@
+status: 200
+content-length: 91
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/teamviewer7/
+x-cache: HIT from sumac.canonical.com
+age: 243
+expires: Sat, 27 Oct 2012 17:16:31 GMT
+vary: Accept-Encoding
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 17:11:31 GMT
+etag: "497dc4a8b3d44ae4e981ce7df3331e56"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 17:19:46 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from sumac.canonical.com:3128
+-varied-accept-encoding: gzip, deflate
+
+{
+    "rid": "83646bf0bb6a960137daf8645d8debfc",
+    "data": [],
+    "app": "teamviewer7"
+}

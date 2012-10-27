@@ -1,0 +1,2 @@
+patching file ext/openssl/ossl_ssl.c
+Hunk #1 succeeded at 101 (offset -6 lines).

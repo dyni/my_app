@@ -1,0 +1,865 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- base_content.html -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>&quot;error occured while installing json (1.6.5)&quot; on creation of new project - BitNami Answers</title>
+        <meta name="description" content="I have a new, install of the ruby stack on Ubuntu 11.04.I do:rails new store --database=mysqland get... exist  identical README identical Rakefile identical config.ru identical .gitignore conflict GemfileOverwrite /home/rob/dev/rails/store/store/Gemfile? (enter &quot;h&quot; " />
+        <meta name="keywords" content="json,rails" />
+        
+        <link rel="canonical" href="http://answers.bitnami.org/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project" />
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project?type=rss">
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <link rel="shortcut icon" href="/upfiles/fav_icon_256cols_index_1.png" />
+        <link href="/m/bitnami_answers/media/style/style.css" rel="stylesheet" type="text/css" />
+        
+        <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css" />
+        <!--[if IE 6]>
+        <style type="text/css">
+        img, div, a { behavior: url(/m/bitnami_answers/media/iepngfix/iepngfix.htc) }
+        </style>
+        <![endif]-->
+        
+
+        <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+        <script type="text/javascript">
+        /*<![CDATA[*/
+            google.load("jquery", "1.4.2");
+            google.load("jqueryui", "1", {autoload:true});
+
+            var i18nLang = 'en-us';
+            var appUrl = 'http://answers.bitnami.org'
+            var scriptUrl = '/'
+            var osqaSkin = 'bitnami_answers';
+
+            var messages = {
+                username: '',
+                confirm: "Are you sure?",
+                yes: "Yes",
+                no: "No",
+                message: "Message:",
+                cancel: "Cancel",
+                close: "Close",
+                ok: "Ok",
+                matching_tags_url: "/matching_tags/",
+                word: "word",
+                words: "words",
+                character: "character",
+                characters: "characters"
+            }
+        /*]]>*/
+        </script>
+        <script type="text/javascript" src="/m/bitnami_answers/media/js/osqa.main.js"></script>
+        
+        <style type="text/css">
+            body { margin-top:2.4em; }
+        </style>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                var element = $('#validate_email_alert');
+                element.click(function(){notify.close(true);})
+                notify.show();
+            });
+        </script>
+        
+        
+            <meta name="msvalidate.01" content="596A9DB959B66496EAD5CF8B84B624FF" />
+<meta name="google-site-verification" content="C8HebvUOK1xMyronnjOyvNAhkJWEb0OCimdI7ojmYyQ" />
+        
+        
+        
+        <script type='text/javascript' src='/m/bitnami_answers/media/js/osqa.question.js'></script>
+        <script type='text/javascript' src='/m/bitnami_answers/media/js/jquery.caret.js'></script>
+        <script type='text/javascript' src='/m/bitnami_answers/media/js/wmd/showdown.js'></script>
+        <script type='text/javascript' src='/m/bitnami_answers/media/js/wmd/wmd.js'></script>
+        <link rel="stylesheet" type="text/css" href="/m/bitnami_answers/media/js/wmd/wmd.css" />
+
+        
+        <script type='text/javascript' src='/m/bitnami_answers/media/js/viewbox_min.js'></script>
+        <script type='text/javascript' src='/m/bitnami_answers/media/js/youtube.js'></script>
+        <link rel="stylesheet" type="text/css" href="/m/bitnami_answers/media/js/viewbox.css" />
+        
+        
+
+        <script type="text/javascript">
+        $().ready(function(){
+            $("#nav_questions").attr('className',"on");
+            var answer_sort_tab = "";
+
+            if (answer_sort_tab) {
+                $("#" + answer_sort_tab).attr('className',"on");
+            }
+
+            $('#editor').TextAreaResizer();
+
+            //toggle preview of editor
+            var display = true;
+            var txt = "[hide preview]";
+            $('#pre-collapse').text(txt);
+            $('#pre-collapse').bind('click', function(){
+                txt = display ? "[show preview]" : "[hide preview]";
+                display = !display;
+                $('#previewer').toggle();
+                $('#pre-collapse').text(txt);
+            });
+        });
+
+        function submitClicked(e, f) {
+            if(!(browserTester('chrome') || browserTester('safari'))) {
+                $("input.submit")[0].disabled=true;
+            }
+            window.removeEventListener('beforeunload', beforeUnload, true);
+            if (f) {
+                f.submit();
+            }
+        }
+
+        function beforeUnload(e) {
+
+            if($("textarea#editor")[0].value != "") {
+                return yourWorkWillBeLost(e);
+            }
+
+            var commentBoxes = $("textarea.commentBox");
+            for(var index = 0; index < commentBoxes.length; index++) {
+                if(commentBoxes[index].value != "") {
+                    return yourWorkWillBeLost(e);
+                }
+            }
+        }
+        window.addEventListener('beforeunload', beforeUnload, true);
+        </script>
+        <noscript>
+            <style>
+                .comment.not_top_scorer {
+                    display: block;
+                }
+                .comment-form-container {
+                    display: block;
+                }
+                .div.comment-tools {
+                    display: none;
+                }
+            </style>
+        </noscript>
+
+        <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="BitNami Answers Search" />
+        
+    </head>
+    <body>
+        <div class="wrapper">
+        
+        <!-- template header.html -->
+
+
+	<div id="roof">
+	  
+		<div id="logo">
+			<a href="/">
+				<img src="/upfiles/logo.png" title="back to home page" alt="BitNami Answers logo"/>
+			</a>
+		</div>
+	  
+		<div id="top">
+		     <a href="/account/signin/" >login</a>  <a href="/about/" >about</a>  <a href="/faq/" >faq</a> 
+		</div>
+
+    <div id="nav">
+        <a id="nav_questions" class="on" href="/questions/" >questions</a><a id="nav_tags" href="/tags/" >tags</a><a id="nav_users" href="/users/" >users</a><a id="nav_badges" href="/badges/" >badges</a><a id="nav_unanswered" href="/questions/unanswered/" >unanswered</a>
+        <a id="nav_ask" href="/questions/ask/" class="special">ask a question</a>
+    </div>
+  </div>
+
+  <div class="clear"></div>
+  
+	<div id="searchBar">
+    <form action="/search/" method="get">
+        <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='0d6361cb70a923c795ef93174cb49a8e' /></div>
+        <div>
+            <input type="text" class="searchInput" value="" name="q" id="keywords" />
+            <input type="submit" name="Submit" value="search" class="searchBtn" />
+        </div>
+        <div class="options">
+            <input id="type-question" type="radio" value="question" name="t" 
+                checked="checked" /><label for="type-question">questions</label>
+            <input id="type-tag" type="radio" value="tag" name="t" /><label for="type-tag">tags</label>
+            <input id="type-user" type="radio" value="user" name="t" /><label for="type-user">users</label>
+        </div>
+    </form>	
+	</div>
+
+	
+
+<!-- end template header.html -->
+
+        
+
+
+
+<div id="wrapper">
+    
+    
+    <div id="room">
+        <div id="CALeft">
+            
+<div class="headNormal">
+    <h1><a href="/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project">&quot;error occured while installing json (1.6.5)&quot; on creation of new project</a></h1>
+</div>
+<div id="main-body" class="">
+    <div id="askform">
+            <table style="width:100%;" id="question-table" >
+                <tr>
+                    <td style="width:30px;vertical-align:top">
+                        <div class="vote-buttons">
+                            
+
+<a id="post-2884-upvote" title="I like this post (click again to cancel)"
+    class="ajax-command post-vote up "
+     href="/vote/2884/up/" rel="nofollow"> </a>
+<div id="post-2884-score" class="post-score"
+    title="current number of votes">
+    0
+</div>
+<a id="post-2884-downvote" title="I dont like this post (click again to cancel)"
+    class="ajax-command post-vote down"
+     href="/vote/2884/down/" rel="nofollow"> </a>
+                            
+
+<a id="favorite-mark" title="mark/unmark this question as favorite (click again to cancel)"
+    class="ajax-command favorite-mark "
+    href="/mark_favorite/2884/" rel="nofollow"> </a>
+<div id="favorite-count" class="favorite-count">
+   
+</div>
+                            
+                        </div>
+                    </td>
+                    <td>
+                        <div id="item-right">
+                            <div class="question-body">
+                                <p>I have a new, install of the ruby stack on Ubuntu 11.04.</p>
+<p><strong>I do:</strong></p>
+<pre><code>rails new store --database=mysql
+</code></pre>
+<p><strong>and get...</strong></p>
+<pre><code>       exist  
+   identical  README
+   identical  Rakefile
+   identical  <a href="http://config.ru">config.ru</a>
+   identical  .gitignore
+    conflict  Gemfile
+Overwrite /home/rob/dev/rails/store/store/Gemfile? (enter "h" for help) [Ynaqdh] Y
+       force  Gemfile
+       exist  app
+   identical  app/assets/images/rails.png
+   identical  app/assets/javascripts/application.js
+   identical  app/assets/stylesheets/application.css
+   identical  app/controllers/application_controller.rb
+   identical  app/helpers/application_helper.rb
+       exist  app/mailers
+       exist  app/models
+   identical  app/views/layouts/application.html.erb
+   identical  app/mailers/.gitkeep
+   identical  app/models/.gitkeep
+       exist  config
+   identical  config/routes.rb
+   identical  config/application.rb
+   identical  config/environment.rb
+       exist  config/environments
+   identical  config/environments/development.rb
+   identical  config/environments/production.rb
+   identical  config/environments/test.rb
+       exist  config/initializers
+   identical  config/initializers/backtrace_silencers.rb
+   identical  config/initializers/inflections.rb
+   identical  config/initializers/mime_types.rb
+    conflict  config/initializers/secret_token.rb
+Overwrite /home/rob/dev/rails/store/store/config/initializers/secret_token.rb? (enter "h" for help) [Ynaqdh] Y
+       force  config/initializers/secret_token.rb
+   identical  config/initializers/session_store.rb
+   identical  config/initializers/wrap_parameters.rb
+       exist  config/locales
+   identical  config/locales/en.yml
+   identical  config/boot.rb
+    conflict  config/database.yml
+Overwrite /home/rob/dev/rails/store/store/config/database.yml? (enter "h" for help) [Ynaqdh] Y
+       force  config/database.yml
+       exist  db
+   identical  db/seeds.rb
+       exist  doc
+   identical  doc/README_FOR_APP
+       exist  lib
+       exist  lib/tasks
+   identical  lib/tasks/.gitkeep
+       exist  lib/assets
+   identical  lib/assets/.gitkeep
+       exist  log
+   identical  log/.gitkeep
+       exist  public
+   identical  public/404.html
+   identical  public/422.html
+   identical  public/500.html
+   identical  public/favicon.ico
+   identical  public/index.html
+   identical  public/<a href="http://robots.txt">robots.txt</a>
+       exist  script
+   identical  script/rails
+       exist  test/fixtures
+   identical  test/fixtures/.gitkeep
+       exist  test/functional
+   identical  test/functional/.gitkeep
+       exist  test/integration
+   identical  test/integration/.gitkeep
+       exist  test/unit
+   identical  test/unit/.gitkeep
+   identical  test/performance/browsing_test.rb
+   identical  test/test_helper.rb
+       exist  tmp/cache
+       exist  tmp/cache/assets
+       exist  vendor/assets/stylesheets
+   identical  vendor/assets/stylesheets/.gitkeep
+       exist  vendor/plugins
+   identical  vendor/plugins/.gitkeep
+         run  bundle install
+Fetching source index for <a href="http://rubygems.org/">http://rubygems.org/</a>
+Using rake (0.9.2.2) 
+Using multi_json (1.0.4) 
+Using activesupport (3.1.1) 
+Using builder (3.0.0) 
+Using i18n (0.6.0) 
+Using activemodel (3.1.1) 
+Using erubis (2.7.0) 
+Using rack (1.3.6) 
+Using rack-cache (1.1) 
+Using rack-mount (0.8.3) 
+Using rack-test (0.6.1) 
+Using hike (1.2.1) 
+Using tilt (1.3.3) 
+Using sprockets (2.0.3) 
+Using actionpack (3.1.1) 
+Using mime-types (1.17.2) 
+Using polyglot (0.3.3) 
+Using treetop (1.4.10) 
+Using mail (2.3.0) 
+Using actionmailer (3.1.1) 
+Using arel (2.2.1) 
+Using tzinfo (0.3.31) 
+Using activerecord (3.1.1) 
+Using activeresource (3.1.1) 
+Using ansi (1.4.2) 
+Using bundler (1.0.21) 
+Using coffee-script-source (1.2.0) 
+Using execjs (1.3.0) 
+Using coffee-script (2.2.0) 
+Using rack-ssl (1.3.2) 
+Installing json (1.6.5) with native extensions 
+Gem::Installer::ExtensionBuildError: ERROR: Failed to build gem native extension.
+
+        /usr/local/bin/ruby extconf.rb 
+creating Makefile
+
+make
+gcc -I. -I/usr/local/include/ruby-1.9.1/i686-linux -I/usr/local/include/ruby-1.9.1/ruby/backward -I/usr/local/include/ruby-1.9.1 -I. -D_FILE_OFFSET_BITS=64  -fPIC -O3 -ggdb -Wextra -Wno-unused-parameter -Wno-parentheses -Wpointer-arith -Wwrite-strings -Wno-missing-field-initializers -Wno-long-long -O3 -Wall  -o parser.o -c parser.c
+../fbuffer/fbuffer.h:130: warning: 'fbuffer_append_long' defined but not used
+../fbuffer/fbuffer.h:137: warning: 'fbuffer_dup' defined but not used
+../fbuffer/fbuffer.h:150: warning: 'fbuffer_to_s' defined but not used
+../fbuffer/fbuffer.h:91: warning: 'fbuffer_append_str' defined but not used
+gcc -shared -o <a href="http://parser.so">parser.so</a> parser.o -L. -L/usr/local/lib -Wl,-R/usr/local/lib -L.  -rdynamic -Wl,-export-dynamic   -lpthread -lrt -ldl -lcrypt -lm   -lc
+/home/rob/dev/GNAT/bin/../libexec/gcc/i686-pc-linux-gnu/4.3.6/ld: cannot find -lpthread
+collect2: ld returned 1 exit status
+make: *** [<a href="http://parser.so">parser.so</a>] Error 1
+
+Gem files will remain installed in /home/rob/.bundler/tmp/23630/gems/json-1.6.5 for inspection.
+Results logged to /home/rob/.bundler/tmp/23630/gems/json-1.6.5/ext/json/ext/parser/gem_make.out
+An error occured while installing json (1.6.5), and Bundler cannot continue.
+Make sure that `gem install json -v '1.6.5'` succeeds before bundling.
+</code></pre>
+<p><strong>Saw another post that suggested I do:</strong></p>
+<pre><code>sudo apt-get install build-essential
+</code></pre>
+<p><strong>But this gave me..</strong></p>
+<pre><code>Reading package lists... Done
+Building dependency tree       
+Reading state information... Done
+build-essential is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 39 not upgraded.
+</code></pre>
+<p><strong>Any ideas gratefully received!"</strong></p>
+                            </div>
+                            <div id="question-tags" class="tags-container tags">
+                                
+                                    <a href="/tags/json/" class="post-tag tag-link-json"
+                                        title="see questions tagged 'json'" rel="tag">json</a>
+                                
+                                    <a href="/tags/rails/" class="post-tag tag-link-rails"
+                                        title="see questions tagged 'rails'" rel="tag">rails</a>
+                                
+                            </div>
+                            <div id="question-controls" class="post-controls">                            
+                                
+
+                                
+
+                            </div>
+                            <div class="post-update-info-container">
+                                    
+<div class='post-update-info post-update-info-user'>
+    <p style="line-height:12px;">
+        asked
+        <strong>06 Feb, 15:40</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="https://secure.gravatar.com/avatar/1439cfc9a477fe03833b61fecdec7ad4?s=32&amp;d=identicon&amp;r=g" alt="entelecheia's gravatar image" />
+    <p><a href="/users/640/entelecheia">entelecheia</a><br/>
+    <span class="score" title="1 karma">1</span><span title="2 badges"><span class="badge1">&#9679;</span><span class="badgecount">2</span></span><span title="2 badges"><span class="silver">&#9679;</span><span class="badgecount">2</span></span><span title="2 badges"><span class="bronze">&#9679;</span><span class="badgecount">2</span></span><br />
+    
+    <span title="Rate of the user's accepted answers" class="accept_rate">accept rate:</span>
+    <span title="entelecheia has no accepted answers">0&#37;</span>
+    </p>
+</div>
+
+    <div class='post-update-info post-update-info-edited'>
+        <p style="line-height:12px;">
+            <a href="/revisions/2884/">
+                edited
+                <strong>07 Feb, 06:04</strong>
+            </a>
+        </p>
+        
+            <img class="gravatar" width="32" height="32" src="https://secure.gravatar.com/avatar/749bb1df883c314a3c359f3873b5c3f5?s=32&amp;d=identicon&amp;r=g" alt="Beltran%20Rueda's gravatar image" />
+            <p><a href="/users/3/beltran-rueda">Beltran Rueda ♦♦</a><br/>
+            <span class="score" title="8136 karma"><span class="">8.1k</span></span><span title="6 badges"><span class="badge1">&#9679;</span><span class="badgecount">6</span></span><span title="15 badges"><span class="silver">&#9679;</span><span class="badgecount">15</span></span><span title="30 badges"><span class="bronze">&#9679;</span><span class="badgecount">30</span></span></p>
+        
+    </div>
+
+
+                            </div>
+                            
+
+
+<div class="comments-container" id="comments-container-2884">
+    
+</div>
+<div id="comment-tools-2884" class="comment-tools">
+    
+    
+</div>
+<div id="comment-2884-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                        </div>
+                        
+                    </td>
+                </tr>
+            </table>
+            
+            
+                <hr/>
+                <div class="tabBar">
+                    <a name="sort-top"></a>
+                    <div class="headQuestions">
+                    One Answer:
+                    </div>
+                    
+<div class="tabsA"><a href="/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project?sort=oldest" title="oldest answers will be shown first">oldest</a><a href="/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project?sort=newest" title="newest answers will be shown first">newest</a><a href="/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project?sort=votes" class="on" title="most voted answers will be shown first">most voted</a></div>
+
+                </div>
+                
+  
+                
+                    <a name="2898"></a>
+                    <div id="answer-container-2898" class="answer accepted-answer">
+                        <table style="width:100%;">
+                            <tr>
+                                <td style="width:30px;vertical-align:top">
+                                    <div class="vote-buttons">
+                                        
+
+<a id="post-2898-upvote" title="I like this post (click again to cancel)"
+    class="ajax-command post-vote up "
+     href="/vote/2898/up/" rel="nofollow"> </a>
+<div id="post-2898-score" class="post-score"
+    title="current number of votes">
+    0
+</div>
+<a id="post-2898-downvote" title="I dont like this post (click again to cancel)"
+    class="ajax-command post-vote down"
+     href="/vote/2898/down/" rel="nofollow"> </a>
+                                        
+
+
+    
+      <a class="accept-answer on"
+        title="Beltran Rueda has selected this answer as the correct answer"
+        href="/accept_answer/2898/" rel="nofollow"> 
+      </a>
+    
+
+
+
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="item-right">
+                                        <div class="answer-body">
+                                            <p>Hi,</p>
+<p>When you create a new rails project, it automatically tries to download the latest versions from <a href="http://rubygems.org">rubygems.org</a>. If you want to use the already included gems in the stack you can run the following command in the project folder:</p>
+<pre><code>$ bundle install --local
+</code></pre>
+                                        </div>
+                                        <div class="answer-controls post-controls">
+                                            
+<span class="action-link"><a rel="nofollow" title="answer permanent link" class="ajax-command withprompt  copy" href="/answer_link/2898/">link</a></span>
+                                            
+
+                                        </div>
+                                        <div class="post-update-info-container">
+                                            
+<div class='post-update-info post-update-info-user'>
+    <p style="line-height:12px;">
+        answered
+        <strong>07 Feb, 08:40</strong>
+    </p>
+    <img class="gravatar" width="32" height="32" src="https://secure.gravatar.com/avatar/749bb1df883c314a3c359f3873b5c3f5?s=32&amp;d=identicon&amp;r=g" alt="Beltran%20Rueda's gravatar image" />
+    <p><a href="/users/3/beltran-rueda">Beltran Rueda ♦♦</a><br/>
+    <span class="score" title="8136 karma"><span class="">8.1k</span></span><span title="6 badges"><span class="badge1">&#9679;</span><span class="badgecount">6</span></span><span title="15 badges"><span class="silver">&#9679;</span><span class="badgecount">15</span></span><span title="30 badges"><span class="bronze">&#9679;</span><span class="badgecount">30</span></span><br />
+    
+    <span title="Rate of the user's accepted answers" class="accept_rate">accept rate:</span>
+    <span title="Beltran Rueda has 299 accepted answers">23&#37;</span>
+    </p>
+</div>
+
+    <div class='post-update-info post-update-info-edited'>
+        <p style="line-height:12px;">
+            <a href="/revisions/2898/">
+                edited
+                <strong>07 Feb, 08:41</strong>
+            </a>
+        </p>
+        
+    </div>
+
+
+                                        </div>
+                                        
+
+
+<div class="comments-container" id="comments-container-2898">
+    
+        <a name="2903"></a>
+        <div class="comment" id="comment-2903">
+            <div id="post-2903-score" class="comment-score"></div>
+            <div class="comment-text"><p>Beltran, Thank you. That worked.</p></div>
+            <div class="comment-info" id="comment-2903-info">
+                
+                
+                
+                
+                    
+
+                <span class="comment-age">(08 Feb, 00:43)</span>
+                <a class="comment-user userinfo" href="/users/640/entelecheia">entelecheia</a>
+                
+            </div>
+        </div>
+    
+</div>
+<div id="comment-tools-2898" class="comment-tools">
+    
+    
+</div>
+<div id="comment-2898-form-container" class="comment-form-container">
+    
+</div>
+    
+
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                
+                <div class="paginator-container-left">
+                    
+                </div>
+            
+        <form id="fmanswer" action="/questions/2884/answer/" method="post"><div style='display:none;'><input type='hidden' id='csrfmiddlewaretoken' name='csrfmiddlewaretoken' value='0d6361cb70a923c795ef93174cb49a8e' /></div>
+            <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='0d6361cb70a923c795ef93174cb49a8e' /></div>
+            <div style="clear:both">
+            </div>
+            
+            
+                <div style="padding:10px 0 0 0;">
+                    <div class="headNormal">
+                        
+                            Your answer
+                        
+                    </div>
+                </div>
+                
+
+                <div id="description" class="" >
+                    <div id="wmd-button-bar" class="wmd-panel"></div>
+                    <textarea rows="10" cols="40" name="text" id="editor"></textarea>
+                    <div class="preview-toggle">
+                        <table width="100%">
+                            <tr>
+                                <td>
+                                    <span id="pre-collapse" 
+                                        title="Toggle the real time Markdown editor preview">
+                                            toggle preview
+                                    </span>
+                                </td>
+                                <td style="text-align: right;" id="editor-metrics"></td>
+                                
+                                <td style="text-align:right;">
+                                    <input type="checkbox" name="wiki" id="id_wiki" /> 
+                                    <span style="font-weight:normal;cursor:help" 
+                                        title="if you choose community wiki option, the question and answer do not generate points and name of author will not be shown">
+                                            <label for="id_wiki">community wiki</label> 
+                                    </span>
+                                </td>
+                                
+                            </tr>
+                        
+                        </table>  
+                    </div>
+                    
+                    <div id="previewer" class="wmd-preview"></div>
+                </div>
+
+	            
+                
+                <p><span class="form-error"></span></p>
+                <input type="button"
+                    
+                        value="Login/Signup to Post Your Answer" 
+                    
+                    class="submit" style="float:left" onclick="submitClicked(event, this.form)"/>
+            
+        </form>
+    </div>
+</div>
+
+
+        </div>
+        <div id="CARight">
+            
+<div class="boxC" id="subscription_box">
+    <h3 class="subtitle">Follow this question</h3><strong>By Email:</strong><p>Once you sign in you will be able to subscribe for any updates here</p><strong>By RSS:</strong><p><a class="feed-icon" style="background-image:url('/m/bitnami_answers/media/images/feed-icon-small.png');"
+        href="/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project?type=rss" title="subscribe to answers"></a>
+    Answers
+</p><p><a class="feed-icon" style="background-image:url('/m/bitnami_answers/media/images/feed-icon-small.png');"
+        href="/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project?type=rss&comments=yes" title="subscribe to comments and answers"></a>
+    Answers and Comments
+</p>
+
+</div>
+
+
+<div class="boxC" id="editor_side_bar">
+    <p class="subtitle darkred">Markdown Basics</p>
+    <ul class="list-item">
+        <li>
+            *italic* or _italic_
+        </li>
+        <li>
+			**bold** or __bold__
+        </li>
+        <li>
+            <b>link</b>:[text](http://url.com/ "title")
+
+        </li>
+
+        <li>
+            <b>image</b>?![alt text](/path/img.jpg "title")
+
+        </li>
+        <li>
+			numbered list:
+            1.  Foo
+            2.  Bar
+        </li>
+        <li>
+			to add a line break simply add two spaces to where you would like the new line to be.
+        </li>
+        <li>
+			basic HTML tags are also supported
+        </li>
+    </ul>
+    <p class='info-box-follow-up-links'>
+        <a href="/markdown_help/" target="_blank">learn more about Markdown </a>
+    </p>
+</div>
+
+
+
+
+
+<div id="sidebar-upper" class="boxC">
+    <div class="body">
+        <h2><a href="http://bitnami.org/cloud?utm_source=bitnami&amp;utm_medium=website&amp;utm_campaign=answers">Host BitNami in the Cloud</a></h2>
+<p>Host your your BitNami apps in the cloud for free using  <a href="http://bitnami.org/cloud?utm_source=bitnami&amp;utm_medium=website&amp;utm_campaign=answers"><strong>BitNami Cloud Hosting</strong></a> and the Amazon Cloud Free tier.</p>
+     </div>
+</div>
+
+
+
+
+<div class="boxC">
+    <p>
+		Tags:
+    </p>
+    <p class="tags" >
+        
+        	<a href="/tags/rails/"
+            class="tag-link-rails"
+			title="see questions tagged'rails'using tags"
+			rel="tag">rails</a> <span class="tag-number">&#215;18</span><br/>
+        
+        	<a href="/tags/json/"
+            class="tag-link-json"
+			title="see questions tagged'json'using tags"
+			rel="tag">json</a> <span class="tag-number">&#215;3</span><br/>
+        
+    </p>
+    <p>
+        Asked: <strong title="Feb. 6, 2012, 3:40 p.m.">06 Feb, 15:40</strong>
+    </p>
+    <p> 
+     	Seen: <strong>911 times</strong>
+    </p>
+    <p> 
+        Last updated: <strong title="Feb. 9, 2012, 4:29 a.m.">09 Feb, 04:29</strong>
+    </p>
+</div>
+
+
+
+
+<div id="sidebar-lower" class="boxC">
+    <div class="body">
+        <h2>Learn more about BitNami</h2>
+<p>You can learn more about BitNami stacks at the <a href="http://bitnami.org"><strong>BitNami Website</strong></a> and the <a href="http://wiki.bitnami.org"><strong>BitNami Wiki</strong></a></p>
+     </div>
+</div>
+
+
+<div class="boxC">
+    <h3 class="subtitle">Related questions</h3>
+    <div class="questions-related">
+
+        
+        <p>
+            <a href="/questions/2561/redmine-ajax-call-getting-redirected-to-login-page">redmine- ajax call getting redirected to login page?</a>
+        </p>
+        
+        <p>
+            <a href="/questions/81/are-rails-and-mysql2-really-incompatible-in-rubystack">are rails and mysql2 really incompatible in rubystack?</a>
+        </p>
+        
+        <p>
+            <a href="/questions/1787/problem-with-bitnami-virtual-appliance-rubystack230-dev-on-ubuntu-1010">Problem with bitnami virtual appliance rubystack2.3.0-dev on ubuntu 10.10</a>
+        </p>
+        
+        <p>
+            <a href="/questions/4409/cant-get-apachepassenger-to-serve-rails-app">can&#39;t get apache/passenger to serve rails app</a>
+        </p>
+        
+        <p>
+            <a href="/questions/7342/what-does-apache-do-in-bitnami-bitnami-vs-wampserverrailsinstaller">what does Apache do in Bitnami? (Bitnami vs Wampserver+railsinstaller)</a>
+        </p>
+        
+        <p>
+            <a href="/questions/3182/deploying-rails-app-to-ec2-on-rubystack">Deploying Rails App to Ec2 on RubyStack</a>
+        </p>
+        
+        <p>
+            <a href="/questions/1322/problems-getting-phusion-passenger-running-under-apache2">problems getting Phusion passenger running under apache2</a>
+        </p>
+        
+        <p>
+            <a href="/questions/1711/rails-hanging">rails hanging</a>
+        </p>
+        
+        <p>
+            <a href="/questions/1312/how-to-debug-ruby-on-rails-crashes-under-apachephusion-pasenger">how to debug ruby on rails crashes under apache/phusion pasenger</a>
+        </p>
+        
+        <p>
+            <a href="/questions/193/redmine-missing-the-rails-2311-gem">Redmine - Missing the Rails 2.3.11 gem</a>
+        </p>
+        
+
+    </div>
+</div>
+
+
+
+        </div>
+        <div id="tail" style="clear:both;">
+            
+            
+        </div>
+    </div>
+    <div class="spacer3"></div>
+</div>
+
+        
+            <div id="ground">
+                
+
+
+<div>
+    <div class="footerLinks" >
+         <a href="/about/" >about</a> <span class="link-separator"> |</span> <a href="/faq/" >faq</a> <span class="link-separator"> |</span> <a href="/privacy/" >privacy</a> <span class="link-separator"> |</span> <a href="/contact/?next=/questions/2884/error-occured-while-installing-json-165-on-creation-of-new-project" >contact</a> 
+    </div>
+  <p>
+     <a href="http://bitnami.org/stack/osqa" target="_blank" title="OSQA Development Build (SVN-1150)">
+        powered by BitNami OSQA
+     </a>
+  </p>
+</div>
+ <div id="licenseLogo">
+  <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">
+            <img src="/m/bitnami_answers/media/images/by-sa-88x31.png" title="Creative Commons: Attribution - Share Alike" alt="cc-by-sa" width="88" height="31" />
+  </a>
+ </div>
+
+
+            </div>
+        
+        
+
+        
+            <script type="text/javascript">
+                var _gaq = _gaq || [];
+                _gaq.push(['_setAccount', 'UA-1874455-2']);
+                _gaq.push(['_trackPageview']);
+
+                (function() {
+                    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();
+            </script>
+        
+        </div>
+
+        <!-- Put all elements with fixed position here, IE6 fixed position fix: http://ryanfait.com/position-fixed-ie6/ -->
+        <div class="notify" style="display:none">
+            
+                
+                    
+                          <p class="darkred"> <div style="width:990px;margin:0 auto;">    <style type="text/css">     .wrapper {margin-top: 5.5em;}     .notify {background-color: #F0F0FB;}     #close-notify {display: none;}   </style>   <p style="float: left; clear: left;">     <a href="http://bitnami.org">BitNami</a> provides free all-in-one installers, virtual machines<br>and cloud images for popular open source applications.     <a href="http://bitnami.org/stacks">Get them now!</a>   </p>   <p style="float: right; margin-right: 0;">     <a href="http://bitnami.org/stack/sugarcrm"><img src="/upfiles/bitnami-stack-sugarcrm.png" alt="BitNami SugarCRM" height="45" width="45"></a>     <a href="http://bitnami.org/stack/drupal"><img src="/upfiles/bitnami-stack-drupal.png" alt="BitNami Drupal" height="45" width="45"></a>     <a href="http://bitnami.org/stack/wordpress"><img src="/upfiles/bitnami-stack-wordpress.png" alt="BitNami WordPress" height="45" width="45"></a>     <a href="http://bitnami.org/stack/joomla"><img src="/upfiles/bitnami-stack-joomla.png" alt="BitNami Joomla!" height="45" width="45"></a>     <a href="http://bitnami.org/stack/redmine"><img src="/upfiles/bitnami-stack-redmine.png" alt="BitNami Redmine" height="45" width="45"></a>   </p> </div></p>
+                    
+                
+            
+            <a id="close-notify" onclick="notify.close(true)">&#215;</a>
+        </div>
+    </body>
+</html>
+<!-- end template base_content.html -->

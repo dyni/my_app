@@ -1,0 +1,249 @@
+status: 200
+content-length: 5083
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/burgerspace/
+x-cache: MISS from sumac.canonical.com
+x-cache-lookup: HIT from sumac.canonical.com:3128
+expires: Sat, 27 Oct 2012 08:50:08 GMT
+server: Apache/2.2.22 (Ubuntu)
+last-modified: Sat, 27 Oct 2012 08:45:08 GMT
+etag: "cd1c89922c2d8b8318c9f0562a160048"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Sat, 27 Oct 2012 08:45:08 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "e0298fe41cee126c2425d191b8141752",
+    "data": [
+        {
+            "rating": 3.0,
+            "package_name": "xbill"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "luola"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gnobots2"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "xscavenger"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "fofix"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "a7xpg"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "flobopuyo"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "passage"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "criticalmass"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "amor"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "tennix"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "xscorch"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "hamster-applet"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "noiz2sa"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "xboing"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "egoboo"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "balazar"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "linthesia"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "bugsx"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "barrage"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "chocolate-doom"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "stella"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "bygfoot"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "kbounce"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "mmpong-gl"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "dopewars"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "powder"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "zatacka"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "fceux"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "crawl-tiles"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "tictactoe-ng"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gemdropx"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gravitation"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "oneisenough"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "amphetamine"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "freedroid"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "monster-masher"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "triplane"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "rlvm"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gnibbles"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "exult"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "xqf"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "ballz"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "snake4"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "acm"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "stepbill.app"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gargoyle-free"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "fuse-emulator-sdl"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gomoku.app"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "netrek-client-cow"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "asciijump"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "heroes-sdl"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "lmarbles"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "gnomekiss"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "yabause-gtk"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "kanadic"
+        },
+        {
+            "rating": 3.0,
+            "package_name": "visualboyadvance-gtk"
+        }
+    ],
+    "app": "burgerspace"
+}
