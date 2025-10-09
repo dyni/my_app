@@ -1,0 +1,20 @@
+# Примеры URL для тестирования парсера
+# Раскомментируйте и добавьте свои URL
+
+# Тестовые сайты
+https://httpbin.org/html
+https://example.com
+
+# Примеры новостных сайтов (замените на реальные)
+# https://news.ycombinator.com
+# https://www.bbc.com/news
+
+# Примеры блогов
+# https://blog.example.com/post1
+# https://medium.com/@username/article
+
+# Примеры интернет-магазинов
+# https://shop.example.com/product1
+# https://store.example.com/item/123
+
+# Добавьте свои URL ниже:
