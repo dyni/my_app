@@ -1,0 +1,49 @@
+{
+    "headers": {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "ru-RU,ru;q=0.9,en;q=0.8",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "Upgrade-Insecure-Requests": "1"
+    },
+    "timeout": 15,
+    "delay": 2,
+    "max_retries": 3,
+    "output_file": "parsed_data.csv",
+    "log_level": "INFO",
+    "selectors": {
+        "news_example": {
+            "title": "h1, .title, .headline",
+            "content": ".content, .article-body, .post-content, p",
+            "author": ".author, .byline, .writer",
+            "date": ".date, .published, .timestamp, time",
+            "tags": ".tags a, .categories a, .tag"
+        },
+        "product_example": {
+            "name": "h1, .product-title, .item-name",
+            "price": ".price, .cost, .amount",
+            "description": ".description, .product-desc, .details",
+            "rating": ".rating, .stars, .score",
+            "availability": ".stock, .availability, .in-stock"
+        },
+        "blog_example": {
+            "title": "h1, .post-title, .entry-title",
+            "content": ".post-content, .entry-content, .article-body",
+            "author": ".author, .post-author, .by-author",
+            "date": ".post-date, .entry-date, .published",
+            "comments_count": ".comments-count, .comment-number"
+        }
+    },
+    "common_selectors": {
+        "title": "title",
+        "meta_description": "meta[name='description']",
+        "meta_keywords": "meta[name='keywords']",
+        "h1": "h1",
+        "h2": "h2",
+        "h3": "h3",
+        "links": "a[href]",
+        "images": "img[src]",
+        "paragraphs": "p"
+    }
+}
