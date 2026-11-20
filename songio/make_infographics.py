@@ -192,7 +192,73 @@ def S_cat():
       cta("Что споёшь <em>ты</em>?", "Первая демо-генерация бесплатно, без карты. Каждый раз — <b>2 версии</b>")),
     ]
 
-SERIES = {"fast": S_fast, "intro": S_intro, "cat": S_cat}
+def S_text():
+    return [
+     ("text1.jpg", "pink", "1/4", False,
+      '<div class="pill">ЕСТЬ СВОИ СТИХИ?</div><h1>Твой текст — <em>в песню</em></h1>'
+      '<div class="glass pm" style="font-size:38px"><span class="tag">ВСТАВЬ ТЕКСТ</span><br>«Тихо падает снег за окном,<br>мы с тобой пьём чай вдвоём…»</div>'
+      '<div class="arrow"></div>' + player("Тихо падает снег", "Лирика · женский голос", 51, "♪", .35)),
+     ("text2.jpg", "cyan", "2/4", False,
+      '<h1 class="m">Как <em>превратить</em> стихи в трек</h1><div class="steps">'
+      '<div class="glass step"><div class="num">1</div><div><div class="st-t">Вставь текст</div><div class="st-s">Свои стихи, поздравление или куплеты</div></div></div>'
+      '<div class="glass step"><div class="num">2</div><div><div class="st-t">Выбери стиль</div><div class="st-s">Лирика, поп, рок, фолк — 60+ вариантов</div></div></div>'
+      '<div class="glass step"><div class="num">3</div><div><div class="st-t">Выбери голос</div><div class="st-s">И получи 2 версии за ~2 минуты</div></div></div></div>'),
+     ("text3.jpg", "amber", "3/4", False,
+      '<h1 class="m">Совет: пиши <em>строчками</em></h1><div class="vs">'
+      '<div class="glass bad"><div class="lab">✕ СПЛОШНОЙ ТЕКСТ</div><div class="tx">Тихо падает снег за окном мы с тобой пьём чай вдвоём и мне так тепло</div></div>'
+      '<div class="glass good"><div class="lab">✓ КУПЛЕТЫ И ПРИПЕВ</div><div class="tx">Куплет — 4 строки<br>Припев — короткий, цепкий<br>Куплет — ещё 4 строки</div></div></div>'
+      '<p class="lead">Ритм строк подскажет, как строить мелодию</p>'),
+     ("text4.jpg", "violet", "4/4", True,
+      cta("Дай стихам <em>голос</em>", "Первая демо-генерация бесплатно, без карты")),
+    ]
+
+def S_ads():
+    return [
+     ("ads1.jpg", "cyan", "1/4", False,
+      '<div class="pill">МАРКЕТОЛОГАМ И АВТОРАМ</div><h1>Музыка <em>под ролик</em></h1>'
+      '<p class="lead">Опиши настроение кадра — получи трек, а не пролистывай стоки</p>'
+      + player("Фон для рекламного ролика", "Версия A · 0:30", 61, "▶", .5)
+      + '<div style="margin-top:-6px">' + player("Фон для рекламного ролика", "Версия B · 0:30", 62, "▶", .15) + '</div>'),
+     ("ads2.jpg", "green", "2/4", False,
+      '<h1 class="m">3 запроса для <em>разных роликов</em></h1><div class="steps">'
+      '<div class="glass step"><div class="num">1</div><div><div class="st-t">Обзор товара</div><div class="st-s">Лёгкий позитивный поп, без вокала</div></div></div>'
+      '<div class="glass step"><div class="num">2</div><div><div class="st-t">Вебинар и курс</div><div class="st-s">Спокойная электроника, фон для заставки</div></div></div>'
+      '<div class="glass step"><div class="num">3</div><div><div class="st-t">Сторис бренда</div><div class="st-s">Энергичный джингл с коротким припевом</div></div></div></div>'),
+     ("ads3.jpg", "amber", "3/4", False,
+      '<h1 class="m">Что указать <em>в запросе</em></h1>'
+      '<div class="glass pm"><span class="k k1">Настроение:</span> тёплое, уверенное. <span class="k k2">Жанр:</span> лёгкий поп. <span class="k k3">Темп:</span> бодрый. <span class="k k4">Вокал:</span> без вокала</div>'
+      '<div class="leg"><div><s style="background:#ffc247"></s>Настроение</div><div><s style="background:#ff4fb8"></s>Жанр</div>'
+      '<div><s style="background:#2de2ff"></s>Темп</div><div><s style="background:#4ff0a0"></s>Вокал</div></div>'),
+     ("ads4.jpg", "pink", "4/4", True,
+      cta("Свой саунд <em>за 2 минуты</em>", "Первая демо-генерация бесплатно, без карты. Всегда <b>2 версии</b>")),
+    ]
+
+def S_ny():
+    return [
+     ("ny1.jpg", "violet", "1/5", False,
+      '<div class="pill">ДО НОВОГО ГОДА ВРЕМЯ ЕСТЬ</div><h1>Песня вместо <em>открытки</em></h1>'
+      '<p class="lead">Новогоднее поздравление, которое не получит больше никто</p>'
+      + player("С Новым годом, мам!", "Тёплый поп · 2:00", 71, "❄", .4)),
+     ("ny2.jpg", "cyan", "2/5", False,
+      '<h1 class="m">Кому <em>подарить</em></h1><div class="bento">'
+      '<div class="glass tile"><div class="big" style="font-size:90px">👵</div><div class="tl"><b>Маме и бабушке</b><br>тёплая лирика</div></div>'
+      '<div class="glass tile"><div class="big" style="font-size:90px">❤</div><div class="tl"><b>Любимому человеку</b><br>песня про вас двоих</div></div>'
+      '<div class="glass tile"><div class="big" style="font-size:90px">🎄</div><div class="tl"><b>Друзьям</b><br>весёлый новогодний поп</div></div>'
+      '<div class="glass tile"><div class="big" style="font-size:90px">💼</div><div class="tl"><b>Коллегам</b><br>песня для корпоратива</div></div></div>'),
+     ("ny3.jpg", "pink", "3/5", False,
+      '<h1 class="m">Что <em>написать</em> в запросе</h1>'
+      '<div class="glass pm" style="font-size:40px"><span class="tag">ПРИМЕР</span><br>Тёплая песня-поздравление для мамы с Новым годом, <span class="k k1">имя: Ирина</span>, <span class="k k2">лирический поп</span>, <span class="k k3">женский голос</span>, <span class="k k4">про чай и ёлку</span></div>'
+      '<p class="lead">Добавь имя и пару личных деталей — песня станет настоящей</p>'),
+     ("ny4.jpg", "amber", "4/5", False,
+      '<h1 class="m">Как <em>вручить</em></h1><div class="steps">'
+      '<div class="glass step"><div class="num">1</div><div><div class="st-t">Скачай трек</div><div class="st-s">Выбери лучшую из 2 версий</div></div></div>'
+      '<div class="glass step"><div class="num">2</div><div><div class="st-t">Отправь в мессенджер</div><div class="st-s">Или включи за праздничным столом</div></div></div>'
+      '<div class="glass step"><div class="num">3</div><div><div class="st-t">Наблюдай реакцию</div><div class="st-s">Такого поздравления ещё не было</div></div></div></div>'),
+     ("ny5.jpg", "violet", "5/5", True,
+      cta("Подари <em>свою песню</em>", "Первая демо-генерация бесплатно, без карты. Есть <b>Telegram-бот</b>")),
+    ]
+
+SERIES = {"fast": S_fast, "intro": S_intro, "cat": S_cat, "text": S_text, "ads": S_ads, "ny": S_ny}
 
 def render(out, names):
     from PIL import Image
